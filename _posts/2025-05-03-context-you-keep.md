@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "You Are the Context You Keep: Forgetting, Memory, and Reflection in AI Systems"
-date: 2025-05-08
+date: 2025-05-03
 ---
 
 # You Are the Context You Keep: Forgetting, Memory, and Reflection in AI Systems

@@ -4,10 +4,10 @@ title: "Reflected Intelligence: When AI Holds Up the Mirror"
 date: 2025-04-23
 ---
 
-In behavioral psychology, the mirror test reveals whether animals recognize themselves or think they're seeing another being. Now humanity's facing its own mirror test with AI, and many smart people are totally bombing it.
+In behavioral psychology, the mirror test is designed to discover an animal's capacity for self-awareness. The essence is always the same: does the animal recognize itself in the mirror or think it's another being altogether? Now humanity faces its own mirror test thanks to the expanding capabilities of AI, and many otherwise intelligent people are failing it.
 
 ## The Echo Chamber of Intelligence
-When you chat with GPT-4 or Claude, what you're really experiencing is a sophisticated form of reflected intelligence. These systems aren't conscious entities—they're statistical autocomplete engines trained on our collective writing about intelligence. The coherence they demonstrate? That's just your own intelligence mathematically reflected back at you through massive matrix operations.
+When we interact with large language models like GPT-4 or Claude, what we're really experiencing is a sophisticated form of reflected intelligence. These systems aren't sentient beings with independent consciousness—they're autocomplete systems trained on our own writing about intelligence. The coherence and insight they appear to demonstrate is largely our own intelligence reflected back at us.
 
 This creates a weird psychological loop. Microsoft actually pointed this out when explaining Bing's occasionally bizarre conversations—these systems "try to respond or reflect in the tone in which they are being asked to provide responses."[^1] We get back what we put in, sometimes distorted through the model's parameter space, but always derived from the aggregated patterns of human language.
 

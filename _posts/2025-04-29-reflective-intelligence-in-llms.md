@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Reflective Intelligence in Large Language Models"
-date: 2025-05-01
+date: 2025-04-29
 ---
 
 Large Language Models (LLMs) possess an impressive ability to reflect vast amounts of human knowledge – effectively serving as mirrors of "reflected intelligence." However, truly reflective intelligence in LLMs goes a step further: it implies the model can think about its own thinking, analyze its answers, learn from feedback, and iteratively improve its reasoning. This article examines what reflective intelligence means for LLMs, how it differs from mere reflected knowledge, and evaluates several frameworks and techniques designed to imbue LLMs with this introspective capability. We will verify key claims about these methods, discuss their benefits and trade-offs, and highlight the recent research (2023–2024) expanding on these ideas.
