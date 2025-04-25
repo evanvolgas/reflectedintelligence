@@ -1,0 +1,14 @@
+{
+    "name": "Reflected Intelligence",
+    "short_name": "RI",
+    "icons": [
+        {
+            "src": "/assets/favicon/favicon.ico",
+            "sizes": "16x16 32x32 48x48",
+            "type": "image/x-icon"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
