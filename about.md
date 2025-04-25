@@ -14,9 +14,9 @@ Reflected Intelligence explores how AI systems mirror and develop intelligence.
 - Ethical considerations of reflected intelligence
 - Future directions for AI development beyond pure reflection
 
-### About the Author
+### About me
 
-Howdy. I'm Evan Volgas. I'm boring.
+Howdy. My name is Evan Volgas. I'm pretty boring.
 
 ### Contact
 
