@@ -1,4 +1,8 @@
-# You Are the Context You Keep: Forgetting, Memory, and Reflection in AI Systems
+---
+layout: post
+title: "You Are the Context You Keep: Forgetting, Memory, and Reflection in AI Systems"
+date: 2025-05-08
+---
 
 Modern large language models (LLMs) like GPT-4 and Claude can only "remember" information within a fixed context window – their short-term working memory. Unlike humans with layered long-term memory, today's AI systems have no true long-term memory of past interactions.
 

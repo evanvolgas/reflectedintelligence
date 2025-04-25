@@ -1,5 +1,8 @@
-# Reflected Intelligence: When AI Holds Up the Mirror
-Apr 23, 2025
+---
+layout: post
+title: "Reflected Intelligence: When AI Holds Up the Mirror"
+date: 2025-04-23
+---
 
 In behavioral psychology, the mirror test reveals whether animals recognize themselves or think they're seeing another being. Now humanity's facing its own mirror test with AI, and many smart people are totally bombing it.
 
