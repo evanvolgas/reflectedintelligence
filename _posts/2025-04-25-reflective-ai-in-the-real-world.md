@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Reflective Intelligence in Large Language Models"
+title: "Reflective AI in the Real World: How Self-Critical AI Is Changing Industries"
 date: 2025-04-25
 ---
 
