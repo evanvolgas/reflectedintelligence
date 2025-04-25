@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Reflected Intelligence explores how AI systems mirror and reflect human intelligence. We pay close attention to the ways in which large language models and other AI technologies serve as cognitive mirrors that reveal as much about human cognition as they do about artificial intelligence.
+Reflected Intelligence explores how AI systems mirror and develop intelligence.
 
 ### Topics We Explore
 
