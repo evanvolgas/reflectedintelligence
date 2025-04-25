@@ -4,7 +4,7 @@ title: "Reflective Intelligence in Large Language Models"
 date: 2025-05-01
 ---
 
-Large Language Models (LLMs) possess an impressive ability to reflect vast amounts of human knowledge – effectively serving as mirrors of "reflected intelligence." However, truly reflective intelligence in LLMs goes a step further: it implies the model can think about its own thinking, analyze its answers, learn from feedback, and iteratively improve its reasoning. This article examines what reflective intelligence means for LLMs, how it differs from mere reflected knowledge, and evaluates several frameworks and techniques designed to imbue LLMs with this introspective capability. We will verify key claims about these methods, discuss their benefits and trade-offs, and highlight the latest research (2023–2024) expanding on these ideas. All references to studies and papers are preserved, and any necessary factual corrections have been made.
+Large Language Models (LLMs) possess an impressive ability to reflect vast amounts of human knowledge – effectively serving as mirrors of "reflected intelligence." However, truly reflective intelligence in LLMs goes a step further: it implies the model can think about its own thinking, analyze its answers, learn from feedback, and iteratively improve its reasoning. This article examines what reflective intelligence means for LLMs, how it differs from mere reflected knowledge, and evaluates several frameworks and techniques designed to imbue LLMs with this introspective capability. We will verify key claims about these methods, discuss their benefits and trade-offs, and highlight the recent research (2023–2024) expanding on these ideas.
 
 ## Reflected vs. Reflective Intelligence in LLMs
 
@@ -283,8 +283,6 @@ def solve_math_with_self_consistency(problem, model, tokenizer, samples=5):
 ```
 
 **Performance Analysis**: The self-consistency approach generates multiple solutions (typically 5-20), which multiplies both token consumption and computation time by that factor. However, this technique has demonstrated error reductions of 30-50% on challenging math benchmarks, showing that the performance gains can justify the increased computational cost for high-value applications where accuracy is critical [5].
-
-Note: Previous versions of this article cited "85% error reduction" in math tasks, which is not supported by published data. The strongest documented improvements fall in the 30–50% range depending on benchmark and method.
 
 ## References
 
