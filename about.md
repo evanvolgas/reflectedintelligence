@@ -22,6 +22,6 @@ Howdy. I'm Evan Volgas. I'm boring.
 
 ### Contact
 
-{{first.name}}.{{last.name}}@gmail.com
+<<first.name>>.<<last.name>>@gmail.com
 
 
