@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Reflective Intelligence"
+date: 2025-04-23
+---
+
 # Mirror, Mirror: AI's Self-Reflection Revolution
 
 Ever caught yourself mid-sentence thinking "wait, that doesn't sound right"? That's reflection—and now AI can do it too. In just one year, reflective AI has transformed from an academic curiosity into a powerful tool reshaping industries.[^1] Instead of bulldozing ahead with potentially wrong answers, these systems take a moment to examine their own thinking, show their work, and fix mistakes before serving up solutions.
