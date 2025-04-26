@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The AI Self-Reflection Revolution"
+title: "Reflective Intelligence: When AI Learns from Itself"
 date: 2025-04-26
 ---
 
