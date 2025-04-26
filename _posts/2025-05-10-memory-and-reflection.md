@@ -191,7 +191,7 @@ In office environments, memory-enhanced agent systems track complex projects ove
 
 ### The Challenge of Computational Reflection
 
-While memory augmentation addresses how agents store and retrieve information, another critical challenge remains: how to make reflection processes more efficient. Large AI models demonstrate impressive reasoning abilities through lengthy chain-of-thought processes that involve reflection, backtracking, and self-validation. However, these processes are computationally expensive and time-consuming, limiting their practical application.
+While memory augmentation addresses how agents store and retrieve information, another critical challenge remains: how to make reflection processes more efficient. As detailed in our [article on reflective intelligence in LLMs](/2025/05/03/reflective-intelligence-in-llms/), large AI models demonstrate impressive reasoning abilities through lengthy chain-of-thought processes that involve reflection, backtracking, and self-validation. However, these processes are computationally expensive and time-consuming, limiting their practical application.
 
 **Computational cost analysis:**
 

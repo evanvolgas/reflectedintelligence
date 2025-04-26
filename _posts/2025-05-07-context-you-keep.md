@@ -7,7 +7,7 @@ author: Evan Volgas
 description: "How the latest advances in AI memory systems and reflection capabilities are transforming artificial intelligence from stateless responders to autonomous, continuously learning systems."
 ---
 
-Modern AI models like Claude and GPT-4 face a curious paradox - they're incredibly clever, yet surprisingly forgetful. Unlike humans who build layered memories over a lifetime, today's AI systems have no true long-term memory of past interactions. They exist entirely in the "now," only able to "remember" what fits inside their short-term working memory—their context window.
+Modern AI models like Claude and GPT-4 face a curious paradox - they're incredibly clever, yet surprisingly forgetful. As we explored in our [article on reflected intelligence](/2025/04/23/reflected-intelligence-when-ai-holds-up-the-mirror/), these systems mirror our intelligence back at us, but unlike humans who build layered memories over a lifetime, today's AI systems have no true long-term memory of past interactions. They exist entirely in the "now," only able to "remember" what fits inside their short-term working memory—their context window.
 
 ## The Mental Whiteboard Problem
 
@@ -41,7 +41,7 @@ Meanwhile, Multimodal RAG systems can now search and reference not just text but
 
 ## AI Reflection: The Self-Improving Intelligence
 
-Memory alone isn't enough for truly capable AI. The most advanced AI systems now implement reflection—the ability to assess and improve their own reasoning.
+Memory alone isn't enough for truly capable AI. The most advanced AI systems now implement reflection—the ability to assess and improve their own reasoning. Our [recent article on reflective intelligence in LLMs](/2025/05/03/reflective-intelligence-in-llms/) explored the technical details of how these reflection mechanisms work.
 
 Google recently unveiled its "AI co-scientist" system that uses a coalition of specialized agents—Generation, Reflection, Ranking, Evolution, Proximity and Meta-review—that work together in a self-improving cycle. These agents use automated feedback to iteratively generate, evaluate, and refine hypotheses, resulting in increasingly high-quality outputs.[^7]
 

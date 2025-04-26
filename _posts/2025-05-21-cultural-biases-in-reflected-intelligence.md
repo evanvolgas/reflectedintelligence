@@ -7,7 +7,7 @@ categories: [AI, Ethics, Culture]
 description: "An in-depth analysis of how AI systems reflect cultural biases and what's being done to create more inclusive artificial intelligence."
 ---
 
-In an increasingly interconnected world, artificial intelligence often mirrors the cultural biases of its creators and data. AI models—our "reflected intelligence"—don't develop in a vacuum; they learn from vast datasets crawling with human beliefs, values, and prejudices. As a result, these systems can unwittingly favor certain cultural norms over others.
+In an increasingly interconnected world, artificial intelligence often mirrors the cultural biases of its creators and data. AI models—our "reflected intelligence" as explored in our [earlier article on this phenomenon](/2025/04/23/reflected-intelligence-when-ai-holds-up-the-mirror/)—don't develop in a vacuum; they learn from vast datasets crawling with human beliefs, values, and prejudices. As a result, these systems can unwittingly favor certain cultural norms over others.
 
 Recent studies underscore this effect: for instance, a 2023 study published in *PNAS Nexus* found that large language models like GPT-4 produce responses that "consistently resemble those of people living in English-speaking and Protestant European countries," aligning with Western secular and self-expression values[^1]. Such biases, baked into AI, pose a global challenge. They risk amplifying the voices of dominant cultures while marginalizing others, thereby "contributing to the dominance of certain cultures" through technology's spread[^2]. The concern is clear—if our smartest machines reflect only a narrow slice of humanity, they may misrepresent or even suppress the rich diversity of global perspectives.
 
@@ -39,7 +39,7 @@ Researchers warn that cultural values embedded in AI models may "bias people's a
 
 There are also concerns in sensitive applications like healthcare, hiring, or governance. For example, Obermeyer et al. (2023) found that an AI system used for prioritizing patients for additional care programs was inadvertently discriminating against Black patients because it was trained on data from a healthcare system where historical inequities had led to lower spending on Black patients for equivalent medical needs[^9]. The algorithm used healthcare costs as a proxy for healthcare needs, but this proxy was biased by historical patterns of unequal access and treatment.
 
-Fairness and inclusivity are at risk: if AI systems systematically perform worse for certain cultural or language groups, it perpetuates digital inequality. Everyone should have the right to benefit from AI technologies without needing to adopt the cultural lens of the AI. Ensuring that requires conscious effort to identify and correct cultural biases in our algorithms.
+Fairness and inclusivity are at risk: if AI systems systematically perform worse for certain cultural or language groups, it perpetuates digital inequality. Everyone should have the right to benefit from AI technologies without needing to adopt the cultural lens of the AI. Ensuring that requires conscious effort to identify and correct cultural biases in our algorithms. This concern is closely related to the broader AI safety issues discussed in our [article on reflection as a security mechanism](/2025/05/14/relfection-as-security/), where we explored how reflection can help identify and mitigate harmful outputs.
 
 ## Solutions: Striving for Cultural Inclusivity in AI
 
