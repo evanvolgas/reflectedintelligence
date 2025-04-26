@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mirror, Mirror: AI's Self-Reflection Revolution"
+title: "Reflective Intelligence: Learning from Past Mistakes"
 date: 2025-04-25
 ---
 
