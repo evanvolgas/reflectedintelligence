@@ -15,6 +15,14 @@ layout: default
           {{ post.title | escape }}
         </a>
       </h2>
+      {% if post.categories.size > 0 %}
+      <div class="post-categories">
+        <i class="fas fa-tags"></i>
+        {% for category in post.categories %}
+          <a href="{{ site.baseurl }}/categories/#{{ category | slugize }}" class="category-link">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </div>
+      {% endif %}
       <div class="post-excerpt">
         {{ post.excerpt }}
       </div>
