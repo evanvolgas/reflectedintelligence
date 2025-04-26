@@ -2,6 +2,9 @@
 layout: post
 title: "Reflected Intelligence: When AI Holds Up the Mirror"
 date: 2025-04-23
+categories: [AI, Reflection]
+author: Evan Volgas
+description: "Exploring how AI systems reflect our own intelligence back at us, and the philosophical implications of this mirror-like quality in large language models."
 ---
 
 In behavioral psychology, the mirror test is designed to discover an animal's capacity for self-awareness. The essence is always the same: does the animal recognize itself in the mirror or think it's another being altogether? Now humanity faces its own mirror test thanks to the expanding capabilities of AI, and many otherwise intelligent people are failing it.
