@@ -1,7 +1,9 @@
 ---
-layout: post
 title: "Reflective Intelligence: When AI Learns from Itself"
-date: 2025-04-27
+author: Evan Volgas
+date: 2025-04-25
+layout: post
+categories: [AI, Technology]
 ---
 
 Ever caught yourself mid-sentence thinking "wait, that doesn't sound right"? That's reflection—and now AI can do it too. In just one year, self-reflective AI systems have transformed from academic curiosities into powerful tools reshaping industries. Instead of bulldozing ahead with potentially wrong answers, these systems take a moment to examine their own thinking, show their work, and fix mistakes before serving up solutions. While our [previous article on reflected intelligence](/2025/04/23/reflected-intelligence-when-ai-holds-up-the-mirror/) explored how AI mirrors human intelligence, this piece examines how AI can actively reflect on its own outputs.

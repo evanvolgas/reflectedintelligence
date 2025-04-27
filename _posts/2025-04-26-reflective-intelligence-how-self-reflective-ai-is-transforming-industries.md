@@ -1,8 +1,7 @@
-
 ---
 title: "Reflective Intelligence: How Self-Reflective AI Is Transforming Industries"
 author: Evan Volgas
-date: 2025-04-29
+date: 2025-04-26
 layout: post
 categories: [AI, Technology]
 ---
