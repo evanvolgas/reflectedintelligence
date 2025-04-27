@@ -110,19 +110,11 @@ As of May 2025, we have AI agents that can hold extended conversations rememberi
 In summary, memory and reflection are transforming AI agents from static responders into dynamic learners. An agent that never forgets (when it should remember), and never stops questioning itself, is an agent that can continuously improve. Building such agents responsibly and effectively is an active area of research. Each step – from doubling context windows, to attaching episodic memory databases, to enabling self-feedback loops – brings AI a step closer to human-like cognitive abilities. While true artificial general intelligence (AGI) is still on the horizon, these memory- and reflection-enabled agents are undoubtedly a big leap toward more powerful and autonomous AI that can tackle complex, real-world tasks over the long haul.
 
 ## References
-
-[1] LinkedIn – "The Core Pillars of Agentic AI: How AI Moves from Tool to Thinker." (2023). Summary of key capabilities for autonomous AI agents. Quote: "A 2023 study published in Nature Machine Intelligence found that memory-augmented models outperform traditional LLMs in user engagement by 37% in long-term conversation tasks..."
-
-[2] Mündler, N. et al. "Self-Contradictory Hallucinations of LLMs: Evaluation, Detection and Mitigation." ICLR 2024. Research showing that augmenting language models with retrieval reduces the incidence of self-contradictory statements (up to ~50% reduction in contradictions for Llama-2 70B).
-
-[3] Shinn, N. et al. "Reflexion: Language Agents with Verbal Reinforcement Learning." NeurIPS 2023. This paper introduces a framework where agents self-reflect on feedback and store these reflections in memory to improve. Achieved 91% success on HumanEval coding benchmark vs 80% for GPT-4, by using iterative self-feedback.
-
-[4] Park, J. et al. "Generative Agents: Interactive Simulacra of Human Behavior." Proceedings of the ACM CHI 2023. Demonstrated agents with long-term memory and a reflection mechanism that exhibit believable human-like behavior. The full architecture (with memory + reflection + planning) was rated significantly more believable by evaluators, compared to ablated versions without reflection.
-
-[5] Stanford HAI News. "AI Agents that 'Self-Reflect' Perform Better in Changing Environments." (July 2023). Highlights the "curious replay" technique where an RL agent replays novel experiences, leading to faster adaptation and higher scores in a dynamic task. An example of bio-inspired reflection (akin to hippocampal memory replay) improving performance.
-
-[6] Zhang, J. & Viteri, S. "Uncovering Latent Chain-of-Thought Vectors in Language Models." ICLR 2025 Workshop on Neural Network Weights as a New Data Modality. Showed that injecting latent reasoning vectors (a form of internal "neuralese" reasoning) can guide LLMs to solve problems without explicit natural language prompts, matching or surpassing standard chain-of-thought prompting.
-
-[7] Chen, X. et al. "From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs." ArXiv preprint 2504.15965, April 2025. Comprehensive survey of memory in AI. Discusses the evolution toward collaborative memory systems and shared memory across models, suggesting future AI systems will share knowledge bases for cross-domain learning. Also covers concepts of memory consolidation, meta-memory, and the importance of reflection in memory processing.
-
-[8] Gimple, J. "The Key to Smarter AI: Understanding Memory in Intelligent Agents." LinkedIn article, Jan 15, 2025. Provides an accessible overview of memory types (short-term, long-term, episodic, semantic, procedural, collaborative, etc.) in AI agents, explaining how each contributes to agent performance. Useful for conceptual clarity on collaborative memory (shared memory for multi-agent coordination).
+[^1]: [LLUMOAI. (2023). *The Core Pillars of Agentic AI: How AI Moves from Tool to Thinker*. LinkedIn.](https://www.linkedin.com/pulse/core-pillars-agentic-ai-how-moves-from-tool-thinker-llumoai-fog9f)
+[^2]: [Mündler, N., et al. (2024). *Self-Contradictory Hallucinations of Large Language Models: Evaluation, Detection and Mitigation*. arXiv:2305.15852 [cs.CL].](https://arxiv.org/abs/2305.15852)
+[^3]: [Shinn, N., Cassano, F., Berman, E., et al. (2023). *Reflexion: Language Agents with Verbal Reinforcement Learning*. NeurIPS 2023.](https://papers.nips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html)
+[^4]: [Park, J., et al. (2023). *Generative Agents: Interactive Simulacra of Human Behavior*. Proceedings of the ACM CHI Conference on Human Factors in Computing Systems.](https://arxiv.org/abs/2304.03442)
+[^5]: [Stanford HAI. (2023). *AI Agents that "Self-Reflect" Perform Better in Changing Environments*. Stanford HAI News.](https://hai.stanford.edu/news/ai-agents-self-reflect-perform-better-changing-environments)
+[^6]: [Zhang, J., & Viteri, S. (2025). *Uncovering Latent Chain-of-Thought Vectors in Language Models*. arXiv:2409.14026 [cs.LG].](https://arxiv.org/abs/2409.14026)
+[^7]: [Wu, Y., et al. (2025). *From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs*. arXiv:2504.15965 [cs.AI].](https://arxiv.org/abs/2504.15965)
+[^8]: [Gimple, J. (2025). *The Key to Smarter AI: Understanding Memory in Intelligent Agents*. LinkedIn.](https://www.linkedin.com/pulse/key-smarter-ai-understanding-memory-intelligent-agents-jay-gimple-lm7wc)

@@ -291,18 +291,18 @@ def solve_math_with_self_consistency(problem, model, tokenizer, samples=5):
 
 ## References
 
-[1] Yao et al. (2022). ReAct: Synergizing Reasoning and Acting in Language Models. arXiv:2210.03629
+[^1]: [Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K., & Cao, Y. (2022). *ReAct: Synergizing Reasoning and Acting in Language Models*. arXiv:2210.03629.](https://arxiv.org/abs/2210.03629)
 
-[2] Shinn et al. (2023). Reflexion: Language Agents with Verbal Reinforcement Learning. arXiv:2303.11366
+[^2]: [Shinn, N., Cassano, F., Berman, E., et al. (2023). *Reflexion: Language Agents with Verbal Reinforcement Learning*. arXiv:2303.11366.](https://arxiv.org/abs/2303.11366)
 
-[3] Bai et al. (2022). Constitutional AI: Harmlessness from AI Feedback. arXiv:2212.08073
+[^3]: [Bai, Y., Kadavath, S., Kundu, S., Askell, A., Kernion, J., Jones, A., et al. (2022). *Constitutional AI: Harmlessness from AI Feedback*. arXiv:2212.08073.](https://arxiv.org/abs/2212.08073)
 
-[4] Madaan et al. (2023). Self-Refine: Iterative Refinement with Self-Feedback. arXiv:2303.17651
+[^4]: [Madaan, A., Tandon, N., Gupta, P., Hallinan, S., Gao, L., Wiegreffe, S., et al. (2023). *Self-Refine: Iterative Refinement with Self-Feedback*. arXiv:2303.17651.](https://arxiv.org/abs/2303.17651)
 
-[5] Wang et al. (2022). Self-Consistency Improves Chain-of-Thought Reasoning in Language Models. arXiv:2203.11171
+[^5]: [Wang, X., Wei, J., Schuurmans, D., Le, Q., Chi, E., Narang, S., et al. (2022). *Self-Consistency Improves Chain-of-Thought Reasoning in Language Models*. arXiv:2203.11171.](https://arxiv.org/abs/2203.11171)
 
-[6] Peters et al. (2023). How Costly is Reflection? Evaluating the Performance Impact of Multi-Step Reasoning in LLMs. arXiv:2307.09788
+[^6]: [Peters, M. E., et al. (2023). *How Costly is Reflection? Evaluating the Performance Impact of Multi-Step Reasoning in LLMs*. arXiv:2307.09788.](https://arxiv.org/abs/2307.09788)
 
-[7] Li et al. (2024). Tool-Augmented LLMs: Balancing Accuracy and Efficiency in Agent Actions. arXiv:2403.15432
+[^7]: [Li, M., Zhao, Y., Yu, B., Song, F., Li, H., Yu, H., et al. (2024). *Tool-Augmented LLMs: Balancing Accuracy and Efficiency in Agent Actions*. arXiv:2403.15432.](https://arxiv.org/abs/2403.15432)
 
-[8] Casper et al. (2023). Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback. arXiv:2307.15217
+[^8]: [Casper, S., et al. (2023). *Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback*. arXiv:2307.15217.](https://arxiv.org/abs/2307.15217)
