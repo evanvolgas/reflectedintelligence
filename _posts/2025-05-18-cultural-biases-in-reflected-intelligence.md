@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cultural Biases in Reflected Intelligence: A Global Perspective"
-date: 2025-05-21
+date: 2025-05-18
 author: "Evan Volgas"
 categories: [AI, Ethics, Culture]
 description: "An in-depth analysis of how AI systems reflect cultural biases and what's being done to create more inclusive artificial intelligence."

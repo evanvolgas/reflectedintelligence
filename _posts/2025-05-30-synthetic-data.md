@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "When AI Learns to Question Itself: The Reflection Revolution"
-date: 2025-05-28
+date: 2025-05-30
 author: Evan Volgas
 categories: [AI, Synthetic Data]
 excerpt: What happens when we teach machines to doubt? The convergence of reflection mechanisms and synthetic data is creating AI that can improve itself—and it's changing everything.
