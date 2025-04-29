@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Reflection as a Security Mechanism: How AI Self-Critique Enhances Safety"
-date: 2025-05-14
+date: 2025-05-13
 author: "Evan Volgas"
 categories: [AI Safety, LLMs, AI]
 description: "Exploring how AI systems leverage reflection and self-critique capabilities to create more robust security guardrails, reduce hallucinations, and enhance overall system reliability."
@@ -114,7 +114,7 @@ These metrics highlight an important reality: reflection techniques offer signif
 
 ## Implementation Architecture: A Data Engineer's Perspective
 
-Implementing reflection in production systems introduces significant data engineering challenges that are often overlooked in research contexts. Building on our [practical implementation guide for memory and reflection](/2025/05/10/memory-and-reflection/), here's what a robust architecture requires for security-focused reflection systems:
+Implementing reflection in production systems introduces significant data engineering challenges that are often overlooked in research contexts. Building on our [practical implementation guide for memory and reflection](/2025/05/10/optimizing-memory-and-reflection-practical-implementations-for-ai-agents/), here's what a robust architecture requires for security-focused reflection systems:
 
 ### Knowledge Infrastructure for RAG Systems
 

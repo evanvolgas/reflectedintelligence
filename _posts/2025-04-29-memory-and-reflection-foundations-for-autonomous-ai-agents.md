@@ -81,7 +81,7 @@ It's early days, and "neuromorphic reflection" is not a standard term in literat
 
 ### Collaborative Memory: Sharing Knowledge Among Agents (Emerging)
 
-Today's AI agents typically operate in isolation, each with its own memory. An emerging concept is collaborative memory, where multiple agents (or an agent collective) share and contribute to a common memory space. This could take the form of a distributed knowledge graph or a synchronized database that agents can read from and write to. The advantage is that agents could learn from each other's experiences – what one agent learns in its domain could help another agent in a different domain.)
+Today's AI agents typically operate in isolation, each with its own memory. An emerging concept is collaborative memory, where multiple agents (or an agent collective) share and contribute to a common memory space. This could take the form of a distributed knowledge graph or a synchronized database that agents can read from and write to. The advantage is that agents could learn from each other's experiences – what one agent learns in its domain could help another agent in a different domain.
 
 A recent survey on AI memory architectures suggests that in the future, individual AI systems' memories will become more interconnected, "enabling enhanced collaboration among models." For example, a medical AI and a finance AI might share relevant knowledge to tackle a cross-disciplinary problem. Such a shared memory or collective knowledge base could make the network of AI systems more powerful than the sum of its parts, as each agent can leverage the group's aggregated experience.
 
