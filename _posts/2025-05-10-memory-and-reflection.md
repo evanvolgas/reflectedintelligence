@@ -9,7 +9,7 @@ description: "An in-depth exploration of how persistent memory architectures and
 
 # Optimizing Memory and Reflection: Practical Implementations for AI Agents
 
-*This article builds on our [previous exploration of memory and reflection in AI agents](/not_beam/ri/2025/04/29/reflective-intelligence-memory-and-reflection.html), diving deeper into practical implementations and recent advancements.*
+*This article builds on our [previous exploration of memory and reflection in AI agents](/2025/04/29/reflective-intelligence-memory-and-reflection/), diving deeper into practical implementations and recent advancements.*
 
 As we progress deeper into the era of agentic AI, two critical areas are reshaping how AI systems learn, reason, and operate in complex environments: persistent memory architectures and optimized reflection processes. This article explores cutting-edge developments in how AI agents maintain consistent reasoning over time and how reflection mechanisms are being distilled into more efficient implementations.
 
@@ -17,7 +17,7 @@ As we progress deeper into the era of agentic AI, two critical areas are reshapi
 
 ### The Memory Challenge
 
-Modern AI systems, particularly Large Language Models (LLMs), have demonstrated impressive capabilities in language understanding, reasoning, and planning. However, a fundamental limitation has persisted: their inability to effectively maintain and utilize memories across extended interactions. This limitation becomes particularly apparent in complex multi-step tasks that require consistent reasoning and knowledge retention over time. (For more on how context limitations affect AI systems and the importance of memory, see our [recent article on context and memory in AI](/not_beam/ri/2025/05/07/context-you-keep.html).)
+Modern AI systems, particularly Large Language Models (LLMs), have demonstrated impressive capabilities in language understanding, reasoning, and planning. However, a fundamental limitation has persisted: their inability to effectively maintain and utilize memories across extended interactions. This limitation becomes particularly apparent in complex multi-step tasks that require consistent reasoning and knowledge retention over time. (For more on how context limitations affect AI systems and the importance of memory, see our [recent article on context and memory in AI](/2025/05/07/context-you-keep/).)
 
 **Technical limitation:** Traditional LLM architectures are constrained by:
 1. Context window limitations (typically 32K-128K tokens)
@@ -299,7 +299,7 @@ Maximizing this mutual information leads to more effective knowledge transfer by
 
 #### Neural Pathways for Efficient Reflection
 
-The concept of "neuralese"—high-dimensional vectors passed back to early layers of a model—has emerged as a promising alternative to text-based chain-of-thought processes. (This builds on the [speculative neuralese concept](/not_beam/ri/2025/04/29/reflective-intelligence-memory-and-reflection.html#neuralese-latent-thought-language-speculative) we introduced in our April 29th article.)
+The concept of "neuralese"—high-dimensional vectors passed back to early layers of a model—has emerged as a promising alternative to text-based chain-of-thought processes. (This builds on the [speculative neuralese concept](/2025/04/29/reflective-intelligence-memory-and-reflection/#neuralese-latent-thought-language-speculative) we introduced in our April 29th article.)
 
 **Information capacity analysis:**
 - Text-based CoT: ~5-10 bits per token, limited by vocabulary and grammar
@@ -485,9 +485,9 @@ As these systems mature, we can expect AI agents to become increasingly capable 
 
 1. **Cross-domain memory transfer:** Developing techniques for agents to apply knowledge from one domain to another through abstracted memory representations
 
-2. **Collaborative memory mechanisms:** Creating frameworks for multiple agents to share and synchronize memories while maintaining consistency (building on concepts introduced in our [earlier exploration of collaborative memory](/not_beam/ri/2025/04/29/reflective-intelligence-memory-and-reflection.html#collaborative-memory-sharing-knowledge-among-agents-emerging))
+2. **Collaborative memory mechanisms:** Creating frameworks for multiple agents to share and synchronize memories while maintaining consistency (building on concepts introduced in our [earlier exploration of collaborative memory](/2025/04/29/reflective-intelligence-memory-and-reflection/#collaborative-memory-sharing-knowledge-among-agents-emerging))
 
-3. **Neuromorphic implementations:** Exploring specialized hardware architectures optimized for memory-reflection operations (extending the [neuromorphic reflection concepts](/not_beam/ri/2025/04/29/reflective-intelligence-memory-and-reflection.html#neuromorphic-reflection-brain-inspired-self-improvement-emerging) discussed in our April 29th article)
+3. **Neuromorphic implementations:** Exploring specialized hardware architectures optimized for memory-reflection operations (extending the [neuromorphic reflection concepts](/2025/04/29/reflective-intelligence-memory-and-reflection/#neuromorphic-reflection-brain-inspired-self-improvement-emerging) discussed in our April 29th article)
 
 4. **Ethical memory management:** Establishing principles for responsible memory retention, especially for sensitive or personal information
 

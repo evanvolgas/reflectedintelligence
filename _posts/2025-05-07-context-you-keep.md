@@ -27,7 +27,7 @@ This "forgetting" isn't about bad programming. It's mathematics: the model can o
 
 ## The Memory Revolution: Beyond Context Windows
 
-As we move into 2025, the demand for more intelligent and context-aware AI solutions continues to surge. Two prominent approaches have emerged to address the memory limitations: Retrieval-Augmented Generation (RAG) and Extended Context Windows.[^2] (For a deeper exploration of memory architectures in AI agents, see our [earlier comprehensive article on memory and reflection in AI agents](/not_beam/ri/2025/04/29/reflective-intelligence-memory-and-reflection.html).)
+As we move into 2025, the demand for more intelligent and context-aware AI solutions continues to surge. Two prominent approaches have emerged to address the memory limitations: Retrieval-Augmented Generation (RAG) and Extended Context Windows.[^2] (For a deeper exploration of memory architectures in AI agents, see our [earlier comprehensive article on memory and reflection in AI agents](/2025/04/29/reflective-intelligence-memory-and-reflection/).)
 
 RAG has become what industry experts now call "a fundamental pillar of enterprise AI architecture." Major companies across sectors rely on it to build AI systems grounded in real-time knowledge. In healthcare, for example, RAG-powered AI transforms patient care by integrating real-time diagnostic data, drug interactions, and the latest clinical research, ensuring medical decisions are based on current information.[^3]
 
