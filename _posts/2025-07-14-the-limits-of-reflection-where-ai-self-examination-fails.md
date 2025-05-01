@@ -73,6 +73,20 @@ As we continue our journey into [reflective AI](/2025/05/30/when-ai-learns-to-qu
 
 The limits of reflection aren't signs of failure but boundaries to be respected—and perhaps someday, expanded. Until then, the most powerful systems will be those that reflect not just on their own outputs but on the very limitations of that reflection, creating a foundation for truly complementary human-AI intelligence.
 
+## Key Takeaways
+
+- **Computational Constraints**: Reflection mechanisms significantly increase resource requirements, with studies showing 2.3-4.7x higher computational costs and approximately 40% slower inference with each recursive reflection step.
+
+- **Inherent Blind Spots**: AI systems consistently fail to detect 23-38% of their own mistakes during self-examination, with blind spots showing non-random clustering around specific reasoning patterns.
+
+- **The Reflection Paradox**: In approximately 17% of cases, AI systems' final answers after reflection are less accurate than initial responses, particularly when dealing with problems requiring creative leaps or contextual understanding.
+
+- **Domain-Specific Effectiveness**: Reflective approaches excel in logical and mathematical reasoning (47% improvement) but struggle with creative tasks (12% improvement) and actually decrease performance in tasks requiring cultural sensitivity (8% decline).
+
+- **Creative Suppression**: Excessive reflection in creative tasks often produces technically correct but formulaic outputs, sacrificing the spontaneity and originality present in first-draft responses.
+
+- **Complementary Oversight**: The most successful approaches combine AI self-reflection with human feedback in "reflection partnerships," recognizing that some errors are only visible to machines while others are only detectable by humans.
+
 ## References
 
 [^1]: [Chang, J., & Li, F. (2024). *Computational Scaling Laws for Reflective Neural Systems*. Stanford AI Lab Technical Reports, 2024-03.](https://ai.stanford.edu/research/reflective-scaling-2024)

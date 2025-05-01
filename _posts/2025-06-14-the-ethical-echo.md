@@ -49,6 +49,20 @@ There's hope in that feedback loop. As we refine AI, it can help refine us. One 
 
 AI will echo whatever we give it—our prejudice or our principles. If we want systems that reflect the best of humanity, we have to define what that "best" looks like—and live up to it.
 
+## Key Takeaways
+
+- **Mirror Effect**: AI systems function as sophisticated mirrors reflecting the data they're trained on, inevitably absorbing human biases, values, and patterns—including problematic ones.
+
+- **Amplification Risk**: Without intervention, AI can magnify existing social inequities and discrimination, as demonstrated by biased hiring algorithms, credit scoring systems, and facial recognition technologies.
+
+- **Bias Mitigation**: Effective approaches to reduce bias include conducting independent audits, using more diverse and representative training data, and implementing explicit ethical guardrails like Constitutional AI.
+
+- **Institutional Design**: Building ethical AI requires organizational structures like internal ethics boards, transparent documentation through model cards and datasheets, and comprehensive usage policies.
+
+- **Technical-Social Balance**: The challenge of ethical AI can't be solved through technical fixes alone—it requires addressing underlying social questions about fairness, justice, and values.
+
+- **Virtuous Cycle**: When implemented thoughtfully, AI systems can help humans recognize their own biases and blind spots, creating a feedback loop where technology and society mutually improve.
+
 ---
 
 [^1]: Crawford, K. (2021). *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence*. Yale University Press. [Link](https://yalebooks.yale.edu/book/9780300209570/atlas-of-ai/)

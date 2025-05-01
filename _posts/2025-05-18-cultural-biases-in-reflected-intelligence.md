@@ -154,6 +154,20 @@ The AI Fairness 360 toolkit, developed by IBM Research, provides practical tools
 2. 11 bias mitigation algorithms that can be applied at different stages of the ML pipeline
 3. Interactive tutorials demonstrating real-world applications of fairness techniques
 
+## Key Takeaways
+
+- **Documented Cultural Bias**: Large language models demonstrate measurable bias toward Western, particularly English-speaking and Protestant European cultural values, as quantified on standard cultural value maps.
+
+- **Performance Disparities**: Current AI systems show significant performance gaps across languages and cultures, with accuracy dropping from 97% for English to below 53% for low-resource languages like Yoruba.
+
+- **Real-World Impacts**: Cultural bias in AI can have serious consequences in critical applications like healthcare, where diagnostic models show up to 24% lower accuracy for underrepresented populations.
+
+- **Cultural Prompting**: Simple interventions like asking the AI to respond "as if from" a specific culture can significantly improve cultural alignment of responses for over 70% of countries tested.
+
+- **Advanced Mitigation Techniques**: Emerging methods like Counterfactual Data Augmentation and causal modeling show promise, with documented bias reductions of 37-57% while maintaining overall performance.
+
+- **Performance-Fairness Trade-offs**: Fairness interventions typically reduce overall benchmark performance by 2-3%, though multi-objective optimization approaches are narrowing this gap.
+
 ## Conclusion
 
 Reflected intelligence should ideally reflect all of humanity, not just a portion. Achieving that global perspective in AI is a grand challenge of our time. Yet, with growing awareness and a host of evolving solutions—from smarter training data to innovative bias-busting algorithms—there's cause for optimism.

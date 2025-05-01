@@ -52,6 +52,20 @@ Self-reflective AI is promising but introduces challenges:
 
 Moving forward, reflective intelligence could lead to AI systems that not only learn about the world but **learn about themselves** — becoming safer, more reliable, and more autonomous partners in critical tasks.
 
+## Key Takeaways
+
+- **Self-Monitoring AI**: Reflective intelligence enables AI systems to monitor their own operations, evaluate confidence in their outputs, and adapt their strategies based on past performance.
+
+- **Healthcare Applications**: Self-aware deep learning approaches in medical imaging are showing improved diagnostic accuracy by flagging uncertain results for human review rather than making questionable diagnoses.
+
+- **Robotic Self-Modeling**: Advanced robots can now build internal models of their own bodies through experimentation, enabling them to detect damage and adapt to physical changes.
+
+- **Autonomous Improvement**: Frameworks like Reflexion allow AI agents to critique their own outputs and refine their approaches without human intervention, significantly improving success rates on complex tasks.
+
+- **Implementation Challenges**: Reflective systems introduce new challenges around safety, transparency, computational costs, and governance that must be addressed for responsible deployment.
+
+- **From Task Learning to Self-Learning**: The evolution toward self-reflective AI marks a shift from systems that merely learn tasks to systems that learn about themselves.
+
 ## References
 
 [^1]: [Johnson, B. (2022). *Metacognition for artificial intelligence system safety: An approach to safe and desired behavior*. Safety Science, 151, 105743.](https://doi.org/10.1016/j.ssci.2022.105743)
