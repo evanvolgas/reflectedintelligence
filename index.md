@@ -4,8 +4,6 @@ title: Reflected Intelligence
 ---
 
 <div class="home">
-  <h1 class="page-heading">Reflected Intelligence</h1>
-
   <div class="post-list">
     {%- for post in site.posts -%}
     <div class="post-item">
