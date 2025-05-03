@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang=" en">
+
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Reflective Intelligence in Large Language Models | Reflected Intelligence</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Reflective Intelligence in Large Language Models" />
+<meta name="author" content="Evan Volgas" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A technical exploration of how reflective intelligence in LLMs goes beyond reflected knowledge, enabling models to think about their own thinking, analyze answers, and iteratively improve reasoning." />
+<meta property="og:description" content="A technical exploration of how reflective intelligence in LLMs goes beyond reflected knowledge, enabling models to think about their own thinking, analyze answers, and iteratively improve reasoning." />
+<link rel="canonical" href="https://reflectedintelligence.com/2025/05/03/reflective-intelligence-in-llms/" />
+<meta property="og:url" content="https://reflectedintelligence.com/2025/05/03/reflective-intelligence-in-llms/" />
+<meta property="og:site_name" content="Reflected Intelligence" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-05-03T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Reflective Intelligence in Large Language Models" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Evan Volgas"},"dateModified":"2025-05-03T00:00:00-05:00","datePublished":"2025-05-03T00:00:00-05:00","description":"A technical exploration of how reflective intelligence in LLMs goes beyond reflected knowledge, enabling models to think about their own thinking, analyze answers, and iteratively improve reasoning.","headline":"Reflective Intelligence in Large Language Models","mainEntityOfPage":{"@type":"WebPage","@id":"https://reflectedintelligence.com/2025/05/03/reflective-intelligence-in-llms/"},"url":"https://reflectedintelligence.com/2025/05/03/reflective-intelligence-in-llms/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/%20/assets/css/main.css">
+  <link rel="stylesheet" href="/%20/assets/css/custom.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/%20/assets/favicon/favicon.ico">
+  <link rel="icon" href="/%20/assets/favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/%20/assets/favicon/favicon.ico"><link type="application/atom+xml" rel="alternate" href="https://reflectedintelligence.com/feed.xml" title="Reflected Intelligence" /><!-- Dark mode toggle script -->
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+      localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      if (localStorage.getItem('darkMode') === 'true') {
+        document.body.classList.add('dark-mode');
+      }
+    });
+  </script>
+</head>
+
+<body>
+  <header class="site-header">
+  <div class="wrapper">
+    <div class="header-content">
+      <a class="site-title" rel="author" href="/%20/">
+        <span class="title-text">Reflected Intelligence</span>
+      </a>
+
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path
+                d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,9,0,8.335,0,7.516c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516c0,0.82-0.665,1.483-1.484,1.483H1.484C0.665,15,0,14.335,0,13.516c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z" />
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/about/">About</a><a class="page-link" href="/categories/">
+            <i class="fas fa-tags"></i> Categories
+          </a>
+          <a class="page-link" href="#" id="search-toggle">
+            <i class="fas fa-search"></i>
+          </a>
+          <button class="dark-mode-toggle" onclick="toggleDarkMode()">
+            <i class="fas fa-moon"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+
+    <div id="search-container" class="search-container">
+      <form class="search-form" action="/search/" method="get">
+        <input type="text" class="search-input" name="q" placeholder="Search the blog...">
+        <button type="submit" class="search-button">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const searchToggle = document.getElementById('search-toggle');
+      const searchContainer = document.getElementById('search-container');
+
+      searchToggle.addEventListener('click', function (e) {
+        e.preventDefault();
+        if (searchContainer.style.display === 'none') {
+          searchContainer.style.display = 'block';
+          searchContainer.querySelector('input').focus();
+        } else {
+          searchContainer.style.display = 'none';
+        }
+      });
+    });
+  </script>
+</header>
+
+  
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Reflective Intelligence in Large Language Models</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2025-05-03T00:00:00-05:00" itemprop="datePublished">May 3, 2025
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Evan Volgas</span></span>
+      
+      <span class="reading-time"><i class="far fa-clock"></i> 12 min read</span><br>
+      <span class="post-categories">
+        <i class="fas fa-tags"></i> Categories:
+        
+        <a class="category-link" href="/categories/#AI">AI</a>, 
+        
+        <a class="category-link" href="/categories/#LLMs">LLMs</a>, 
+        
+        <a class="category-link" href="/categories/#Reflection">Reflection</a>
+        
+      </span></p>
+
+    
+    <div class="post-description">
+      A technical exploration of how reflective intelligence in LLMs goes beyond reflected knowledge, enabling models to think about their own thinking, analyze answers, and iteratively improve reasoning.
+    </div>
+    
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Large Language Models (LLMs) possess an impressive ability to reflect vast amounts of human knowledge – effectively serving as mirrors of “reflected intelligence.” However, truly reflective intelligence in LLMs goes a step further: it implies the model can think about its own thinking, analyze its answers, learn from feedback, and iteratively improve its reasoning. This article examines what reflective intelligence means for LLMs, how it differs from mere reflected knowledge, and evaluates several frameworks and techniques designed to imbue LLMs with this introspective capability. We will verify key claims about these methods, discuss their benefits and trade-offs, and highlight the recent research (2023–2024) expanding on these ideas.</p>
+
+<h2 id="reflected-vs-reflective-intelligence-in-llms">Reflected vs. Reflective Intelligence in LLMs</h2>
+
+<h3 id="conceptual-distinction">Conceptual Distinction</h3>
+
+<p>Reflected intelligence refers to the knowledge and patterns an LLM has absorbed from its training data. In essence, an LLM’s responses are a reflection of the text and information in its corpus. For example, a model like GPT-3 or GPT-4 can answer trivia, explain concepts, or imitate writing styles because it reflects the aggregate intelligence present in its human-written training text. This makes the model appear intelligent by echoing learned information. However, by default the model does not truly understand or evaluate its own outputs; it generates answers in a single pass, without deliberation or self-critique. (For a philosophical exploration of this mirroring phenomenon, see our <a href="/2025/04/23/reflected-intelligence-when-ai-holds-up-the-mirror/">earlier article on reflected intelligence</a>.)</p>
+
+<p><strong>Accessible Analogy</strong>: Reflected intelligence is like a mirror that perfectly reflects what it sees without understanding the image. It’s comparable to a student who memorizes facts for an exam without grasping the underlying principles—they can reproduce information accurately but cannot reason about it when confronted with novel situations.</p>
+
+<p>Reflective intelligence, on the other hand, is the capacity of the model to turn inward and analyze or critique its own reasoning and answers before finalizing them. A reflectively intelligent LLM engages in a multi-step thought process: it can generate an initial solution, then reflect on potential errors or improvements, and generate a refined solution. This process is analogous to how a person might check their work or think “Does my answer make sense? Let me double-check and fix any mistakes.” Achieving this means the LLM is not just regurgitating information but is actively reasoning about the quality and correctness of its output.</p>
+
+<p><strong>Accessible Analogy</strong>: Reflective intelligence resembles a student who solves a math problem, then pauses to check their work, notices an error in their calculation, and corrects it before submitting—demonstrating an ability to evaluate and improve their own thinking process.</p>
+
+<h3 id="implementation-and-performance-considerations">Implementation and Performance Considerations</h3>
+
+<p>In practical terms, prompting techniques can induce an LLM to be reflective. For instance, one can prompt the model: “Show your reasoning step by step, then reflect on whether the result is correct or ethical, and finally give your answer.” Such prompts encourage the model to produce a chain-of-thought followed by a self-evaluation. The transformer’s architecture makes this possible – since LLMs use self-attention over the sequence of tokens, they can attend to (i.e. “look at”) their own earlier reasoning as context for later tokens. In effect, the model can critique what it just generated and then adjust its answer accordingly. This stands in contrast to a single-shot answer with no self-checking.</p>
+
+<p><strong>Performance Trade-offs</strong>: Reflective reasoning introduces significant computational overhead. Each reflection step essentially doubles the inference time and token consumption. For example, a standard question might take 1-2 seconds to generate an answer, while a reflective approach could take 3-6 seconds. For complex reasoning tasks requiring multiple reflection steps, this can lead to latencies exceeding 10 seconds on consumer hardware. This creates a clear trade-off between accuracy and response time that must be considered in production environments [6].</p>
+
+<p>Here’s a basic implementation of reflective thinking using Hugging Face’s transformers library:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">torch</span>
+<span class="kn">from</span> <span class="n">transformers</span> <span class="kn">import</span> <span class="n">AutoModelForCausalLM</span><span class="p">,</span> <span class="n">AutoTokenizer</span>
+
+<span class="k">def</span> <span class="nf">generate_with_reflection</span><span class="p">(</span><span class="n">prompt</span><span class="p">,</span> <span class="n">model</span><span class="p">,</span> <span class="n">tokenizer</span><span class="p">,</span> <span class="n">max_length</span><span class="o">=</span><span class="mi">1024</span><span class="p">):</span>
+    <span class="c1"># Generate initial response
+</span>    <span class="n">inputs</span> <span class="o">=</span> <span class="nf">tokenizer</span><span class="p">(</span><span class="n">prompt</span><span class="p">,</span> <span class="n">return_tensors</span><span class="o">=</span><span class="sh">"</span><span class="s">pt</span><span class="sh">"</span><span class="p">)</span>
+    <span class="n">initial_output</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="nf">generate</span><span class="p">(</span>
+        <span class="n">inputs</span><span class="p">.</span><span class="n">input_ids</span><span class="p">,</span>
+        <span class="n">max_length</span><span class="o">=</span><span class="n">max_length</span><span class="o">//</span><span class="mi">2</span><span class="p">,</span>
+        <span class="n">num_return_sequences</span><span class="o">=</span><span class="mi">1</span>
+    <span class="p">)</span>
+    <span class="n">initial_response</span> <span class="o">=</span> <span class="n">tokenizer</span><span class="p">.</span><span class="nf">decode</span><span class="p">(</span><span class="n">initial_output</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">skip_special_tokens</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+    <span class="c1"># Create reflection prompt
+</span>    <span class="n">reflection_prompt</span> <span class="o">=</span> <span class="sa">f</span><span class="sh">"</span><span class="si">{</span><span class="n">prompt</span><span class="si">}</span><span class="se">\n\n</span><span class="s">Initial answer: </span><span class="si">{</span><span class="n">initial_response</span><span class="si">}</span><span class="se">\n\n</span><span class="sh">"</span> \
+                        <span class="sa">f</span><span class="sh">"</span><span class="s">Let me reflect on potential errors or improvements:</span><span class="sh">"</span>
+
+    <span class="c1"># Generate reflection
+</span>    <span class="n">reflection_inputs</span> <span class="o">=</span> <span class="nf">tokenizer</span><span class="p">(</span><span class="n">reflection_prompt</span><span class="p">,</span> <span class="n">return_tensors</span><span class="o">=</span><span class="sh">"</span><span class="s">pt</span><span class="sh">"</span><span class="p">)</span>
+    <span class="n">reflection_output</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="nf">generate</span><span class="p">(</span>
+        <span class="n">reflection_inputs</span><span class="p">.</span><span class="n">input_ids</span><span class="p">,</span>
+        <span class="n">max_length</span><span class="o">=</span><span class="n">max_length</span><span class="o">//</span><span class="mi">4</span><span class="p">,</span>
+        <span class="n">num_return_sequences</span><span class="o">=</span><span class="mi">1</span>
+    <span class="p">)</span>
+    <span class="n">reflection</span> <span class="o">=</span> <span class="n">tokenizer</span><span class="p">.</span><span class="nf">decode</span><span class="p">(</span><span class="n">reflection_output</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">skip_special_tokens</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+    <span class="c1"># Generate refined answer based on reflection
+</span>    <span class="n">final_prompt</span> <span class="o">=</span> <span class="sa">f</span><span class="sh">"</span><span class="si">{</span><span class="n">reflection_prompt</span><span class="si">}</span><span class="se">\n</span><span class="si">{</span><span class="n">reflection</span><span class="si">}</span><span class="se">\n\n</span><span class="s">Improved answer:</span><span class="sh">"</span>
+    <span class="n">final_inputs</span> <span class="o">=</span> <span class="nf">tokenizer</span><span class="p">(</span><span class="n">final_prompt</span><span class="p">,</span> <span class="n">return_tensors</span><span class="o">=</span><span class="sh">"</span><span class="s">pt</span><span class="sh">"</span><span class="p">)</span>
+    <span class="n">final_output</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="nf">generate</span><span class="p">(</span>
+        <span class="n">final_inputs</span><span class="p">.</span><span class="n">input_ids</span><span class="p">,</span>
+        <span class="n">max_length</span><span class="o">=</span><span class="n">max_length</span><span class="p">,</span>
+        <span class="n">num_return_sequences</span><span class="o">=</span><span class="mi">1</span>
+    <span class="p">)</span>
+    <span class="n">final_response</span> <span class="o">=</span> <span class="n">tokenizer</span><span class="p">.</span><span class="nf">decode</span><span class="p">(</span><span class="n">final_output</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">skip_special_tokens</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="sh">"</span><span class="s">initial_response</span><span class="sh">"</span><span class="p">:</span> <span class="n">initial_response</span><span class="p">,</span>
+        <span class="sh">"</span><span class="s">reflection</span><span class="sh">"</span><span class="p">:</span> <span class="n">reflection</span><span class="p">,</span>
+        <span class="sh">"</span><span class="s">final_response</span><span class="sh">"</span><span class="p">:</span> <span class="n">final_response</span>
+    <span class="p">}</span>
+</code></pre></div></div>
+
+<p>In summary, reflected intelligence is about an LLM mirroring learned knowledge, whereas reflective intelligence is about an LLM internally monitoring and improving its reasoning. The latter is key to reducing mistakes (like math errors or hallucinations) and making AI behavior more aligned with human-like thoughtfulness.</p>
+
+<h2 id="frameworks-incorporating-reflection-in-llms">Frameworks Incorporating Reflection in LLMs</h2>
+
+<p>A number of research frameworks and alignment strategies have been developed to instill a degree of reflective intelligence in LLMs. We will review four prominent ones – ReAct, Reflexion, Constitutional AI, and RLHF – verifying the accuracy of their descriptions and how they differ.</p>
+
+<h3 id="react-reasoning-and-acting">ReAct: Reasoning and Acting</h3>
+
+<p>ReAct (Reason + Act) is a framework introduced by Yao et al. (2022) [1] to enable an LLM to perform reasoning steps and take actions in an interleaved manner. In ReAct prompting, the model’s output alternates between thoughts (natural language reasoning traces) and acts (commands to interact with an external tool or environment). For example, a ReAct-capable agent might output a thought like, “I need to find more information about X,” followed by an action “Search(X),” then receive the search results, think further, and so on.</p>
+
+<p><strong>Accessible Analogy</strong>: ReAct is similar to a detective solving a case, who thinks aloud about clues, decides to check specific evidence, examines the evidence, then thinks again with this new information, gradually piecing together the solution through alternating thought and investigation.</p>
+
+<p>ReAct has been shown to outperform single-pass or single-stream approaches in tasks requiring external information or multistep reasoning. It also improves interpretability by producing reasoning traces and action sequences.</p>
+
+<p><strong>Code Implementation</strong>:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">transformers</span> <span class="kn">import</span> <span class="n">pipeline</span>
+<span class="kn">import</span> <span class="n">re</span>
+
+<span class="k">class</span> <span class="nc">ReActAgent</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">model_name</span><span class="o">=</span><span class="sh">"</span><span class="s">gpt2-xl</span><span class="sh">"</span><span class="p">):</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">generator</span> <span class="o">=</span> <span class="nf">pipeline</span><span class="p">(</span><span class="sh">"</span><span class="s">text-generation</span><span class="sh">"</span><span class="p">,</span> <span class="n">model</span><span class="o">=</span><span class="n">model_name</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">tools</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="sh">"</span><span class="s">search</span><span class="sh">"</span><span class="p">:</span> <span class="n">self</span><span class="p">.</span><span class="n">search_tool</span><span class="p">,</span>
+            <span class="sh">"</span><span class="s">calculator</span><span class="sh">"</span><span class="p">:</span> <span class="n">self</span><span class="p">.</span><span class="n">calculator_tool</span>
+        <span class="p">}</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">memory</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">def</span> <span class="nf">search_tool</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">query</span><span class="p">):</span>
+        <span class="c1"># Simplified search tool (would connect to actual search API)
+</span>        <span class="k">return</span> <span class="sa">f</span><span class="sh">"</span><span class="s">Search results for </span><span class="sh">'</span><span class="si">{</span><span class="n">query</span><span class="si">}</span><span class="sh">'"</span>
+
+    <span class="k">def</span> <span class="nf">calculator_tool</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">expression</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">return</span> <span class="nf">str</span><span class="p">(</span><span class="nf">eval</span><span class="p">(</span><span class="n">expression</span><span class="p">))</span>
+        <span class="k">except</span><span class="p">:</span>
+            <span class="k">return</span> <span class="sh">"</span><span class="s">Error in calculation</span><span class="sh">"</span>
+
+    <span class="k">def</span> <span class="nf">parse_action</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">text</span><span class="p">):</span>
+        <span class="c1"># Extract action and parameters
+</span>        <span class="n">action_match</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="nf">search</span><span class="p">(</span><span class="sa">r</span><span class="sh">"</span><span class="s">Action: (\w+)\((.*?)\)</span><span class="sh">"</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">action_match</span><span class="p">:</span>
+            <span class="n">action_name</span><span class="p">,</span> <span class="n">params</span> <span class="o">=</span> <span class="n">action_match</span><span class="p">.</span><span class="nf">groups</span><span class="p">()</span>
+            <span class="k">return</span> <span class="n">action_name</span><span class="p">,</span> <span class="n">params</span>
+        <span class="k">return</span> <span class="bp">None</span><span class="p">,</span> <span class="bp">None</span>
+
+    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">task</span><span class="p">,</span> <span class="n">max_steps</span><span class="o">=</span><span class="mi">5</span><span class="p">):</span>
+        <span class="n">context</span> <span class="o">=</span> <span class="sa">f</span><span class="sh">"</span><span class="s">Task: </span><span class="si">{</span><span class="n">task</span><span class="si">}</span><span class="se">\n\n</span><span class="sh">"</span>
+
+        <span class="k">for</span> <span class="n">step</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">max_steps</span><span class="p">):</span>
+            <span class="c1"># Generate thought and action
+</span>            <span class="n">prompt</span> <span class="o">=</span> <span class="n">context</span> <span class="o">+</span> <span class="sh">"</span><span class="s">Thought: </span><span class="sh">"</span>
+            <span class="n">response</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">generator</span><span class="p">(</span><span class="n">prompt</span><span class="p">,</span> <span class="n">max_length</span><span class="o">=</span><span class="mi">2048</span><span class="p">)[</span><span class="mi">0</span><span class="p">][</span><span class="sh">"</span><span class="s">generated_text</span><span class="sh">"</span><span class="p">]</span>
+
+            <span class="c1"># Extract the new content
+</span>            <span class="n">new_content</span> <span class="o">=</span> <span class="n">response</span><span class="p">[</span><span class="nf">len</span><span class="p">(</span><span class="n">prompt</span><span class="p">):]</span>
+
+            <span class="c1"># Parse action
+</span>            <span class="n">action_name</span><span class="p">,</span> <span class="n">params</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">parse_action</span><span class="p">(</span><span class="n">new_content</span><span class="p">)</span>
+
+            <span class="k">if</span> <span class="n">action_name</span> <span class="ow">and</span> <span class="n">action_name</span> <span class="ow">in</span> <span class="n">self</span><span class="p">.</span><span class="n">tools</span><span class="p">:</span>
+                <span class="c1"># Execute tool
+</span>                <span class="n">result</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">tools</span><span class="p">[</span><span class="n">action_name</span><span class="p">](</span><span class="n">params</span><span class="p">)</span>
+                <span class="n">observation</span> <span class="o">=</span> <span class="sa">f</span><span class="sh">"</span><span class="s">Observation: </span><span class="si">{</span><span class="n">result</span><span class="si">}</span><span class="sh">"</span>
+                <span class="n">context</span> <span class="o">+=</span> <span class="n">new_content</span> <span class="o">+</span> <span class="sh">"</span><span class="se">\n</span><span class="sh">"</span> <span class="o">+</span> <span class="n">observation</span> <span class="o">+</span> <span class="sh">"</span><span class="se">\n\n</span><span class="sh">"</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="c1"># No action or final answer
+</span>                <span class="n">context</span> <span class="o">+=</span> <span class="n">new_content</span>
+                <span class="k">break</span>
+
+        <span class="k">return</span> <span class="n">context</span>
+</code></pre></div></div>
+
+<p><strong>Performance Trade-offs</strong>: Each ReAct cycle adds latency and computational cost. A five-step reasoning process might increase completion time by 5-10x compared to direct generation. For example, a task that would take 2 seconds with standard generation could take 10-20 seconds with ReAct, depending on the complexity of tool calls and external API latencies. This approach also increases token consumption by 3-5x on average [7].</p>
+
+<h3 id="reflexion-self-evaluation-and-memory">Reflexion: Self-Evaluation and Memory</h3>
+
+<p>Reflexion (Shinn et al., 2023) [2] is an approach in which LLM agents learn from their own mistakes using self-generated feedback. After attempting a task, the agent generates a natural language reflection about what went wrong and stores it in memory. In subsequent trials, this reflection is available as context.</p>
+
+<p>Reflexion-based agents have demonstrated remarkable results. On ALFWorld (an embodied agent environment), Reflexion raised performance from 75% to 97%, and on HumanEval (a coding benchmark), it achieved 91% pass@1 compared to 80% for GPT-4. These results are task-specific, and performance varies across domains (e.g., only ~51% on HotPotQA), but the core insight is sound: self-critique and memory improve outcomes.</p>
+
+<p><strong>Accessible Analogy</strong>: Reflexion works like a cook who keeps a journal of cooking mistakes. After each unsuccessful dish, they write down what went wrong and consult these notes before attempting similar recipes in the future, learning from past failures to improve future performance.</p>
+
+<p><strong>Code Implementation</strong>:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">transformers</span> <span class="kn">import</span> <span class="n">AutoModelForCausalLM</span><span class="p">,</span> <span class="n">AutoTokenizer</span>
+
+<span class="k">class</span> <span class="nc">ReflexionAgent</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">model_name</span><span class="o">=</span><span class="sh">"</span><span class="s">gpt2-xl</span><span class="sh">"</span><span class="p">):</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">model</span> <span class="o">=</span> <span class="n">AutoModelForCausalLM</span><span class="p">.</span><span class="nf">from_pretrained</span><span class="p">(</span><span class="n">model_name</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">tokenizer</span> <span class="o">=</span> <span class="n">AutoTokenizer</span><span class="p">.</span><span class="nf">from_pretrained</span><span class="p">(</span><span class="n">model_name</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">reflections</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">def</span> <span class="nf">generate_text</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">prompt</span><span class="p">,</span> <span class="n">max_length</span><span class="o">=</span><span class="mi">512</span><span class="p">):</span>
+        <span class="n">inputs</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">tokenizer</span><span class="p">(</span><span class="n">prompt</span><span class="p">,</span> <span class="n">return_tensors</span><span class="o">=</span><span class="sh">"</span><span class="s">pt</span><span class="sh">"</span><span class="p">)</span>
+        <span class="n">outputs</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">model</span><span class="p">.</span><span class="nf">generate</span><span class="p">(</span>
+            <span class="n">inputs</span><span class="p">.</span><span class="n">input_ids</span><span class="p">,</span>
+            <span class="n">max_length</span><span class="o">=</span><span class="n">max_length</span><span class="p">,</span>
+            <span class="n">num_return_sequences</span><span class="o">=</span><span class="mi">1</span>
+        <span class="p">)</span>
+        <span class="k">return</span> <span class="n">self</span><span class="p">.</span><span class="n">tokenizer</span><span class="p">.</span><span class="nf">decode</span><span class="p">(</span><span class="n">outputs</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">skip_special_tokens</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">solve_task</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">task</span><span class="p">,</span> <span class="n">max_attempts</span><span class="o">=</span><span class="mi">3</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">attempt</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">max_attempts</span><span class="p">):</span>
+            <span class="c1"># Include previous reflections in context
+</span>            <span class="n">reflection_context</span> <span class="o">=</span> <span class="sh">""</span>
+            <span class="k">if</span> <span class="n">self</span><span class="p">.</span><span class="n">reflections</span><span class="p">:</span>
+                <span class="n">reflection_context</span> <span class="o">=</span> <span class="sh">"</span><span class="s">Previous reflections:</span><span class="se">\n</span><span class="sh">"</span> <span class="o">+</span> \
+                                   <span class="sh">"</span><span class="se">\n</span><span class="sh">"</span><span class="p">.</span><span class="nf">join</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">reflections</span><span class="p">)</span> <span class="o">+</span> <span class="sh">"</span><span class="se">\n\n</span><span class="sh">"</span>
+
+            <span class="c1"># Generate solution
+</span>            <span class="n">solution_prompt</span> <span class="o">=</span> <span class="sa">f</span><span class="sh">"</span><span class="si">{</span><span class="n">reflection_context</span><span class="si">}</span><span class="s">Task: </span><span class="si">{</span><span class="n">task</span><span class="si">}</span><span class="se">\n\n</span><span class="s">Solution:</span><span class="sh">"</span>
+            <span class="n">solution</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">generate_text</span><span class="p">(</span><span class="n">solution_prompt</span><span class="p">)</span>
+
+            <span class="c1"># Check if solution is correct (simplified)
+</span>            <span class="n">is_correct</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">evaluate_solution</span><span class="p">(</span><span class="n">task</span><span class="p">,</span> <span class="n">solution</span><span class="p">)</span>
+
+            <span class="k">if</span> <span class="n">is_correct</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">solution</span><span class="p">,</span> <span class="n">attempt</span> <span class="o">+</span> <span class="mi">1</span>
+
+            <span class="c1"># Generate reflection on failure
+</span>            <span class="n">reflection_prompt</span> <span class="o">=</span> <span class="sa">f</span><span class="sh">"</span><span class="s">Task: </span><span class="si">{</span><span class="n">task</span><span class="si">}</span><span class="se">\n\n</span><span class="s">Attempted solution: </span><span class="si">{</span><span class="n">solution</span><span class="si">}</span><span class="se">\n\n</span><span class="sh">"</span> \
+                               <span class="sa">f</span><span class="sh">"</span><span class="s">The solution was incorrect. Reflect on what went wrong:</span><span class="sh">"</span>
+            <span class="n">reflection</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">generate_text</span><span class="p">(</span><span class="n">reflection_prompt</span><span class="p">)</span>
+
+            <span class="c1"># Store reflection for future attempts
+</span>            <span class="n">self</span><span class="p">.</span><span class="n">reflections</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">reflection</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">solution</span><span class="p">,</span> <span class="n">max_attempts</span>  <span class="c1"># Return last attempt if all fail
+</span>
+    <span class="k">def</span> <span class="nf">evaluate_solution</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">task</span><span class="p">,</span> <span class="n">solution</span><span class="p">):</span>
+        <span class="c1"># Simplified evaluation (would be task-specific)
+</span>        <span class="c1"># Return True if solution is correct, False otherwise
+</span>        <span class="k">return</span> <span class="bp">False</span>  <span class="c1"># For demonstration, assume solutions fail until last attempt
+</span></code></pre></div></div>
+
+<p><strong>Performance Trade-offs</strong>: Reflexion’s memory component introduces minimal overhead during inference but requires maintaining state between interactions. The major cost comes from multiple solution attempts—potentially multiplying computational costs by the number of attempts (typically 2-5x). However, unlike pure reflection, these costs are distributed across multiple interactions rather than within a single response [2].</p>
+
+<h3 id="constitutional-ai-self-guidance-by-principles">Constitutional AI: Self-Guidance by Principles</h3>
+
+<p>Constitutional AI (Bai et al., 2022) [3] aims to align language models with human values by using a written constitution of principles. The model critiques and improves its own outputs based on these principles, such as “be helpful” and “avoid harmful content.”</p>
+
+<p>The approach avoids the need for human-labeled reward data by having the AI generate both the critique and the improved answer. This is then used to train a reward model and fine-tune the system. The resulting model is more aligned without being evasive. It’s not purely emergent — the process requires a reinforcement learning phase guided by the AI-generated feedback (RLAIF).</p>
+
+<p><strong>Accessible Analogy</strong>: Constitutional AI functions similarly to a self-editing writer who has internalized a specific style guide. Before submitting work, they review their draft against these guidelines, identify violations, and revise accordingly—all without requiring external editors.</p>
+
+<p><strong>Performance Trade-offs</strong>: Constitutional AI’s impact on inference is minimal once the model is trained, as the reflection process is embedded in the weights rather than performed at runtime. However, the training process itself is computationally intensive, typically requiring 2-3x the resources of standard supervised fine-tuning. The main trade-off is between alignment quality and training cost [3].</p>
+
+<h3 id="rlhf-reinforcement-learning-from-human-feedback">RLHF: Reinforcement Learning from Human Feedback</h3>
+
+<p>RLHF is a foundational alignment technique in modern LLMs, used in systems like ChatGPT. Human preferences are used to train a reward model, which then guides the final model through reinforcement learning.</p>
+
+<p>While RLHF is not inherently reflective (it doesn’t require models to critique themselves), the resulting behaviors often appear reflective — models trained this way are more likely to acknowledge uncertainty, hedge when unsure, or explain their reasoning in helpful ways. It’s human-supervised reflection, baked into the weights.</p>
+
+<p><strong>Accessible Analogy</strong>: RLHF resembles a performer receiving audience feedback after shows. Over time, they internalize which elements receive applause and which don’t, subtly adjusting their performance to match audience preferences without explicitly analyzing each change.</p>
+
+<p><strong>Performance Trade-offs</strong>: Like Constitutional AI, RLHF’s computational cost is primarily during training rather than inference. The trained model runs at similar speeds to non-RLHF models of comparable size. However, gathering and processing human feedback introduces significant human labor costs and potential biases in the feedback collection process [8].</p>
+
+<h2 id="effectiveness-of-reflection-techniques">Effectiveness of Reflection Techniques</h2>
+
+<p>Across various tasks, reflective strategies have been shown to:</p>
+
+<ul>
+  <li>
+    <p>Increase math reasoning accuracy (e.g., chain-of-thought and self-consistency prompting)</p>
+  </li>
+  <li>
+    <p>Improve output quality (e.g., Self-Refine improved solve rate from 22.1% to 59.0%) [4]</p>
+  </li>
+  <li>
+    <p>Boost task performance via iterative feedback (e.g., Reflexion in ALFWorld: 97%) [2]</p>
+  </li>
+  <li>
+    <p>Help models revise incorrect answers or explain refusals more clearly (e.g., Constitutional AI) [3]</p>
+  </li>
+</ul>
+
+<p>(For real-world applications of these reflection techniques across industries like legal, healthcare, and finance, see our <a href="/2025/04/26/reflective-intelligence-how-self-reflective-ai-is-transforming-industries/">earlier article on how self-reflective AI is transforming industries</a>. For a deeper exploration of how reflection works with memory systems in AI agents, see our <a href="/2025/04/29/memory-and-reflection-foundations-for-autonomous-ai-agents/">comprehensive article on memory and reflection in AI agents</a>.)</p>
+
+<p><strong>Implementation Case Study: Math Problem Solving</strong></p>
+
+<p>Here’s how self-consistency reflection might be implemented for math problems:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">from</span> <span class="n">transformers</span> <span class="kn">import</span> <span class="n">AutoModelForCausalLM</span><span class="p">,</span> <span class="n">AutoTokenizer</span>
+
+<span class="k">def</span> <span class="nf">solve_math_with_self_consistency</span><span class="p">(</span><span class="n">problem</span><span class="p">,</span> <span class="n">model</span><span class="p">,</span> <span class="n">tokenizer</span><span class="p">,</span> <span class="n">samples</span><span class="o">=</span><span class="mi">5</span><span class="p">):</span>
+    <span class="c1"># Generate multiple reasoning paths with CoT prompting
+</span>    <span class="n">cot_prompt</span> <span class="o">=</span> <span class="sa">f</span><span class="sh">"</span><span class="s">Problem: </span><span class="si">{</span><span class="n">problem</span><span class="si">}</span><span class="se">\n\n</span><span class="s">Let</span><span class="sh">'</span><span class="s">s solve this step-by-step:</span><span class="sh">"</span>
+
+    <span class="n">solutions</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">samples</span><span class="p">):</span>
+        <span class="n">inputs</span> <span class="o">=</span> <span class="nf">tokenizer</span><span class="p">(</span><span class="n">cot_prompt</span><span class="p">,</span> <span class="n">return_tensors</span><span class="o">=</span><span class="sh">"</span><span class="s">pt</span><span class="sh">"</span><span class="p">)</span>
+        <span class="n">output</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="nf">generate</span><span class="p">(</span>
+            <span class="n">inputs</span><span class="p">.</span><span class="n">input_ids</span><span class="p">,</span>
+            <span class="n">max_length</span><span class="o">=</span><span class="mi">1024</span><span class="p">,</span>
+            <span class="n">do_sample</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>  <span class="c1"># Enable sampling for diversity
+</span>            <span class="n">temperature</span><span class="o">=</span><span class="mf">0.7</span><span class="p">,</span>
+            <span class="n">num_return_sequences</span><span class="o">=</span><span class="mi">1</span>
+        <span class="p">)</span>
+        <span class="n">solution</span> <span class="o">=</span> <span class="n">tokenizer</span><span class="p">.</span><span class="nf">decode</span><span class="p">(</span><span class="n">output</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">skip_special_tokens</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+        <span class="c1"># Extract the final answer using regex (simplified)
+</span>        <span class="kn">import</span> <span class="n">re</span>
+        <span class="n">answer_match</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="nf">search</span><span class="p">(</span><span class="sa">r</span><span class="sh">"</span><span class="s">The answer is[:\s]*([0-9\.\-]+)</span><span class="sh">"</span><span class="p">,</span> <span class="n">solution</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">answer_match</span><span class="p">:</span>
+            <span class="n">answer</span> <span class="o">=</span> <span class="n">answer_match</span><span class="p">.</span><span class="nf">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+            <span class="n">solutions</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">answer</span><span class="p">)</span>
+
+    <span class="c1"># Return most common answer (voting mechanism)
+</span>    <span class="k">if</span> <span class="n">solutions</span><span class="p">:</span>
+        <span class="kn">from</span> <span class="n">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+        <span class="n">most_common</span> <span class="o">=</span> <span class="nc">Counter</span><span class="p">(</span><span class="n">solutions</span><span class="p">).</span><span class="nf">most_common</span><span class="p">(</span><span class="mi">1</span><span class="p">)[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">return</span> <span class="n">most_common</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="sh">"</span><span class="s">Could not determine the answer</span><span class="sh">"</span>
+</code></pre></div></div>
+
+<p><strong>Performance Analysis</strong>: The self-consistency approach generates multiple solutions (typically 5-20), which multiplies both token consumption and computation time by that factor. However, this technique has demonstrated error reductions of 30-50% on challenging math benchmarks, showing that the performance gains can justify the increased computational cost for high-value applications where accuracy is critical [5].</p>
+
+<h2 id="key-takeaways">Key Takeaways</h2>
+
+<ul>
+  <li>
+    <p><strong>Beyond Reflected Knowledge</strong>: Reflective intelligence enables LLMs to analyze their own reasoning and improve their outputs, going beyond merely reproducing learned information.</p>
+  </li>
+  <li>
+    <p><strong>Framework Diversity</strong>: Multiple approaches to reflection (ReAct, Reflexion, Constitutional AI, RLHF) address different aspects of self-improvement, from real-time reasoning to alignment with human values.</p>
+  </li>
+  <li>
+    <p><strong>Measurable Performance Gains</strong>: Reflective techniques have demonstrated substantial improvements across benchmarks, with Reflexion achieving up to 91% success on coding tasks compared to 80% for standard GPT-4.</p>
+  </li>
+  <li>
+    <p><strong>Computational Trade-offs</strong>: Reflection mechanisms typically increase computational costs by 2-5x, creating a clear trade-off between accuracy and response time that must be considered in deployment.</p>
+  </li>
+  <li>
+    <p><strong>Implementation Options</strong>: From simple self-critique loops to complex multi-agent systems, reflective intelligence can be implemented at varying levels of sophistication depending on use case requirements.</p>
+  </li>
+  <li>
+    <p><strong>Technical Evolution</strong>: The field of reflective AI is rapidly progressing, with frameworks increasingly integrating reflection directly into model training rather than relying solely on inference-time techniques.</p>
+  </li>
+</ul>
+
+<h2 id="references">References</h2>
+
+
+  </div>
+
+  <a class="u-url" href="/2025/05/03/reflective-intelligence-in-llms/" hidden></a>
+
+  <div class="post-share">
+    <h4>Share this post</h4>
+    <div class="share-buttons">
+      <a href="https://twitter.com/intent/tweet?text=Reflective+Intelligence+in+Large+Language+Models&url=https://reflectedintelligence.com%2F2025%2F05%2F03%2Freflective-intelligence-in-llms%2F" target="_blank"
+        title="Share on Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://reflectedintelligence.com%2F2025%2F05%2F03%2Freflective-intelligence-in-llms%2F&title=Reflective+Intelligence+in+Large+Language+Models"
+        target="_blank" title="Share on LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://reflectedintelligence.com%2F2025%2F05%2F03%2Freflective-intelligence-in-llms%2F" target="_blank" title="Share on Facebook"><i
+          class="fab fa-facebook"></i></a>
+      <a href="mailto:?subject=Reflective+Intelligence+in+Large+Language+Models&body=Check out this article: https://reflectedintelligence.com%2F2025%2F05%2F03%2Freflective-intelligence-in-llms%2F" title="Share via Email"><i
+          class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</article>
+
+<div class="post-navigation">
+  <div class="post-navigation-links">
+    
+    <a class="prev" href="/2025/04/29/memory-and-reflection-foundations-for-autonomous-ai-agents/"><i class="fas fa-arrow-left"></i> Memory and Reflection: Foundations for Autonomous AI Agents</a>
+    
+    
+    <a class="next" href="/2025/05/07/you-are-the-context-you-keep-the-memory-revolution-in-ai/">You Are the Context You Keep: The Memory Revolution in AI <i class="fas fa-arrow-right"></i></a>
+    
+  </div>
+</div>
+
+<script>
+  // Add class behaviors for dynamic styling
+  document.addEventListener('DOMContentLoaded', function () {
+    // Convert first blockquote to a pull-quote if it's short enough
+    const firstBlockquote = document.querySelector('.post-content blockquote');
+    if (firstBlockquote && firstBlockquote.textContent.length < 200) {
+      firstBlockquote.classList.add('pull-quote');
+    }
+
+    // Add syntax highlighting line numbers
+    document.querySelectorAll('pre.highlight').forEach(function (el) {
+      el.classList.add('line-numbers');
+    });
+
+    // Highlight sentences marked in markdown (==...==) by adding classes
+    document.querySelectorAll('.post-content mark').forEach(function (el) {
+      el.classList.add('highlight-sentence');
+      if (el.textContent.trim().length > 120) {
+        el.classList.add('big-highlight');
+      }
+    });
+  });
+</script>
+    </div>
+  </main>
+
+  <footer class="site-footer h-card">
+<data class="u-url" href="/"></data>
+
+<div class="wrapper">
+<div class="footer-col-wrapper">
+<div class="footer-col footer-col-1">
+<h2 class="footer-heading">Reflected Intelligence</h2>
+<ul class="contact-list">
+<li class="p-name">Evan Volgas</li></ul>
+</div>
+
+<div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+<div class="footer-col footer-col-3">
+<p>Making AI Smarter</p>
+</div>
+</div>
+</div>
+</footer>
+
+</body>
+
+</html>
