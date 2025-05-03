@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=" en">
+
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
 <head>
   <meta charset="utf-8">
@@ -12,37 +15,101 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Making AI Smarter" />
 <meta property="og:description" content="Making AI Smarter" />
-<link rel="canonical" href="http://localhost:4000/blog/" />
-<meta property="og:url" content="http://localhost:4000/blog/" />
+<link rel="canonical" href="https://reflectedintelligence.com/blog/" />
+<meta property="og:url" content="https://reflectedintelligence.com/blog/" />
 <meta property="og:site_name" content="Reflected Intelligence" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Blog" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Evan Volgas"},"description":"Making AI Smarter","headline":"Blog","url":"http://localhost:4000/blog/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Evan Volgas"},"description":"Making AI Smarter","headline":"Blog","url":"https://reflectedintelligence.com/blog/"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/css/main.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Reflected Intelligence" /></head>
+<link rel="stylesheet" href="/%20/assets/css/main.css">
+  <link rel="stylesheet" href="/%20/assets/css/custom.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/%20/assets/favicon/favicon.ico">
+  <link rel="icon" href="/%20/assets/favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/%20/assets/favicon/favicon.ico"><link type="application/atom+xml" rel="alternate" href="https://reflectedintelligence.com/feed.xml" title="Reflected Intelligence" /><!-- Dark mode toggle script -->
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+      localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      if (localStorage.getItem('darkMode') === 'true') {
+        document.body.classList.add('dark-mode');
+      }
+    });
+  </script>
+</head>
 
 <body>
   <header class="site-header">
   <div class="wrapper">
-    <a class="site-title" rel="author" href="/">Reflected Intelligence</a>
+    <div class="header-content">
+      <a class="site-title" rel="author" href="/%20/">
+        <span class="title-text">Reflected Intelligence</span>
+      </a>
 
-    <nav class="site-nav">
-      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-      <label for="nav-trigger">
-        <span class="menu-icon">
-          <svg viewBox="0 0 18 15" width="18px" height="15px">
-            <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,9,0,8.335,0,7.516c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516c0,0.82-0.665,1.483-1.484,1.483H1.484C0.665,15,0,14.335,0,13.516c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-          </svg>
-        </span>
-      </label>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path
+                d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,9,0,8.335,0,7.516c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516c0,0.82-0.665,1.483-1.484,1.483H1.484C0.665,15,0,14.335,0,13.516c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z" />
+            </svg>
+          </span>
+        </label>
 
-      <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/about/">About</a></div>
-    </nav>
+        <div class="trigger"><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/about/">About</a><a class="page-link" href="/categories/">
+            <i class="fas fa-tags"></i> Categories
+          </a>
+          <a class="page-link" href="#" id="search-toggle">
+            <i class="fas fa-search"></i>
+          </a>
+          <button class="dark-mode-toggle" onclick="toggleDarkMode()">
+            <i class="fas fa-moon"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+
+    <div id="search-container" class="search-container">
+      <form class="search-form" action="/search/" method="get">
+        <input type="text" class="search-input" name="q" placeholder="Search the blog...">
+        <button type="submit" class="search-button">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+    </div>
   </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const searchToggle = document.getElementById('search-toggle');
+      const searchContainer = document.getElementById('search-container');
+
+      searchToggle.addEventListener('click', function (e) {
+        e.preventDefault();
+        if (searchContainer.style.display === 'none') {
+          searchContainer.style.display = 'block';
+          searchContainer.querySelector('input').focus();
+        } else {
+          searchContainer.style.display = 'none';
+        }
+      });
+    });
+  </script>
 </header>
+
+  
 
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
@@ -54,19 +121,192 @@
 
   <div class="page-content">
     <div class="blog-archive">
-  <ul class="post-list"><li><span class="post-meta">Apr 23, 2025</span>
+  <div class="view-toggle">
+    <button id="grid-view-btn" class="active"><i class="fas fa-th-large"></i> Grid</button>
+    <button id="list-view-btn"><i class="fas fa-list"></i> List</button>
+  </div>
+
+  <ul class="post-list grid-layout" id="post-list"><li class="post-item"><span class="post-meta">
+        Apr 29, 2025
+
+        
+        
+        <span class="reading-time"><i class="far fa-clock"></i> 17 min read</span>
+      </span>
+
+      <h3>
+        <a class="post-link" href="/2025/04/29/memory-and-reflection-foundations-for-autonomous-ai-agents/">
+          Memory and Reflection: Foundations for Autonomous AI Agents
+        </a>
+      </h3><span class="post-categories">
+        <i class="fas fa-tags"></i>
+        
+          <a class="category-link" href="/categories/#AI">AI</a>, 
+        
+          <a class="category-link" href="/categories/#Agents">Agents</a>
+        
+        ...
+      </span><div class="post-excerpt">
+        <h2 id="introduction">Introduction</h2>
+
+      </div>
+      <a href="/2025/04/29/memory-and-reflection-foundations-for-autonomous-ai-agents/" class="read-more">Continue reading <i class="fas fa-arrow-right"></i></a>
+    </li><li class="post-item"><span class="post-meta">
+        Apr 26, 2025
+
+        
+        
+        <span class="reading-time"><i class="far fa-clock"></i> 6 min read</span>
+      </span>
+
+      <h3>
+        <a class="post-link" href="/2025/04/26/how-self-reflective-ai-is-transforming-industries/">
+          How Self-Reflective AI Is Transforming Industries
+        </a>
+      </h3><span class="post-categories">
+        <i class="fas fa-tags"></i>
+        
+          <a class="category-link" href="/categories/#AI">AI</a>, 
+        
+          <a class="category-link" href="/categories/#Technology">Technology</a>
+        
+        
+      </span><div class="post-excerpt">
+        <p>Can an AI <strong>think about its own thinking</strong>? This once philosophical question is becoming a practical engineering goal. <em>Reflective intelligence</em> — the ability for AI systems to <strong>self-reflect</strong> on their decisions and adapt accordingly — is emerging as the next frontier in artificial intelligence. Unlike traditional AI that executes tasks without examining its reasoning, a self-reflective AI can monitor its own performance, recognize errors or uncertainties, and improve itself in real-time. Researchers posit that even rudimentary forms of machine self-awareness can significantly enhance an AI system’s adaptability, robustness, and efficiency<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p><a href="https://doi.org/10.1016/j.ssci.2022.105743">Johnson, B. (2022). <em>Metacognition for artificial intelligence system safety: An approach to safe and desired behavior</em>. Safety Science, 151, 105743.</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+      </div>
+      <a href="/2025/04/26/how-self-reflective-ai-is-transforming-industries/" class="read-more">Continue reading <i class="fas fa-arrow-right"></i></a>
+    </li><li class="post-item"><span class="post-meta">
+        Apr 25, 2025
+
+        
+        
+        <span class="reading-time"><i class="far fa-clock"></i> 4 min read</span>
+      </span>
+
+      <h3>
+        <a class="post-link" href="/2025/04/25/reflective-intelligence-when-ai-learns-from-itself/">
+          Reflective Intelligence: When AI Learns from Itself
+        </a>
+      </h3><span class="post-categories">
+        <i class="fas fa-tags"></i>
+        
+          <a class="category-link" href="/categories/#AI">AI</a>, 
+        
+          <a class="category-link" href="/categories/#Technology">Technology</a>
+        
+        
+      </span><div class="post-excerpt">
+        <p>Ever caught yourself mid-sentence thinking “wait, that doesn’t sound right”? That’s reflection—and now AI can do it too. In just one year, self-reflective AI systems have transformed from academic curiosities into powerful tools reshaping industries. Instead of bulldozing ahead with potentially wrong answers, these systems take a moment to examine their own thinking, show their work, and fix mistakes before serving up solutions. While our <a href="/2025/04/23/reflected-intelligence-when-ai-holds-up-the-mirror/">previous article on reflected intelligence</a> explored how AI mirrors human intelligence, this piece examines how AI can actively reflect on its own outputs.</p>
+
+      </div>
+      <a href="/2025/04/25/reflective-intelligence-when-ai-learns-from-itself/" class="read-more">Continue reading <i class="fas fa-arrow-right"></i></a>
+    </li><li class="post-item"><span class="post-meta">
+        Apr 23, 2025
+
+        
+        
+        <span class="reading-time"><i class="far fa-clock"></i> 6 min read</span>
+      </span>
+
       <h3>
         <a class="post-link" href="/2025/04/23/reflected-intelligence-when-ai-holds-up-the-mirror/">
           Reflected Intelligence: When AI Holds Up the Mirror
         </a>
-      </h3>
-      <p>
+      </h3><span class="post-categories">
+        <i class="fas fa-tags"></i>
+        
+          <a class="category-link" href="/categories/#AI">AI</a>, 
+        
+          <a class="category-link" href="/categories/#Reflection">Reflection</a>
+        
+        
+      </span><div class="post-excerpt">
         <p>In behavioral psychology, the mirror test is designed to discover an animal’s capacity for self-awareness. The essence is always the same: does the animal recognize itself in the mirror or think it’s another being altogether? Now humanity faces its own mirror test thanks to the expanding capabilities of AI, and many otherwise intelligent people are failing it.</p>
 
-      </p>
-      <a href="/2025/04/23/reflected-intelligence-when-ai-holds-up-the-mirror/">Continue reading &raquo;</a>
+      </div>
+      <a href="/2025/04/23/reflected-intelligence-when-ai-holds-up-the-mirror/" class="read-more">Continue reading <i class="fas fa-arrow-right"></i></a>
     </li></ul>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const gridBtn = document.getElementById('grid-view-btn');
+    const listBtn = document.getElementById('list-view-btn');
+    const postList = document.getElementById('post-list');
+
+    gridBtn.addEventListener('click', function() {
+      postList.classList.add('grid-layout');
+      postList.classList.remove('list-layout');
+      gridBtn.classList.add('active');
+      listBtn.classList.remove('active');
+      localStorage.setItem('blogLayout', 'grid');
+    });
+
+    listBtn.addEventListener('click', function() {
+      postList.classList.remove('grid-layout');
+      postList.classList.add('list-layout');
+      listBtn.classList.add('active');
+      gridBtn.classList.remove('active');
+      localStorage.setItem('blogLayout', 'list');
+    });
+
+    // Check saved preference
+    const savedLayout = localStorage.getItem('blogLayout');
+    if (savedLayout === 'list') {
+      listBtn.click();
+    }
+  });
+</script>
+
+<style>
+  .view-toggle {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1.5em;
+  }
+
+  .view-toggle button {
+    background: none;
+    border: 1px solid #ddd;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .view-toggle button:first-child {
+    border-radius: 4px 0 0 4px;
+  }
+
+  .view-toggle button:last-child {
+    border-radius: 0 4px 4px 0;
+  }
+
+  .view-toggle button.active {
+    background-color: rgb(160, 222, 184);
+    color: white;
+    border-color: rgb(160, 222, 184);
+  }
+
+  .post-list.list-layout {
+    display: block;
+  }
+
+  .post-list.list-layout .post-item {
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #eee;
+  }
+</style>
+
 
   </div>
 
