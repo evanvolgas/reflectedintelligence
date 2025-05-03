@@ -10,16 +10,15 @@ layout: null
             }
         },
         "url": {
-            { post.url | relative_url | jsonify
+            { post.url | jsonify
             }
         },
-        "date": "{{ post.date | date: "%b %-d, %Y" }}",
-        "categories": {
-            { post.categories | jsonify
+        "date": {
+            { post.date | date: "%B %-d, %Y" | jsonify
             }
         },
-        "content": {
-            { post.content | strip_html | strip_newlines | jsonify
+        "excerpt": {
+            { post.excerpt | strip_html | jsonify
             }
         }
     }{% unless forloop.last %
