@@ -1,0 +1,325 @@
+---
+---
+
+@import "minima";
+
+// Variables
+$base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.6;
+
+$heading-font-weight: 600;
+
+$spacing-unit:     30px;
+
+$text-color:       #333;
+$background-color: #fff;
+$brand-color:      #4a69bd;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// Base styles
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+     -moz-font-feature-settings: "kern" 1;
+       -o-font-feature-settings: "kern" 1;
+          font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+// Layout styles
+.site-header {
+  border-bottom: 1px solid $grey-color-light;
+  min-height: 55px;
+  position: relative;
+
+  .site-title {
+    font-weight: 700;
+    font-size: 1.6em;
+    letter-spacing: -0.5px;
+
+    &, &:visited {
+      color: $brand-color;
+    }
+  }
+}
+
+.site-nav {
+  .page-link {
+    margin-left: 20px;
+    color: $text-color;
+
+    &:hover {
+      color: $brand-color;
+    }
+  }
+}
+
+.wrapper {
+  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+}
+
+.page-content {
+  padding: $spacing-unit 0;
+  flex: 1;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $heading-font-weight;
+  line-height: 1.25;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  border-bottom: 1px solid $grey-color-light;
+  padding-bottom: 0.3em;
+}
+
+// Post styles
+.post-title {
+  font-size: 2.2em;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+.post-meta {
+  color: $grey-color;
+  margin-bottom: 2em;
+}
+
+.post-list {
+  list-style: none;
+  margin-left: 0;
+
+  > li {
+    margin-bottom: $spacing-unit * 1.5;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.3em;
+  }
+}
+
+.post-navigation {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid $grey-color-light;
+
+  &-links {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .prev, .next {
+    max-width: 45%;
+  }
+}
+
+// Code formatting - Solarized Dark
+
+// Solarized Dark color variables - CORRECT VERSION
+$solarized-base03:    #002b36; // Dark background
+$solarized-base02:    #073642; // Dark background highlights
+$solarized-base01:    #586e75; // Comments / secondary content
+$solarized-base00:    #657b83; // Body text (dark on light)
+$solarized-base0:     #839496; // Body text (light on dark)
+$solarized-base1:     #93a1a1; // Optional emphasized content
+$solarized-base2:     #eee8d5; // Light background highlights
+$solarized-base3:     #fdf6e3; // Light background
+$solarized-yellow:    #b58900; // Accent
+$solarized-orange:    #cb4b16; // Accent
+$solarized-red:       #dc322f; // Accent
+$solarized-magenta:   #d33682; // Accent
+$solarized-violet:    #6c71c4; // Accent
+$solarized-blue:      #268bd2; // Accent
+$solarized-cyan:      #2aa198; // Accent
+$solarized-green:     #859900; // Accent
+
+pre, code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.9em;
+  border: none;
+  border-radius: 4px;
+  background-color: $solarized-base03; // Dark background
+  color: $solarized-base0; // Light text for dark background
+}
+
+code {
+  padding: 2px 5px;
+}
+
+pre {
+  padding: 12px 15px;
+  overflow-x: auto;
+  margin: 1.5em 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: transparent;
+  }
+}
+
+// Syntax highlighting for code blocks
+.highlight {
+  background-color: $solarized-base03; // Dark background
+  margin: 0;
+
+  pre {
+    margin: 0;
+    background-color: transparent;
+  }
+
+  code {
+    background-color: transparent;
+  }
+
+  // Solarized Dark syntax highlighting
+  .c, .c1, .cm, .cs { color: $solarized-base01; font-style: italic; } // Comments - muted green
+  .err { color: $solarized-red; } // Error - red
+  .k, .kd, .kn, .kp, .kr, .kt { color: $solarized-green; } // Keywords - green
+  .o, .ow { color: $solarized-base1; } // Operators - emphasized text
+  .p { color: $solarized-base0; } // Punctuation - standard text
+  .gd { color: $solarized-red; } // Deleted - red
+  .gi { color: $solarized-green; } // Inserted - green
+  .gh { color: $solarized-blue; font-weight: bold; } // Heading - blue bold
+  .w { color: $solarized-base2; } // Whitespace - light background
+  .nl { color: $solarized-base0; } // Newline - standard text
+  .nn { color: $solarized-yellow; } // Namespace - yellow
+  .nt { color: $solarized-blue; } // Tag - blue
+  .nv, .vc, .vg, .vi { color: $solarized-cyan; } // Variables - cyan
+  .s, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss { color: $solarized-cyan; } // Strings - cyan
+  .na, .nb, .nc, .no, .nd, .ni, .ne, .nf, .py { color: $solarized-blue; } // Names - blue
+  .m, .mf, .mh, .mi, .mo, .il { color: $solarized-magenta; } // Numbers - magenta
+}
+
+// Style for inline code
+p code, li code, h1 code, h2 code, h3 code, h4 code, h5 code, h6 code, td code {
+  background-color: $solarized-base02; // Dark background highlights
+  color: $solarized-base1; // Emphasized text
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.85em;
+}
+
+// Make sure code blocks have proper margins
+div.highlighter-rouge {
+  margin: 1.5em 0;
+  background-color: $solarized-base03; // Dark background
+  border-radius: 4px;
+  overflow: hidden; // Ensures the rounded corners work with the pre inside
+}
+
+// Links
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Footer
+.site-footer {
+  border-top: 1px solid $grey-color-light;
+  padding: $spacing-unit 0;
+
+  .footer-heading {
+    font-size: 1.2em;
+    margin-bottom: $spacing-unit / 2;
+  }
+}
+
+.footer-col-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -$spacing-unit / 2;
+}
+
+.footer-col {
+  flex: 1;
+  padding-left: $spacing-unit / 2;
+}
+
+// Add these styles to your main.scss file
+
+.home {
+  .page-heading {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+  }
+
+  .page-subtitle {
+    font-size: 1.2em;
+    color: $grey-color;
+    margin-bottom: 2em;
+  }
+
+  .post-list {
+    margin-left: 0;
+    list-style: none;
+  }
+
+  .post-item {
+    margin-bottom: 3em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid $grey-color-light;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .post-meta {
+    color: $grey-color;
+    font-size: 0.9em;
+  }
+
+  .post-link {
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+
+  .post-excerpt {
+    margin: 1em 0;
+  }
+
+  .read-more {
+    font-size: 0.9em;
+    font-weight: 500;
+  }
+}

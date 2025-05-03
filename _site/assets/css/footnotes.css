@@ -1,0 +1,125 @@
+/* Footnote reference styling */
+sup a {
+    font-size: 0.8em;
+    vertical-align: super;
+    line-height: 0;
+    margin: 0 2px;
+    color: #0366d6;
+    text-decoration: none;
+}
+
+sup a:hover {
+    text-decoration: underline;
+}
+
+/* Footnotes section styling */
+.footnotes {
+    margin-top: 3em;
+    padding-top: 2em;
+    border-top: 1px solid #eaecef;
+}
+
+.footnotes::before {
+    content: "References";
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    display: block;
+}
+
+.footnotes p {
+    margin: 1em 0;
+    padding-left: 2em;
+    position: relative;
+    display: block;
+    clear: both;
+}
+
+.footnotes p::before {
+    content: attr(id);
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    color: #0366d6;
+}
+
+.footnotes a {
+    font-size: 0.8em;
+    text-decoration: none;
+    margin-left: 0.5em;
+    color: #0366d6;
+}
+
+.footnotes a:hover {
+    text-decoration: underline;
+}
+
+/* Footnote back-reference styling */
+.footnotes .reversefootnote {
+    font-size: 0.8em;
+    text-decoration: none;
+    margin-left: 0.5em;
+    color: #0366d6;
+}
+
+.footnotes .reversefootnote:hover {
+    text-decoration: underline;
+}
+
+/* Handle both HTML sup tags and Kramdown footnotes consistently */
+sup[role="doc-noteref"] a,
+sup a.footnote {
+    font-size: inherit;
+    vertical-align: inherit;
+    line-height: inherit;
+}
+
+/* Ensure proper spacing between footnotes */
+.footnotes li+li {
+    margin-top: 1.5em;
+    padding-top: 0.5em;
+    border-top: 1px solid #eaecef;
+    display: block;
+    clear: both;
+}
+
+/* Add some breathing room around the footnotes section */
+.footnotes {
+    margin-bottom: 2em;
+}
+
+/* Force block display for all footnote elements */
+.footnotes li,
+.footnotes li p,
+.footnotes li a {
+    display: block;
+    clear: both;
+    float: none;
+}
+
+/* Ensure proper width and spacing */
+.footnotes li {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Force line breaks in footnote content */
+.footnotes li p {
+    white-space: pre-line;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Ensure each footnote is on its own line */
+.footnotes li {
+    display: list-item;
+    list-style-position: inside;
+}
+
+/* Force line breaks between footnotes */
+.footnotes br {
+    display: block;
+    margin: 1em 0;
+    content: "";
+}
