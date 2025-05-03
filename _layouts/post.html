@@ -11,18 +11,30 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
+      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape
+          }}</span></span>
       {%- endif -%}
+
+      {% assign words = content | strip_html | number_of_words %}
+      {% assign reading_time = words | divided_by: 200 | plus: 1 %}
+      <span class="reading-time"><i class="far fa-clock"></i> {{ reading_time }} min read</span>
+
       {%- if page.categories.size > 0 -%}
-        <br>
-        <span class="post-categories">
-          <i class="fas fa-tags"></i> Categories:
-          {% for category in page.categories %}
-            <a href="{{ site.baseurl }}/categories/#{{ category | slugize }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
-          {% endfor %}
-        </span>
+      <br>
+      <span class="post-categories">
+        <i class="fas fa-tags"></i> Categories:
+        {% for category in page.categories %}
+        <a class="category-link" href="{{ site.baseurl }}/categories/#{{ category | slugize }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </span>
       {%- endif -%}
     </p>
+
+    {% if page.description %}
+    <div class="post-description">
+      {{ page.description }}
+    </div>
+    {% endif %}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
@@ -30,15 +42,53 @@ layout: default
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+  <div class="post-share">
+    <h4>Share this post</h4>
+    <div class="share-buttons">
+      <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}" target="_blank"
+        title="Share on Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url | url_encode }}&title={{ page.title | url_encode }}"
+        target="_blank" title="Share on LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | url_encode }}" target="_blank" title="Share on Facebook"><i
+          class="fab fa-facebook"></i></a>
+      <a href="mailto:?subject={{ page.title | url_encode }}&body=Check out this article: {{ site.url }}{{ page.url | url_encode }}" title="Share via Email"><i
+          class="fas fa-envelope"></i></a>
+    </div>
+  </div>
 </article>
 
 <div class="post-navigation">
   <div class="post-navigation-links">
     {% if page.previous.url %}
-      <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    <a class="prev" href="{{page.previous.url}}"><i class="fas fa-arrow-left"></i> {{page.previous.title}}</a>
     {% endif %}
     {% if page.next.url %}
-      <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} <i class="fas fa-arrow-right"></i></a>
     {% endif %}
   </div>
 </div>
+
+<script>
+  // Add class behaviors for dynamic styling
+  document.addEventListener('DOMContentLoaded', function () {
+    // Convert first blockquote to a pull-quote if it's short enough
+    const firstBlockquote = document.querySelector('.post-content blockquote');
+    if (firstBlockquote && firstBlockquote.textContent.length < 200) {
+      firstBlockquote.classList.add('pull-quote');
+    }
+
+    // Add syntax highlighting line numbers
+    document.querySelectorAll('pre.highlight').forEach(function (el) {
+      el.classList.add('line-numbers');
+    });
+
+    // Highlight sentences marked in markdown (==...==) by adding classes
+    document.querySelectorAll('.post-content mark').forEach(function (el) {
+      el.classList.add('highlight-sentence');
+      if (el.textContent.trim().length > 120) {
+        el.classList.add('big-highlight');
+      }
+    });
+  });
+</script>
