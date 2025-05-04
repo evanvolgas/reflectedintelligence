@@ -177,23 +177,44 @@ By acknowledging cultural biases and actively working to mitigate them, we can s
 ## References
 
 [^1]: [Tao, Y., Viberg, O., Baker, R. S., & Kizilcec, R. F. (2023). *Cultural Bias and Cultural Alignment of Large Language Models*. PNAS Nexus, 3(9), pgae346.](https://academic.oup.com/pnasnexus/article/3/9/pgae346/7756548)
+
 [^2]: [Si, S., Jiang, X., Su, Q., et al. (2024). *Detecting Implicit Biases of Large Language Models with Bayesian Hypothesis Testing*. Scientific Reports, 15, 12415.](https://www.nature.com/articles/s41598-025-95825-x)
+
 [^3]: [Rajaratnam, V. (2024). *Why I'm Committed to Breaking the Bias in Large Language Models*. Nature.](https://www.nature.com/articles/d41586-024-02839-y)
+
 [^4]: [Blodgett, S. L., Barocas, S., Daumé III, H., & Wallach, H. (2024). *Language Technology for Whom? Putting Equity at the Center of Language Technology Research*. Computational Linguistics, 50(2), 425–471.](https://direct.mit.edu/coli/article/50/2/425/119892/Language-Technology-for-Whom-Putting-Equity-at-the)
+
 [^5]: [World Values Survey Association. (2023). *Inglehart–Welzel Cultural Map – 2023 Findings*.](https://www.worldvaluessurvey.org/WVSNewsShow.jsp?ID=467)
+
 [^6]: [Adamson, A. S., & Smith, A. (2023). *Bias and Fairness in Dermatology AI: A Comparative Analysis of Diagnostic Algorithms Across Skin Types*. JAMA Dermatology, 159(11), 1276–1283.](https://jamanetwork.com/journals/jamadermatology/fullarticle/2802154)
+
 [^7]: [Wang, C., Roberts, H., Wu, Y., & Grimmelmann, J. (2024). *Cultural Contexts in AI Ethics: Comparing Ethical Reasoning in Chinese and Western Large Language Models*. Oxford Internet Institute Working Paper.](https://arxiv.org/pdf/2412.14971)
+
 [^8]: [Lee, J., Shah, N. R., & Zou, J. (2024). *Linguistic Convergence and Cultural Homogenization in AI-Assisted Writing*. Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency, 821–832.](https://dl.acm.org/doi/10.1145/3630106.3630305)
+
 [^9]: [Obermeyer, Z., Powers, B., Vogeli, C., & Mullainathan, S. (2023). *Algorithmic Bias in Health Care: A Path Toward Moral Improvement*. New England Journal of Medicine, 388(16), 1493–1497.](https://www.nejm.org/doi/full/10.1056/NEJMc2305287)
+
 [^10]: [Pichai, K., Dean, J., & Amodei, D. (2024). *Cultural Context Adaptation in Gemini: Technical Report*. Google Research.](https://assets.bwbx.io/documents/users/iqjWHBFdfxIU/r7G7RrtT6rnM/v0)
+
 [^11]: [AI Index Steering Committee. (2024). *The AI Index 2024 Annual Report*. Stanford Human-Centered Artificial Intelligence.](https://hai.stanford.edu/ai-index/2024-ai-index-report)
-[^12]: [Nekoto, W., Marivate, V., Matsila, T., et al. (2023). *Participatory Research for Low-Resourced Machine Translation: A Case Study in African Languages*. Journal of Artificial Intelligence Research, 71, 409–451.](https://aclanthology.org/2020.findings-emnlp.195/)
+
+[^12]: [Nekoto, W., Marivate, V., Matsila, T., et al. (2023). *Participatory Research for Low-Resourced Machine Translation: A Case Study in African Languages*. Journal of Artificial Intelligence Research, 71, 409–451.]
+(https://aclanthology.org/2020.findings-emnlp.195/)
+
 [^13]: [Bender, E. M., Gebru, T., & McMillan-Major, A. (2024). *Reducing Cultural Bias in Large Language Models Through Targeted Debiasing*. Meta AI Research.](https://www.degruyter.com/document/doi/10.1515/jtc-2023-0019/html)
+
 [^14]: [Sun, T., Gaut, A., Tang, S., Huang, Y., et al. (2023). *Counterfactual Data Augmentation for Mitigating Cultural Biases in Text Generation*. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics, 13845–13858.](https://aclanthology.org/2023.acl-long.1385/)
+
 [^15]: [Pearl, J., & Mackenzie, D. (2023). *Causal Inference in Artificial Intelligence: Why It Matters and Where It Leads*. Communications of the ACM, 66(7), A7–A9.](https://cacm.acm.org/news/causal-inference-makes-sense-of-ai/)
+
 [^16]: [Chen, J., Dong, Y., & Wang, X. (2024). *DebiasRec: Debiasing Recommendations Through Causal Inference*. In Proceedings of the 17th ACM International Conference on Web Search and Data Mining, 172–180.](https://dl.acm.org/doi/10.1145/3616855.3616903)
+
 [^17]: [Larson, J., Matias, J. N., & Shen, T. (2024). *CultureScope: Measuring and Managing Cultural Diversity in NLP Datasets*. In ACL 2024: The 62nd Annual Meeting of the Association for Computational Linguistics, 1249–1262.](https://aclanthology.org/2024.acl-long.1249/)
+
 [^18]: [Zhang, Q., Choi, Y., & Brown, T. B. (2024). *Exploring Accuracy-Fairness Trade-off in Large Language Models*. arXiv:2411.14500.](https://arxiv.org/abs/2411.14500)
+
 [^19]: [Mehrabi, N., Morstatter, F., Saxena, N., Lerman, K., & Galstyan, A. (2024). *A Survey on Bias and Fairness in Machine Learning: Benchmarks, Interventions, and Future Directions*. ACM Computing Surveys, 56(3), 1–41.](https://dl.acm.org/doi/10.1145/3616855)
+
 [^20]: [Anthropic Research Team. (2024). *Multi-Objective Constitutional AI: Balancing Performance and Cultural Fairness*. Anthropic Technical Reports, 2024-03.](https://www.anthropic.com/research/multi-objective-constitutional-ai)
+
 [^21]: [Bellamy, R. K. E., Dey, K., Hind, M., et al. (2023). *AI Fairness 360: An Extensible Toolkit for Detecting and Mitigating Algorithmic Bias*. IBM Journal of Research and Development, 67(2–3), 4:1–4:15.](https://ieeexplore.ieee.org/document/10134665)

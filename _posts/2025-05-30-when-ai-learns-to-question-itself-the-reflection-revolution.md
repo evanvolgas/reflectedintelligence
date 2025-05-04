@@ -84,16 +84,29 @@ The reflection revolution isn't just about making AI smarter—it's about making
 ## References
 
 [^1]: [Wei, J., Wang, X., Schuurmans, D., et al. (2022). *Chain-of-Thought Prompting Elicits Reasoning in Large Language Models*. arXiv:2201.11903.](https://arxiv.org/abs/2201.11903)
+
 [^2]: [Carlini, N., Erlingsson, Ú., Tramer, F., et al. (2023). *Synthetic Data: Applications, Challenges, and Best Practices*. arXiv:2303.12333.](https://arxiv.org/abs/2303.12333)
+
 [^3]: [Le, T., Jain, A., Paranjape, A., et al. (2022). *CodeRL: Mastering Code Generation through Self-Critique and Reward Learning*. arXiv:2207.01780.](https://arxiv.org/abs/2207.01780)
+
 [^4]: [Shinn, N., et al. (2023). *Reflexion: Language Agents with Verbal Reinforcement Learning*. arXiv:2305.13341.](https://arxiv.org/abs/2305.13341)
+
 [^5]: [Bommasani, R., Hudson, D. A., Adeli, E., et al. (2021). *On the Opportunities and Risks of Foundation Models*. arXiv:2108.07258.](https://arxiv.org/abs/2108.07258)
+
 [^6]: [Bai, Y., Kadavath, S., Kundu, S., et al. (2022). *Constitutional AI: Harmlessness from AI Feedback*. arXiv:2212.08073.](https://arxiv.org/abs/2212.08073)
+
 [^7]: [Madaan, A., Tandon, N., et al. (2023). *Self-Refine: Iterative Refinement with Self-Feedback*. arXiv:2303.17651.](https://arxiv.org/abs/2303.17651)
+
 [^8]: [Shinn, N., et al. (2023). *Reflexion: Language Agents with Verbal Reinforcement Learning*. arXiv:2305.13341.](https://arxiv.org/abs/2305.13341)
+
 [^9]: [Wang, X., Yu, J., et al. (2023). *Multimodal Chain-of-Thought Reasoning*. arXiv:2302.00923.](https://arxiv.org/abs/2302.00923)
+
 [^10]: [Business Wire. (2023). *Synthetic Data Generation Market Size Projected to Reach USD 3.7 Billion by 2030*.](https://www.businesswire.com/news/home/20230817017238/en/)
+
 [^11]: [NowNextLater. (2024). *AI Training Cost Estimates: GPT-4 and Gemini Ultra*.](https://nownextlater.ai/articles/ai-training-costs-2024/)
+
 [^12]: [Anthropic Research Team. (2024). *Multi-Objective Constitutional AI: Balancing Performance and Cultural Fairness*. Anthropic Technical Reports, 2024-03.](https://www.anthropic.com/research/multi-objective-constitutional-ai)
+
 [^13]: [Pan, L., Zhang, S., et al. (2023). *Self-Reflection: LLMs Can Improve Their Own Generation*. arXiv:2303.17651.](https://arxiv.org/abs/2303.17651)
+
 [^14]: [Yao, S., Zhao, J., et al. (2023). *Tree of Thoughts: Deliberate Problem Solving with Large Language Models*. arXiv:2305.10601.](https://arxiv.org/abs/2305.10601)

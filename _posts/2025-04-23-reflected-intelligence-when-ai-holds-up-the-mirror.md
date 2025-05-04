@@ -81,6 +81,8 @@ In future posts, we'll explore how reflection manifests in different domains, fr
 
 After all, sometimes the most interesting insights come not from staring directly at a thing, but from carefully studying its reflection.
 
+## References
+
 [^1]: [Microsoft. (2023). *Understanding Bing Chat: A Technical Overview of Response Patterns and User Interaction*. Microsoft Research Blog, February 2023.](https://www.mediapost.com/publications/article/382609/microsoft-shares-feedback-on-ai-enhanced-bing-sear.html)
 
 [^2]: [Whiton, J. (2024). *The AI Mirror Test: Exploring Artificial Self-Recognition*. Substack Technical Reports, March 2024.](https://joshwhiton.substack.com/p/the-ai-mirror-test)

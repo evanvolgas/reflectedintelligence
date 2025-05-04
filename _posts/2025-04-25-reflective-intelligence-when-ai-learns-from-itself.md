@@ -152,7 +152,7 @@ By implementing proper safeguards and understanding the computational trade-offs
 
 - **Transparency Benefits**: Beyond accuracy improvements, reflective AI offers increased transparency into AI decision-making processes, potentially building greater trust.
 
----
+## References
 
 [^1]: [Wei, J., et al. (2022). *Chain-of-Thought Prompting Elicits Reasoning in Large Language Models*. arXiv:2201.11903 [cs.CL].](https://arxiv.org/abs/2201.11903)
 

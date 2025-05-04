@@ -1,15 +1,19 @@
 /* Footnote reference styling */
-sup a {
+sup a,
+sup a.footnote {
     font-size: 0.8em;
     vertical-align: super;
     line-height: 0;
     margin: 0 2px;
     color: #0366d6;
     text-decoration: none;
+    border-bottom: none;
 }
 
-sup a:hover {
+sup a:hover,
+sup a.footnote:hover {
     text-decoration: underline;
+    background: none;
 }
 
 /* Footnotes section styling */
@@ -17,26 +21,42 @@ sup a:hover {
     margin-top: 3em;
     padding-top: 2em;
     border-top: 1px solid #eaecef;
+    background-color: #fafafa;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
+/* Remove the automatic References heading since it's already in the markdown */
 .footnotes::before {
-    content: "References";
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-bottom: 1em;
-    display: block;
+    content: "";
+    display: none;
 }
 
 .footnotes p {
     margin: 1em 0;
-    padding-left: 2em;
+    padding-left: 0;
     position: relative;
     display: block;
     clear: both;
+    line-height: 1.6;
 }
 
-.footnotes p::before {
-    content: attr(id);
+.footnotes ol {
+    counter-reset: footnote-counter;
+    list-style: none;
+    padding-left: 0;
+}
+
+.footnotes li {
+    position: relative;
+    padding-left: 2em;
+    margin-bottom: 1.5em;
+    counter-increment: footnote-counter;
+}
+
+.footnotes li::before {
+    content: counter(footnote-counter) ".";
     position: absolute;
     left: 0;
     font-weight: bold;
@@ -60,18 +80,42 @@ sup a:hover {
     text-decoration: none;
     margin-left: 0.5em;
     color: #0366d6;
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    border: 1px solid #e8e8e8;
 }
 
 .footnotes .reversefootnote:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    background-color: #f0f0f0;
+}
+
+/* Style for multiple back-references */
+.footnotes .reversefootnote+.reversefootnote {
+    margin-left: 4px;
 }
 
 /* Handle both HTML sup tags and Kramdown footnotes consistently */
 sup[role="doc-noteref"] a,
-sup a.footnote {
-    font-size: inherit;
-    vertical-align: inherit;
-    line-height: inherit;
+sup a.footnote,
+sup[id^="fnref"] a {
+    font-size: 0.7em;
+    vertical-align: super;
+    line-height: 0;
+    padding: 2px 4px;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    border: 1px solid #e8e8e8;
+    text-decoration: none;
+}
+
+sup[role="doc-noteref"] a:hover,
+sup a.footnote:hover,
+sup[id^="fnref"] a:hover {
+    background-color: #f0f0f0;
+    text-decoration: none;
 }
 
 /* Ensure proper spacing between footnotes */
@@ -106,20 +150,63 @@ sup a.footnote {
 
 /* Force line breaks in footnote content */
 .footnotes li p {
-    white-space: pre-line;
+    white-space: normal;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    margin-bottom: 0.5em;
 }
 
 /* Ensure each footnote is on its own line */
 .footnotes li {
     display: list-item;
-    list-style-position: inside;
+    list-style-position: outside;
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+
+/* Style for back references with superscripts */
+.footnotes .reversefootnote sup {
+    font-size: 0.7em;
+    vertical-align: super;
+}
+
+/* Style for the back reference arrow and superscript */
+.footnotes a.reversefootnote {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    line-height: 16px;
+    text-align: center;
+    margin: 0 3px;
+    border-radius: 50%;
+    background-color: #f0f7ff;
+    border: 1px solid #cce5ff;
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 0;
+    transition: all 0.2s ease;
+    vertical-align: middle;
+}
+
+.footnotes a.reversefootnote:hover {
+    background-color: #e1f0ff;
+    border-color: #99ccff;
+}
+
+/* Hide the default arrow character and replace with a cleaner one */
+.footnotes a.reversefootnote::before {
+    content: "↑";
+    font-size: 12px;
+}
+
+/* Hide the text content and superscripts in back references */
+.footnotes a.reversefootnote sup {
+    display: none;
 }
 
 /* Force line breaks between footnotes */
 .footnotes br {
     display: block;
-    margin: 1em 0;
+    margin: 0.5em 0;
     content: "";
 }

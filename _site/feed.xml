@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4001/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4001/" rel="alternate" type="text/html" /><updated>2025-05-03T18:43:23-07:00</updated><id>http://localhost:4001/feed.xml</id><title type="html">Reflected Intelligence</title><subtitle>Making AI Smarter</subtitle><author><name>Evan Volgas</name></author><entry><title type="html">Reflective Intelligence in Large Language Models</title><link href="http://localhost:4001/2025/05/03/reflective-intelligence-in-llms/" rel="alternate" type="text/html" title="Reflective Intelligence in Large Language Models" /><published>2025-05-03T00:00:00-07:00</published><updated>2025-05-03T00:00:00-07:00</updated><id>http://localhost:4001/2025/05/03/reflective-intelligence-in-llms</id><content type="html" xml:base="http://localhost:4001/2025/05/03/reflective-intelligence-in-llms/"><![CDATA[<p>Large Language Models (LLMs) possess an impressive ability to reflect vast amounts of human knowledge – effectively serving as mirrors of “reflected intelligence.” However, truly reflective intelligence in LLMs goes a step further: it implies the model can think about its own thinking, analyze its answers, learn from feedback, and iteratively improve its reasoning. This article examines what reflective intelligence means for LLMs, how it differs from mere reflected knowledge, and evaluates several frameworks and techniques designed to imbue LLMs with this introspective capability. We will verify key claims about these methods, discuss their benefits and trade-offs, and highlight the recent research (2023–2024) expanding on these ideas.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4001/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4001/" rel="alternate" type="text/html" /><updated>2025-05-03T23:08:13-07:00</updated><id>http://localhost:4001/feed.xml</id><title type="html">Reflected Intelligence</title><subtitle></subtitle><author><name>Evan Volgas</name></author><entry><title type="html">Reflective Intelligence in Large Language Models</title><link href="http://localhost:4001/2025/05/03/reflective-intelligence-in-llms/" rel="alternate" type="text/html" title="Reflective Intelligence in Large Language Models" /><published>2025-05-03T00:00:00-07:00</published><updated>2025-05-03T00:00:00-07:00</updated><id>http://localhost:4001/2025/05/03/reflective-intelligence-in-llms</id><content type="html" xml:base="http://localhost:4001/2025/05/03/reflective-intelligence-in-llms/"><![CDATA[<p>Large Language Models (LLMs) possess an impressive ability to reflect vast amounts of human knowledge – effectively serving as mirrors of “reflected intelligence.” However, truly reflective intelligence in LLMs goes a step further: it implies the model can think about its own thinking, analyze its answers, learn from feedback, and iteratively improve its reasoning. This article examines what reflective intelligence means for LLMs, how it differs from mere reflected knowledge, and evaluates several frameworks and techniques designed to imbue LLMs with this introspective capability. We will verify key claims about these methods, discuss their benefits and trade-offs, and highlight the recent research (2023–2024) expanding on these ideas.</p>
 
 <h2 id="reflected-vs-reflective-intelligence-in-llms">Reflected vs. Reflective Intelligence in LLMs</h2>
 
@@ -684,7 +684,7 @@
   </li>
 </ul>
 
-<hr />
+<h2 id="references">References</h2>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
@@ -791,6 +791,8 @@
 <p>In future posts, we’ll explore how reflection manifests in different domains, from code generation to creative writing, and examine what happens when AI systems begin reflecting each other rather than just us. Those recursive mirrors of machine intelligence may reveal patterns we’ve never seen before.</p>
 
 <p>After all, sometimes the most interesting insights come not from staring directly at a thing, but from carefully studying its reflection.</p>
+
+<h2 id="references">References</h2>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>

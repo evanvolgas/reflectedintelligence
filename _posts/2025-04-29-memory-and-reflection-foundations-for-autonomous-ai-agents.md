@@ -124,11 +124,19 @@ As of May 2025, we have AI agents that can hold extended conversations rememberi
 In summary, memory and reflection are transforming AI agents from static responders into dynamic learners. An agent that never forgets (when it should remember), and never stops questioning itself, is an agent that can continuously improve. Building such agents responsibly and effectively is an active area of research. Each step – from doubling context windows, to attaching episodic memory databases, to enabling self-feedback loops – brings AI a step closer to human-like cognitive abilities. While true artificial general intelligence (AGI) is still on the horizon, these memory- and reflection-enabled agents are undoubtedly a big leap toward more powerful and autonomous AI that can tackle complex, real-world tasks over the long haul.
 
 ## References
+
 [^1]: [LLUMOAI. (2023). *The Core Pillars of Agentic AI: How AI Moves from Tool to Thinker*. LinkedIn.](https://www.linkedin.com/pulse/core-pillars-agentic-ai-how-moves-from-tool-thinker-llumoai-fog9f)
+
 [^2]: [Mündler, N., et al. (2024). *Self-Contradictory Hallucinations of Large Language Models: Evaluation, Detection and Mitigation*. arXiv:2305.15852 [cs.CL].](https://arxiv.org/abs/2305.15852)
+
 [^3]: [Shinn, N., Cassano, F., Berman, E., et al. (2023). *Reflexion: Language Agents with Verbal Reinforcement Learning*. NeurIPS 2023.](https://papers.nips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html)
+
 [^4]: [Park, J., et al. (2023). *Generative Agents: Interactive Simulacra of Human Behavior*. Proceedings of the ACM CHI Conference on Human Factors in Computing Systems.](https://arxiv.org/abs/2304.03442)
+
 [^5]: [Stanford HAI. (2023). *AI Agents that "Self-Reflect" Perform Better in Changing Environments*. Stanford HAI News.](https://hai.stanford.edu/news/ai-agents-self-reflect-perform-better-changing-environments)
+
 [^6]: [Zhang, J., & Viteri, S. (2025). *Uncovering Latent Chain-of-Thought Vectors in Language Models*. arXiv:2409.14026 [cs.LG].](https://arxiv.org/abs/2409.14026)
+
 [^7]: [Wu, Y., et al. (2025). *From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs*. arXiv:2504.15965 [cs.AI].](https://arxiv.org/abs/2504.15965)
+
 [^8]: [Gimple, J. (2025). *The Key to Smarter AI: Understanding Memory in Intelligent Agents*. LinkedIn.](https://www.linkedin.com/pulse/key-smarter-ai-understanding-memory-intelligent-agents-jay-gimple-lm7wc)
