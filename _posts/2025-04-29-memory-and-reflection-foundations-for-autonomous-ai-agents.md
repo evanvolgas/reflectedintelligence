@@ -93,7 +93,7 @@ This remains a nascent area, as many technical challenges need to be solved: ens
 
 Underpinning all the above is the ultimate goal of creating AI agents that can learn continually over their lifetime and adapt to new challenges without constant reprogramming. Memory and reflection are foundational to this goal. An agent with a rich episodic memory and the ability to reflect can in principle keep improving itself with each interaction – a concept sometimes called self-evolution.
 
-We see early glimmers of this: agents that use their memory to refine their own models (through fine-tuning or prompt tuning on accumulated data) and those that use reflection to update their strategy mid-task. Some researchers talk about automated curriculum learning, where an agent sets new goals for itself based on past progress, essentially writing its own "lesson plan" to master increasingly difficult tasks.
+We see early glimmers of this: agents that use their memory to refine their own models (through fine-tuning or prompt tuning on accumulated data) and those that use reflection to update their strategy mid-task. Some researchers talk about automated curriculum learning, where an agent sets new goals for itself based on past progress, essentially writing its own "lesson plan" to master increasingly difficult tasks.[^8]
 
 While full lifelong learning AI is still beyond current capabilities, incremental advances are bringing us closer. For example, an agent might start to form abstract knowledge (via reflection) from raw experiences, similar to how humans derive principles from specific events – a step toward autonomous concept learning.
 
