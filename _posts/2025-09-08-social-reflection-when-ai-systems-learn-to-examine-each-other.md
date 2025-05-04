@@ -9,7 +9,7 @@ excerpt: "Beyond individual self-examination, a powerful new paradigm is emergin
 
 # Social Reflection: When AI Systems Learn to Examine Each Other
 
-Our exploration of AI reflection has examined how individual systems can [examine their own outputs](/2025/04/25/reflective-intelligence-when-ai-learns-from-itself/), the [challenges of implementation](/2025/08/04/training-for-reflection-how-to-build-self-examining-ai-systems/), and even the [governance implications](/2025/09/01-governance-of-reflection-policy-frameworks-for-self-improving-ai/) of such capabilities. But an exciting new frontier is emerging: reflection that occurs not within a single system but between multiple AI agents examining each other's work.
+Our exploration of AI reflection has examined how individual systems can [examine their own outputs](/2025/04/25/reflective-intelligence-when-ai-learns-from-itself/), the [challenges of implementation](/2025/08/04/training-for-reflection-how-to-build-self-examining-ai-systems/), and even the [governance implications](/2025/09/01/governance-of-reflection-policy-frameworks-for-self-improving-ai/) of such capabilities. But an exciting new frontier is emerging: reflection that occurs not within a single system but between multiple AI agents examining each other's work.
 
 This "social reflection" paradigm—where AI systems critique, validate, and improve each other's outputs—creates capabilities and dynamics impossible in isolated reflective systems. As MIT's Multi-Agent Intelligence Lab notes, "Just as human cognition reaches its highest potential through social interaction, AI systems achieve fundamentally new capabilities when their reflection becomes a social rather than purely individual process."[^1]
 
