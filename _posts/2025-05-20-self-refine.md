@@ -8,13 +8,15 @@ tags: [self-refine, reflexion, ai-reflection, prompt-engineering]
 excerpt: "Self-Refine and Reflexion both help AI improve itself—but they take different paths. Here's how these two approaches compare, in plain English."
 ---
 
+> This post is the second in a series exploring reflection techniques in AI systems. For the complete series, see our posts on [Reflexion](/2025/05/19/reflexion.html) and stay tuned for more.
+
 # Comparing Self-Refine and Reflexion: Two Paths to AI Self-Improvement
 
-Large AI models can **improve their own outputs** by reflecting on mistakes or giving themselves feedback. Here we compare two recent methods – **Self-Refine** and **Reflexion** – which let AI models **self-correct** in different ways. We’ll explain each approach in simple terms, then highlight how they differ in strategy and goals.
+Large AI models can **improve their own outputs** by reflecting on mistakes or giving themselves feedback. Here we compare two recent methods – **Self-Refine** and **Reflexion** – which let AI models **self-correct** in different ways. We'll explain each approach in simple terms, then highlight how they differ in strategy and goals.
 
 ## Self-Refine: AI Editing Its Own Work
 
-**Self-Refine** is an approach that lets an AI model *iteratively improve* its answer or content by acting as its **own editor**. The idea is inspired by how people write a draft and then revise it to make it better[^1]. Often an AI’s first answer isn’t its best; with Self-Refine, the **same AI** goes back to review and polish its response without any human intervention.
+**Self-Refine** is an approach that lets an AI model *iteratively improve* its answer or content by acting as its **own editor**. The idea is inspired by how people write a draft and then revise it to make it better[^1]. Often an AI's first answer isn't its best; with Self-Refine, the **same AI** goes back to review and polish its response without any human intervention.
 
 The process works in a few simple stages:
 1. The AI produces an initial answer.
@@ -22,7 +24,7 @@ The process works in a few simple stages:
 3. It refines the answer based on that feedback.
 4. Optionally, the cycle repeats to further improve the result.
 
-The goal of Self-Refine is to **polish the AI’s answer** for quality, clarity, or correctness. In studies, this method led to answers that people preferred over the one-shot replies from the same AI without self-refinement.
+The goal of Self-Refine is to **polish the AI's answer** for quality, clarity, or correctness. In studies, this method led to answers that people preferred over the one-shot replies from the same AI without self-refinement.
 
 ## Reflexion: AI Learning from Mistakes
 
@@ -35,7 +37,7 @@ The Reflexion process looks like this:
 4. It stores that reflection in memory.
 5. On the next try, it uses that reflection to guide its new attempt.
 
-Over time, this makes the AI more effective at problem-solving, because it’s no longer repeating the same mistakes.
+Over time, this makes the AI more effective at problem-solving, because it's no longer repeating the same mistakes.
 
 ## Key Differences
 
@@ -52,7 +54,7 @@ Over time, this makes the AI more effective at problem-solving, because it’s n
 While both Self-Refine and Reflexion use feedback loops to make AI smarter, they tackle different challenges:
 
 - **Self-Refine** is about making a single response better by having the AI review and revise its own answer.
-- **Reflexion** is about helping an AI learn from failure over time – remembering what didn’t work and trying a better strategy next time.
+- **Reflexion** is about helping an AI learn from failure over time – remembering what didn't work and trying a better strategy next time.
 
 They both push AI toward something more thoughtful, less brittle, and better aligned with how humans actually work.
 
