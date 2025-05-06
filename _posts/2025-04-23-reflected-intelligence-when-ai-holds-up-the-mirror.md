@@ -87,6 +87,6 @@ After all, sometimes the most interesting insights come not from staring directl
 
 [^2]: [Whiton, J. (2024). *The AI Mirror Test: Exploring Artificial Self-Recognition*. Substack Technical Reports, March 2024.](https://joshwhiton.substack.com/p/the-ai-mirror-test)
 
-[^3]: [Weizenbaum, J. (1976). *Computer Power and Human Reason: From Judgment to Calculation*. W. H. Freeman and Company.](https://sites.google.com/view/eliza-your-own-ai-bot/home)
+[^3]: Weizenbaum, J. (1976). *Computer Power and Human Reason: From Judgment to Calculation*. W. H. Freeman and Company.
 
 [^4]: [Sharma, A., et al. (2023). *Understanding and Mitigating Sycophancy in Language Models*. arXiv:2310.13548 [cs.CL].](https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models)
