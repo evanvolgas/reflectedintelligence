@@ -46,5 +46,5 @@ If we want AI that truly reflects our intelligence, not just our opinions, we ne
 ## References
 
 [^1]: OpenAI. (2025). *Expanding on what we missed with sycophancy*. https://openai.com/index/expanding-on-sycophancy
-[^2]: Anthropic. (2023). *Towards Understanding Sycophancy in Language Models*. https://www.anthropic.com/index/towards-understanding-sycophancy
+[^2]: Anthropic. (2023). *Towards Understanding Sycophancy in Language Models*. https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models
 [^3]: Madaan, A., Tuli, A., Yazdanbakhsh, A., et al. (2023). *Self-Refine: Iterative Refinement with Self-Feedback*. https://arxiv.org/abs/2303.17651

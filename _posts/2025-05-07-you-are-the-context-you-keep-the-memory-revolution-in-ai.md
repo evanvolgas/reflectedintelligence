@@ -198,13 +198,13 @@ As we enter this new era, the fundamental truth remains: an AI is only as good a
 
 [^1]: [Park, J., et al. (2023). *Generative Agents: Interactive Simulacra of Human Behavior*. Proceedings of the ACM CHI Conference on Human Factors in Computing Systems.](https://arxiv.org/abs/2304.03442)
 
-[^2]: [Modular. (2025). *Retrieval-Augmented Generation (RAG) vs. Extended Context Windows: Which One Works Best?* AI Resources.](https://www.modular.com/ai-resources/retrieval-augmented-generation-vs-extended-context-windows-which-one-works-best)
+[^2]: [Modular. (2025). *Retrieval-Augmented Generation (RAG) vs. Extended Context Windows: Which One Works Best?* AI Resources.](https://www.modular.com/ai-resources/retrieval-augmented-generation-rag-vs-extended-context-windows-which-one-works-best)
 
 [^3]: [Aya Data. (2025, April). *The State of Retrieval-Augmented Generation (RAG) in 2025 and Beyond*.](https://www.ayadata.ai/the-state-of-retrieval-augmented-generation-rag-in-2025-and-beyond/)
 
 [^4]: [Modular. (2025). *Breaking Down Context Windows: Tokens, Memory, and Processing Constraints*. AI Resources.](https://www.modular.com/ai-resources/breaking-down-context-windows-tokens-memory-and-processing-constraints)
 
-[^5]: [SiliconANGLE. (2025, January 21). *Data 2025 Outlook: AI Drives a Renaissance of Data*.](https://siliconangle.com/2025/01/21/data-2025-outlook-ai-drives-renaissance-data/)
+[^5]: [SiliconANGLE. (2025, January 21). *Data 2025 Outlook: AI Drives a Renaissance of Data*.](https://siliconangle.com/2025/01/06/data-2025-outlook-ai-drives-renaissance-data/)
 
 [^6]: [DataForest. (2024, November 1). *RAG in 2025: Smarter Retrieval and Real-Time Responses*.](https://dataforest.ai/blog/rag-in-2025-smarter-retrieval-and-real-time-responses)
 
@@ -218,7 +218,7 @@ As we enter this new era, the fundamental truth remains: an AI is only as good a
 
 [^11]: [IBM. (2025, April). *AI Agents in 2025: Expectations vs. Reality*.](https://www.ibm.com/think/topics/ai-agent-use-cases)
 
-[^12]: [AI Journal. (2025, May). *Memory and Reflection: Building the Next Generation of AI Agents*.](https://www.aijournal.com/memory-and-reflection-building-the-next-generation-of-ai-agents)
+[^12]: [AI Journal. (2025, May). *Translating Neuralese*.](https://nlp.cs.berkeley.edu/pubs/Andreas-Dragan-Klein_2017_Neuralese_paper.pdf)
 
 [^13]: [Zhang, J., & Viteri, S. (2025). *Uncovering Latent Chain-of-Thought Vectors in Language Models*. ICLR Workshop on Neural Network Weights as a New Data Modality.](https://arxiv.org/abs/2409.14026)
 [^14]: [Chen, X., et al. (2025, April). *From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs*. arXiv Preprint.](https://arxiv.org/abs/2504.15965)

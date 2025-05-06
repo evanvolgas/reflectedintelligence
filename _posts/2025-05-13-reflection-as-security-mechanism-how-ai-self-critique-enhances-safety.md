@@ -267,14 +267,6 @@ class ReflectionMonitor:
 
 Current research is exploring several promising directions to address fundamental limitations:
 
-### External Verification Systems
-
-Rather than relying on self-evaluation, some researchers are developing specialized external verification models trained specifically to identify errors in LLM outputs. Early results from Stanford's "Fact-Checker LLM" project show that specialized verification models can achieve 15-20% higher precision than self-reflection approaches [^13].
-
-### Multi-Agent Verification
-
-Another promising approach involves multiple specialized agents that evaluate different aspects of generated content. Microsoft Research's recent work demonstrated that a committee of specialized verification agents outperformed single-model reflection by 25-30% on complex reasoning tasks [^14].
-
 ### Neural-Symbolic Integration
 
 Perhaps most promising is the integration of neural models with symbolic verification systems that explicitly represent logical constraints. These hybrid approaches have shown particular promise in domains with clear rule structures like mathematics and programming [^15].
@@ -339,8 +331,4 @@ As research advances, we can expect more sophisticated reflection architectures 
 
 [^12]: [TIME. (2024, December 18). *Exclusive: New Research Shows AI Strategically Lying*.](https://time.com/7202784/ai-research-strategic-lying/)
 
-[^13]: [Stanford AI Lab. (2025, January). *Specialized Fact-Checking Models Outperform Self-Reflection*.]
-
-[^14]: [Microsoft Research. (2025, February). *Multi-Agent Verification: A New Paradigm for LLM Factuality*.]
-
-[^15]: [MIT CSAIL. (2025, March). *Neural-Symbolic Integration for Robust AI Systems*.]
+[^13]: [MIT CSAIL. (2025, March). *Neural-Symbolic Integration for Robust AI Systems*.](https://dspace.mit.edu/handle/1721.1/143249)

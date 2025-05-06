@@ -245,7 +245,7 @@ Across various tasks, reflective strategies have been shown to:
 
 - Help models revise incorrect answers or explain refusals more clearly (e.g., Constitutional AI)[^3]
 
-(For real-world applications of these reflection techniques across industries like legal, healthcare, and finance, see our [earlier article on how self-reflective AI is transforming industries](/2025/04/26/reflective-intelligence-how-self-reflective-ai-is-transforming-industries/). For a deeper exploration of how reflection works with memory systems in AI agents, see our [comprehensive article on memory and reflection in AI agents](/2025/04/29/memory-and-reflection-foundations-for-autonomous-ai-agents/).)
+(For real-world applications of these reflection techniques across industries like legal, healthcare, and finance, see our [earlier article on how self-reflective AI is transforming industries](/2025/04/25/reflective-intelligence-when-ai-learns-from-itself/). For a deeper exploration of how reflection works with memory systems in AI agents, see our [comprehensive article on memory and reflection in AI agents](/2025/04/29/memory-and-reflection-foundations-for-autonomous-ai-agents/).)
 
 **Implementation Case Study: Math Problem Solving**
 
