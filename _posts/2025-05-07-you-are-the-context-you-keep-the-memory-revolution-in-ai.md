@@ -57,8 +57,6 @@ Microsoft reports that in 2025, AI models have advanced significantly in reasoni
 
 The dominant innovation narrative in 2025 is the AI agent—systems that combine memory and reflection capabilities to perform complex tasks autonomously.
 
-As IBM researcher Daryl Hay explains, "You can have the AI call tools. It can plan. It can reason and come back with good answers. It can use inference-time compute. You'll have better chains of thought and more memory to work with. It's going to run fast. It's going to be cheap. That leads you to a structure where I think you can have agents."[^11]
-
 The synergy between memory and reflection has created a virtuous cycle driving continuous learning in AI agents. Memory provides the raw material (past experiences) for reflection, and reflection produces distilled knowledge to feed back into memory.
 
 ## A Practical Implementation of RAG
@@ -168,11 +166,11 @@ def reflective_reasoning(llm, question, max_iterations=3):
 
 ## The Future: Neural Thought Languages & Collaborative Memory
 
-Advanced AI agents are beginning to develop internal "languages" of thought different from natural language—nicknamed "neuralese." Instead of reasoning step-by-step in English, an AI performs internal computations in a compressed vector form that's far more information-dense.[^12]
+Advanced AI agents are beginning to develop internal "languages" of thought different from natural language—nicknamed "neuralese." Instead of reasoning step-by-step in English, an AI performs internal computations in a compressed vector form that's far more information-dense.[^11]
 
-Early research from 2024/2025 showed that by injecting certain latent vectors corresponding to reasoning steps directly into a model's activation space, researchers could induce complex reasoning without any human-language prompts.[^13]
+Early research from 2024/2025 showed that by injecting certain latent vectors corresponding to reasoning steps directly into a model's activation space, researchers could induce complex reasoning without any human-language prompts.[^12]
 
-Another emerging direction is collaborative memory, where multiple agents share and contribute to a common memory space. This shared memory enables agents to learn from each other's experiences, making the network of AI systems more powerful than the sum of its parts.[^14]
+Another emerging direction is collaborative memory, where multiple agents share and contribute to a common memory space. This shared memory enables agents to learn from each other's experiences, making the network of AI systems more powerful than the sum of its parts.[^13]
 
 ## Key Takeaways
 
@@ -216,9 +214,8 @@ As we enter this new era, the fundamental truth remains: an AI is only as good a
 
 [^10]: [Microsoft News. (2024, December 5). *6 AI Trends You'll See More of in 2025*.](https://news.microsoft.com/source/features/ai/6-ai-trends-youll-see-more-of-in-2025/)
 
-[^11]: [IBM. (2025, April). *AI Agents in 2025: Expectations vs. Reality*.](https://www.ibm.com/think/topics/ai-agent-use-cases)
+[^11]: [AI Journal. (2025, May). *Translating Neuralese*.](https://nlp.cs.berkeley.edu/pubs/Andreas-Dragan-Klein_2017_Neuralese_paper.pdf)
 
-[^12]: [AI Journal. (2025, May). *Translating Neuralese*.](https://nlp.cs.berkeley.edu/pubs/Andreas-Dragan-Klein_2017_Neuralese_paper.pdf)
+[^12]: [Zhang, J., & Viteri, S. (2025). *Uncovering Latent Chain-of-Thought Vectors in Language Models*. ICLR Workshop on Neural Network Weights as a New Data Modality.](https://arxiv.org/abs/2409.14026)
 
-[^13]: [Zhang, J., & Viteri, S. (2025). *Uncovering Latent Chain-of-Thought Vectors in Language Models*. ICLR Workshop on Neural Network Weights as a New Data Modality.](https://arxiv.org/abs/2409.14026)
-[^14]: [Chen, X., et al. (2025, April). *From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs*. arXiv Preprint.](https://arxiv.org/abs/2504.15965)
+[^13]: [Chen, X., et al. (2025, April). *From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs*. arXiv Preprint.](https://arxiv.org/abs/2504.15965)
