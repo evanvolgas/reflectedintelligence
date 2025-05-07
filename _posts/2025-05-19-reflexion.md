@@ -43,6 +43,6 @@ References:
 
 [^3]: LangChain (2024). *Reflection Agents* (Blog). [blog.langchain.dev](https://blog.langchain.dev/reflection-agents/).
 
-[^4]: LangChain. *Reflexion Agent Implementation*. [GitHub](https://github.com/langchain-ai/langchain/blob/master/libs/langchain/langchain/experimental/reflexion_agent/base.py).
+[^4]: LangChain. *Reflexion Agent Implementation*. [GitHub](https://github.com/langchain-ai/langgraph/blob/main/docs/docs/tutorials/reflexion/reflexion.ipynb).
 
 [^5]: Sifaka AI. *Reflexion Critic Implementation*. [GitHub](https://github.com/sifaka-ai/sifaka/blob/main/sifaka/critics/reflexion.py).

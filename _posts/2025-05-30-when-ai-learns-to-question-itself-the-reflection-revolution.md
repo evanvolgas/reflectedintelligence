@@ -42,9 +42,9 @@ These aren't incremental improvements—they're fundamental shifts in how AI lea
 
 ## The Economics of Intelligence
 
-The business case is compelling. The synthetic data market is exploding—from $323.9 million in 2023 to a projected $3.7 billion by 2030[^10]. Meanwhile, training cutting-edge models costs astronomical sums (GPT-4: $78 million; Gemini Ultra: $191 million)[^11].
+The business case is compelling. The synthetic data market is exploding—from $323.9 million in 2023 to a projected $3.7 billion by 2030[^10].
 
-Reflection trained on synthetic data offers an elegant solution: models that improve themselves with minimal retraining. Tech giants like OpenAI, Anthropic, and Google DeepMind are betting heavily on these techniques for their next-generation systems[^12]. For a comprehensive analysis of the economic considerations in implementing reflection mechanisms, see our detailed exploration of [the economics of reflection](/2025/05/24/economics-of-reflection/).
+Reflection trained on synthetic data offers an elegant solution: models that improve themselves with minimal retraining. Tech giants like OpenAI, Anthropic, and Google DeepMind are betting heavily on these techniques for their next-generation systems. For a comprehensive analysis of the economic considerations in implementing reflection mechanisms, see our detailed exploration of [the economics of reflection](/2025/05/24/economics-of-reflection/).
 
 ## What This Means for You
 
@@ -56,9 +56,9 @@ Reflection trained on synthetic data offers an elegant solution: models that imp
 
 ## The Frontier
 
-Despite the progress, challenges remain. AI still struggles with subtle errors and implicit biases in its own reasoning[^13]. Synthetic feedback must be carefully curated to avoid reinforcing falsehoods—the AI equivalent of practicing mistakes until they become habits.
+Despite the progress, challenges remain. AI still struggles with subtle errors and implicit biases in its own reasoning[^11]. Synthetic feedback must be carefully curated to avoid reinforcing falsehoods—the AI equivalent of practicing mistakes until they become habits.
 
-The solution may lie beyond computer science. Researchers are increasingly drawing inspiration from cognitive psychology, education theory, and philosophy to design better reflection strategies[^14]. Interestingly, reflection mechanisms also serve as important security guardrails—for more on this critical aspect, see our analysis of [reflection as a security mechanism](/2025/05/13/reflection-as-security-mechanism-how-ai-self-critique-enhances-safety/).
+The solution may lie beyond computer science. Researchers are increasingly drawing inspiration from cognitive psychology, education theory, and philosophy to design better reflection strategies[^12]. Interestingly, reflection mechanisms also serve as important security guardrails—for more on this critical aspect, see our analysis of [reflection as a security mechanism](/2025/05/13/reflection-as-security-mechanism-how-ai-self-critique-enhances-safety/).
 
 ## Key Takeaways
 
@@ -101,12 +101,8 @@ The reflection revolution isn't just about making AI smarter—it's about making
 
 [^9]: [Wang, X., Yu, J., et al. (2023). *Multimodal Chain-of-Thought Reasoning*. arXiv:2302.00923.](https://arxiv.org/abs/2302.00923)
 
-[^10]: [Business Wire. (2023). *Synthetic Data Generation Market Size Projected to Reach USD 3.7 Billion by 2030*.](https://www.businesswire.com/news/home/20230817017238/en/)
+[^10]: [Business Wire. (2025). *Synthetic Data Generation Market Size Projected to Reach USD 3.7 Billion by 2030*.](https://www.businesswire.com/news/home/20250113130135/en/Synthetic-Data-Generation-Business-Research-Report-2024-Global-Market-to-Reach-%243.7-Billion-by-2030-from-%24323-Million-in-2023-Driven-by-Rising-Demand-for-Data-Privacy-and-Anonymization-Solutions---ResearchAndMarkets.com)
 
-[^11]: [NowNextLater. (2024). *AI Training Cost Estimates: GPT-4 and Gemini Ultra*.](https://nownextlater.ai/articles/ai-training-costs-2024/)
+[^11]: [Pan, L., Zhang, S., et al. (2023). *Self-Reflection: LLMs Can Improve Their Own Generation*. arXiv:2303.17651.](https://arxiv.org/abs/2303.17651)
 
-[^12]: [Anthropic Research Team. (2024). *Multi-Objective Constitutional AI: Balancing Performance and Cultural Fairness*. Anthropic Technical Reports, 2024-03.](https://www.anthropic.com/research/multi-objective-constitutional-ai)
-
-[^13]: [Pan, L., Zhang, S., et al. (2023). *Self-Reflection: LLMs Can Improve Their Own Generation*. arXiv:2303.17651.](https://arxiv.org/abs/2303.17651)
-
-[^14]: [Yao, S., Zhao, J., et al. (2023). *Tree of Thoughts: Deliberate Problem Solving with Large Language Models*. arXiv:2305.10601.](https://arxiv.org/abs/2305.10601)
+[^12]: [Yao, S., Zhao, J., et al. (2023). *Tree of Thoughts: Deliberate Problem Solving with Large Language Models*. arXiv:2305.10601.](https://arxiv.org/abs/2305.10601)

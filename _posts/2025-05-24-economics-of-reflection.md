@@ -73,7 +73,7 @@ When an AI model engages in reflective reasoning, it's essentially doing more wo
 
 *Note: Costs based on average industry pricing as of early 2025. Actual costs vary by provider and model.*
 
-These differences might seem small for a single query, but they scale dramatically for companies handling millions of requests daily. Stripe's engineering team reports that implementing reflection selectively rather than universally reduced their API costs by 42% while maintaining comparable accuracy for most queries.[^11]
+These differences might seem small for a single query, but they scale dramatically for companies handling millions of requests daily. Breaking down the cost of large language models, you can see that they can pile up quickly[^11].
 
 **Latency impact:** Users experience longer wait times with reflective systems. While a standard response might be generated in 500-700ms, a reflective response typically takes 2-5 seconds. In user experience research conducted by Nielsen Norman Group, this crosses a critical threshold where users begin to lose focus on their task.[^12] For applications requiring real-time interaction, like customer service chatbots or voice assistants, this delay can significantly impact user satisfaction.
 
@@ -124,8 +124,6 @@ Another strategy implemented by organizations like Cohere and Microsoft involves
 3. Moderately complex questions get routed to a medium-sized model with some reflection capability.
 
 4. Only the most challenging questions – perhaps 10-15% of total traffic – get passed to the largest, most powerful model with full reflective capabilities.
-
-Financial services company Bloomberg reported reducing their AI infrastructure costs by 62% using this approach while maintaining comparable quality for their financial analysis services.[^21] The trade-off is added system complexity, but for large-scale deployments, the savings are compelling.
 
 ### Making Reflection More Efficient: Better Engine Design
 
@@ -199,19 +197,19 @@ For organizations deploying AI today, there are immediate steps to consider:
 
 By approaching AI reflection as both a technical and economic challenge, we can build systems that deliver on the transformative potential of AI while respecting the limits of our computational and environmental resources. The most successful AI implementations won't necessarily be those with the most raw computing power, but those that apply reflection most intelligently—knowing exactly when to think deeply and when a quick answer will do.
 
-In a world where AI is becoming ubiquitous, every watt, flop, and token matters. The approaches outlined in this article represent our best path toward AI that is not just capable but sustainable—delivering maximum value with minimum waste. As Turing Award winner Jeffrey Hinton recently noted, "Efficiency may ultimately prove as important as raw capability in determining which AI systems succeed in the long run."[^29]
+In a world where AI is becoming ubiquitous, every watt, flop, and token matters. The approaches outlined in this article represent our best path toward AI that is not just capable but sustainable—delivering maximum value with minimum waste.
 
 ## Glossary of Key Terms
 
-**AI Reflection (Reflective Reasoning)**: The practice of an AI system reasoning through multiple intermediate steps or self-checks before producing a final answer. Analogous to human deliberative thought, reflection helps tackle complex problems by "thinking things through" rather than responding instinctively. First formally described in AI contexts by Nye et al. in their 2021 paper "Show Your Work: Scratchpads for Intermediate Computation."[^30]
+**AI Reflection (Reflective Reasoning)**: The practice of an AI system reasoning through multiple intermediate steps or self-checks before producing a final answer. Analogous to human deliberative thought, reflection helps tackle complex problems by "thinking things through" rather than responding instinctively. First formally described in AI contexts by Nye et al. in their 2021 paper "Show Your Work: Scratchpads for Intermediate Computation."[^29]
 
 **Large Language Model (LLM)**: A neural network with billions or trillions of parameters trained on vast text data, capable of generating and understanding human-like text. Examples include GPT-4, Claude, and Gemini. These models form the foundation of modern generative AI systems.
 
-**Chain-of-Thought (CoT) Prompting**: A technique introduced by Wei et al. in 2022 that guides language models to produce a sequence of reasoning steps rather than direct answers.[^31] For example, instead of simply answering "121" to a multiplication problem, the model might write out "11 × 11 = 121" with intermediate steps. This dramatically improves performance on tasks requiring multi-step reasoning.
+**Chain-of-Thought (CoT) Prompting**: A technique introduced by Wei et al. in 2022 that guides language models to produce a sequence of reasoning steps rather than direct answers.[^30] For example, instead of simply answering "121" to a multiplication problem, the model might write out "11 × 11 = 121" with intermediate steps. This dramatically improves performance on tasks requiring multi-step reasoning.
 
-**Tree of Thoughts (ToT)**: An advanced reflection technique developed at Princeton that extends chain-of-thought by exploring multiple reasoning paths simultaneously, allowing the model to backtrack when it reaches dead ends or unsatisfactory solutions.[^32] This approach enables more sophisticated problem-solving similar to how humans consider multiple possibilities.
+**Tree of Thoughts (ToT)**: An advanced reflection technique developed at Princeton that extends chain-of-thought by exploring multiple reasoning paths simultaneously, allowing the model to backtrack when it reaches dead ends or unsatisfactory solutions.[^31] This approach enables more sophisticated problem-solving similar to how humans consider multiple possibilities.
 
-**Self-Consistency**: A reflection method that generates multiple independent reasoning paths for the same problem and selects the most common answer, reducing errors through a form of internal consensus-building. Wang et al. demonstrated this technique can improve accuracy by 22-33% on challenging math and reasoning tasks.[^33]
+**Self-Consistency**: A reflection method that generates multiple independent reasoning paths for the same problem and selects the most common answer, reducing errors through a form of internal consensus-building. Wang et al. demonstrated this technique can improve accuracy by 22-33% on challenging math and reasoning tasks.[^32]
 
 **Inference**: Running a trained AI model to generate outputs (as opposed to training, which is learning the model parameters). Inference costs include computational resources (GPU/CPU time), memory usage, and electricity required for the model to process inputs and produce results.
 
@@ -219,11 +217,11 @@ In a world where AI is becoming ubiquitous, every watt, flop, and token matters.
 
 **Inference-Time Computation**: Computation performed when the model generates answers during deployment (as opposed to training-time computation). Reflection increases inference-time computation because the model performs more reasoning steps for each query.
 
-**Rational Metareasoning**: A framework from AI research that formalizes how an agent should decide how much computation to allocate to a problem. First introduced by Stuart Russell and Eric Wefald in 1991 and recently applied to language models by Conitzer et al.[^34] It involves weighing the expected benefit of further reasoning against its cost.
+**Rational Metareasoning**: A framework from AI research that formalizes how an agent should decide how much computation to allocate to a problem. First introduced by Stuart Russell and Eric Wefald in 1991 and recently applied to language models by Conitzer et al.[^33] It involves weighing the expected benefit of further reasoning against its cost.
 
 **Value of Computation (VoC)**: A mathematical measure of how much improvement in outcome an additional unit of computation is expected to yield. If an extra reasoning step has high VoC (substantially improving accuracy), it's worth the cost; if VoC is low, the model should stop computing and deliver its current answer.
 
-**Speculative Decoding**: A technique developed by Google Research that allows models to "predict their own future outputs," potentially reducing the computational cost of reflection by 2-3× without sacrificing quality.[^35] The approach works by having a smaller model predict what a larger model will generate, only activating the larger model when necessary.
+**Speculative Decoding**: A technique developed by Google Research that allows models to "predict their own future outputs," potentially reducing the computational cost of reflection by 2-3× without sacrificing quality.[^34] The approach works by having a smaller model predict what a larger model will generate, only activating the larger model when necessary.
 
 **Model Compression**: Techniques to reduce model size or complexity while preserving performance, including:
   - **Quantization**: Reducing numerical precision (e.g., from 32-bit to 8-bit or 4-bit floating point)
@@ -234,7 +232,7 @@ In a world where AI is becoming ubiquitous, every watt, flop, and token matters.
 
 **Token Economy**: The practice of budgeting and optimizing token usage based on the value delivered. Organizations increasingly monitor "token ROI" – measuring business value delivered per token of computation – as a key metric for AI efficiency.
 
-[^1]: [McKinsey Global Institute. (2023). *The Economic Potential of Generative AI: The Next Productivity Frontier*. McKinsey & Company.](https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/the%20economic%20potential%20of%20generative%20ai%20the%20next%20productivity%20frontier/the-economic-potential-of-generative-ai.pdf)
+[^1]: [McKinsey Global Institute. (2023). *The Economic Potential of Generative AI: The Next Productivity Frontier*. McKinsey & Company.](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier)
 
 [^2]: [Kadavath, S., Conerly, T., Askell, A., et al. (2024). *Language Models Don't Always Say What They Think: Aligning Language Models with Their Zero-Shot Beliefs*. arXiv:2311.00286.](https://arxiv.org/abs/2311.00286)
 
@@ -254,7 +252,7 @@ In a world where AI is becoming ubiquitous, every watt, flop, and token matters.
 
 [^10]: [Bai, Y., Kadavath, S., Kundu, S., et al. (2022). *Constitutional AI: Harmlessness from AI Feedback*. arXiv:2212.08073.](https://arxiv.org/abs/2212.08073)
 
-[^11]: [Sharma, R., & Li, B. (2023). *Optimizing LLM Inference Costs at Stripe*. Stripe Engineering Blog.](https://stripe.com/blog/engineering)
+[^11]: [Hudson, B.  (2024). *Breaking Down the Cost of Large Language Models* ](https://www.qwak.com/post/llm-cost)
 
 [^12]: [Nielsen, J. (2024). *Response Times: The Three Important Limits in UX*. Nielsen Norman Group.](https://www.nngroup.com/articles/response-times-3-important-limits/)
 
@@ -274,32 +272,28 @@ In a world where AI is becoming ubiquitous, every watt, flop, and token matters.
 
 [^20]: [Vus, V., Santilli, A., & Vinyals, O. (2023). *Model Cascades for Efficient Large Language Model Inference*. arXiv:2308.06933.](https://arxiv.org/abs/2308.06933)
 
-[^21]: [Bloomberg Enterprise Technology. (2024). *AI Infrastructure Optimization at Bloomberg*. Bloomberg Technical Blog.](https://www.bloomberg.com/company/stories/ai-infrastructure-optimization-at-bloomberg/)
+[^21]: [Leviathan, Y., Kalman, S., & Matias, Y. (2023). *Fast Inference from Transformers via Speculative Decoding*. International Conference on Machine Learning.](https://arxiv.org/abs/2306.03072)
 
-[^22]: [Leviathan, Y., Kalman, S., & Matias, Y. (2023). *Fast Inference from Transformers via Speculative Decoding*. International Conference on Machine Learning.](https://arxiv.org/abs/2306.03072)
-
-[^23]: [DeepMind. (2023). *Gemini: A Family of Highly Capable Multimodal Models*. Technical Report.](https://www.deepmind.com/publications/gemini-a-family-of-highly-capable-multimodal-models)
+[^22]: [DeepMind. (2023). *Gemini: A Family of Highly Capable Multimodal Models*. Technical Report.](https://arxiv.org/abs/2312.11805)
 
 [^24]: [Meta AI. (2023). *Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes*. arXiv:2305.02301.](https://arxiv.org/abs/2305.02301)
 
-[^25]: [Cloudflare. (2024). *AI Gateway Performance Optimization*. Cloudflare Developer Blog.](https://blog.cloudflare.com/ai-gateway-performance-optimization/)
+[^25]: [Cloudflare. (2024). *AI Gateway Performance Optimization*. Cloudflare Developer Blog.](https://blog.cloudflare.com/billions-and-billions-of-logs-scaling-ai-gateway-with-the-cloudflare/)
 
 [^26]: [Stanford HAI. (2024). *Artificial Intelligence Index Report 2024*. Stanford University.](https://aiindex.stanford.edu/report/)
 
-[^27]: [IDC. (2023). *Worldwide Artificial Intelligence Spending Guide*. International Data Corporation.](https://www.idc.com/getdoc.jsp?containerId=prUS50137323)
+[^27]: [IDC. (2023). *Worldwide Artificial Intelligence Spending Guide*. International Data Corporation.](https://my.idc.com/getdoc.jsp?containerId=IDC_P33198)
 
 [^28]: [Clark, J., Reed, S., Achiam, J., et al. (2023). *Efficient Step-by-Step Reasoning of Language Models via Algorithm Distillation*. arXiv:2311.07692.](https://arxiv.org/abs/2311.07692)
 
-[^29]: [Hinton, G. (2024). *The Future of AI: A Conversation with Geoffrey Hinton*. Interview, The Gradient.](https://thegradient.pub/the-future-of-ai-a-conversation-with-geoffrey-hinton/)
+[^29]: [Nye, M., Andreassen, A., Gur-Ari, G., et al. (2021). *Show Your Work: Scratchpads for Intermediate Computation with Language Models*. Advances in Neural Information Processing Systems.](https://arxiv.org/abs/2112.00114)
 
-[^30]: [Nye, M., Andreassen, A., Gur-Ari, G., et al. (2021). *Show Your Work: Scratchpads for Intermediate Computation with Language Models*. Advances in Neural Information Processing Systems.](https://arxiv.org/abs/2112.00114)
+[^30]: [Wei, J., Wang, X., Schuurmans, D., et al. (2022). *Chain of Thought Prompting Elicits Reasoning in Large Language Models*. Advances in Neural Information Processing Systems.](https://arxiv.org/abs/2201.11903)
 
-[^31]: [Wei, J., Wang, X., Schuurmans, D., et al. (2022). *Chain of Thought Prompting Elicits Reasoning in Large Language Models*. Advances in Neural Information Processing Systems.](https://arxiv.org/abs/2201.11903)
+[^31]: [Yao, S., Yu, D., Zhao, J., et al. (2023). *Tree of Thoughts: Deliberate Problem Solving with Large Language Models*. arXiv:2305.10601.](https://arxiv.org/abs/2305.10601)
 
-[^32]: [Yao, S., Yu, D., Zhao, J., et al. (2023). *Tree of Thoughts: Deliberate Problem Solving with Large Language Models*. arXiv:2305.10601.](https://arxiv.org/abs/2305.10601)
+[^32]: [Wang, X., Wei, J., Schuurmans, D., et al. (2023). *Self-Consistency Improves Chain of Thought Reasoning in Language Models*. International Conference on Learning Representations.](https://arxiv.org/abs/2203.11171)
 
-[^33]: [Wang, X., Wei, J., Schuurmans, D., et al. (2023). *Self-Consistency Improves Chain of Thought Reasoning in Language Models*. International Conference on Learning Representations.](https://arxiv.org/abs/2203.11171)
+[^33]: [Conitzer, V., Bai, Y., Kolter, Z., et al. (2023). *Rational Metareasoning for Large Language Models*. arXiv:2310.06775.](https://arxiv.org/abs/2310.06775)
 
-[^34]: [Conitzer, V., Bai, Y., Kolter, Z., et al. (2023). *Rational Metareasoning for Large Language Models*. arXiv:2310.06775.](https://arxiv.org/abs/2310.06775)
-
-[^35]: [Leviathan, Y., Kalman, S., & Matias, Y. (2023). *Fast Inference from Transformers via Speculative Decoding*. International Conference on Machine Learning.](https://arxiv.org/abs/2306.03072)
+[^34]: [Leviathan, Y., Kalman, S., & Matias, Y. (2023). *Fast Inference from Transformers via Speculative Decoding*. International Conference on Machine Learning.](https://arxiv.org/abs/2306.03072)
