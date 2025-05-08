@@ -123,7 +123,7 @@ This approach revealed both the necessity and complexity of building robust eval
 
 The field of AI alignment has grown substantially in recent years, with dedicated research teams at most major AI labs. Organizations like [Alignment Research Center](https://alignment.org/), the [Center for AI Safety](https://www.safe.ai/), and [Machine Intelligence Research Institute](https://intelligence.org/) focus exclusively on alignment challenges.[^13]
 
-Universities have established programs dedicated to value alignment and AI safety. Berkeley's [Center for Human-Compatible AI](https://humancompatible.ai/) and Oxford's [Future of Humanity Institute](https://www.fhi.ox.ac.uk/) lead academic research in the area, training new generations of alignment researchers.[^14]
+Universities have established programs dedicated to value alignment and AI safety. Berkeley's [Center for Human-Compatible AI](https://humancompatible.ai/) and Oxford's [Future of Humanity Institute](https://www.fhi.ox.ac.uk/) lead academic research in the area, training new generations of alignment researchers.
 
 Government interest has also grown, with initiatives like the [National AI Research Institute for Trustworthy AI](https://www.nsf.gov/news/special_reports/announcements/081020.jsp) in the United States and the EU's [CLAIRE network](https://claire-ai.org/) incorporating alignment concerns into broader AI governance frameworks.[^15]
 
@@ -213,7 +213,7 @@ The moral compass we build into our machines will determine whether artificial i
 
 [^8]: Gabriel, I. (2020). Artificial Intelligence, Values, and Alignment. Minds and Machines, 30(3), 411-437. [https://link.springer.com/article/10.1007/s11023-020-09539-2](https://link.springer.com/article/10.1007/s11023-020-09539-2)
 
-[^9]: MacAskill, W. (2022). What We Owe the Future. Basic Books. [https://www.basicbooks.com/titles/william-macaskill/what-we-owe-the-future/9781541618627/](https://www.basicbooks.com/titles/william-macaskill/what-we-owe-the-future/9781541618627/)
+[^9]: MacAskill, W. (2022). What We Owe the Future. Basic Books. [https://www.basicbooks.com/titles/william-macaskill/what-we-owe-the-future/9781541618627/](https://whatweowethefuture.com/uk/)
 
 [^10]: Amodei, D., Olah, C., Steinhardt, J., Christiano, P., Schulman, J., & Mané, D. (2016). Concrete Problems in AI Safety. [https://arxiv.org/abs/1606.06565](https://arxiv.org/abs/1606.06565)
 
@@ -222,8 +222,6 @@ The moral compass we build into our machines will determine whether artificial i
 [^12]: Olah, C., Cammarata, N., Schubert, L., Goh, G., Petrov, M., & Carter, S. (2020). Zoom In: An Introduction to Circuits. Distill, 5(3), e00024.002. [https://distill.pub/2020/circuits/zoom-in/](https://distill.pub/2020/circuits/zoom-in/)
 
 [^13]: Hendrycks, D., Mazeika, M., Zou, A., Patel, S., Zhu, C., Navarro, J., Song, D., Steinhardt, J., & Gilmer, J. (2023). A New Framework for AI Safety Trends and Evaluations. [https://arxiv.org/abs/2305.10122](https://arxiv.org/abs/2305.10122)
-
-[^14]: Russell, S., Park, D., Witwicki, S., & Cane, D. (2021). Building Trust in Artificial Intelligence. Journal of International Affairs, 72(1), 127-134.
 
 [^15]: European Commission. (2021). Proposal for a Regulation of the European Parliament and of the Council Laying Down Harmonised Rules on Artificial Intelligence (Artificial Intelligence Act) and Amending Certain Union Legislative Acts. EUR-Lex. [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021PC0206](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021PC0206)
 

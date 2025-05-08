@@ -65,7 +65,7 @@ AI will echo whatever we give it—our prejudice or our principles. If we want s
 
 ## References
 
-[^1]: Crawford, K. (2021). *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence*. Yale University Press. [Link](https://yalebooks.yale.edu/book/9780300209570/atlas-of-ai/)
+[^1]: Crawford, K. (2021). *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence*. Yale University Press. [Link](https://yalebooks.yale.edu/book/9780300264630/atlas-of-ai/)
 
 [^2]: Dastin, J. (2018). "Amazon scrapped 'sexist AI' recruiting tool." *Reuters*. [Link](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G)
 
