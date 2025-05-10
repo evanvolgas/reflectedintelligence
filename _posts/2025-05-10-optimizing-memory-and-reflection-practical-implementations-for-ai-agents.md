@@ -509,6 +509,6 @@ The progress in memory and reflection mechanisms represents a significant step t
 
 ## References
 
-[^1]: IBM. (2025, March). *What Is AI Agent Memory?*. IBM Think. https://ebs.publicnow.com/view/9BDC751AE346DF4B87B35C38AB5FFD845891BB11
+[^1]: [IBM. (2025). *What Is AI Agent Memory?*. IBM Think.](https://ebs.publicnow.com/view/9BDC751AE346DF4B87B35C38AB5FFD845891BB11)
 
-[^2]: AIModels.fyi. (2025). *Empowering Working Memory for Large Language Model Agents*. https://arxiv.org/abs/2312.17259
+[^2]: [AIModels.fyi. (2025). *Empowering Working Memory for Large Language Model Agents*. arXiv:2312.17259 [cs.AI].](https://arxiv.org/abs/2312.17259)

@@ -30,14 +30,14 @@ Perhaps most impressive, all these safety gains were achieved **without collecti
 
 ## References
 
-[^1]: Bai, Yuntao, et al. "Constitutional AI: Harmlessness from AI Feedback." arXiv, 2022. [arXiv:2212.08073](https://arxiv.org/abs/2212.08073)
+[^1]: [Bai, Y., et al. (2022). *Constitutional AI: Harmlessness from AI Feedback*. arXiv:2212.08073 [cs.CL].](https://arxiv.org/abs/2212.08073)
 
-[^2]: Ibid., Section 1 (Introduction)
+[^2]: [Bai, Y., et al. (2022). *Constitutional AI: Harmlessness from AI Feedback*. arXiv:2212.08073 [cs.CL].](https://arxiv.org/abs/2212.08073)
 
-[^3]: Ibid., Section 4 (Training Process)
+[^3]: [Bai, Y., et al. (2022). *Constitutional AI: Harmlessness from AI Feedback*. arXiv:2212.08073 [cs.CL].](https://arxiv.org/abs/2212.08073)
 
-[^4]: Ibid., Section 6 (Results)
+[^4]: [Bai, Y., et al. (2022). *Constitutional AI: Harmlessness from AI Feedback*. arXiv:2212.08073 [cs.CL].](https://arxiv.org/abs/2212.08073)
 
-[^5]: Anthropic. "Constitutional AI," Harmless Refusals Example. [Anthropic Blog](https://www.anthropic.com/index/constitutional-ai)
+[^5]: [Anthropic. (2023). *Constitutional AI: Harmless Refusals Example*. Anthropic Blog.](https://www.anthropic.com/index/constitutional-ai)
 
-[^6]: Bai et al., "Constitutional AI," Discussion & Future Work. [arXiv:2212.08073](https://arxiv.org/abs/2212.08073)
+[^6]: [Bai, Y., et al. (2022). *Constitutional AI: Harmlessness from AI Feedback*. arXiv:2212.08073 [cs.CL].](https://arxiv.org/abs/2212.08073)

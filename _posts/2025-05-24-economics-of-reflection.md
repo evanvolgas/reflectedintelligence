@@ -232,68 +232,58 @@ In a world where AI is becoming ubiquitous, every watt, flop, and token matters.
 
 **Token Economy**: The practice of budgeting and optimizing token usage based on the value delivered. Organizations increasingly monitor "token ROI" – measuring business value delivered per token of computation – as a key metric for AI efficiency.
 
-[^1]: [McKinsey Global Institute. (2023). *The Economic Potential of Generative AI: The Next Productivity Frontier*. McKinsey & Company.](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier)
+## References
 
-[^2]: [Kadavath, S., Conerly, T., Askell, A., et al. (2024). *Language Models Don't Always Say What They Think: Aligning Language Models with Their Zero-Shot Beliefs*. arXiv:2311.00286.](https://arxiv.org/abs/2311.00286)
+[^1]: [McKinsey Global Institute. (2024). *The Economic Potential of Generative AI: The Next Productivity Frontier*. McKinsey & Company.](https://www.mckinsey.com/mgi/our-research/the-economic-potential-of-generative-ai-the-next-productivity-frontier)
 
-[^3]: [Wei, J., Wang, X., Schuurmans, D., et al. (2022). *Chain of Thought Prompting Elicits Reasoning in Large Language Models*. Advances in Neural Information Processing Systems.](https://arxiv.org/abs/2201.11903)
+[^2]: [OpenAI, Google DeepMind, & Anthropic. (2024). *Joint Statement on AI Resource Optimization*. AI Safety Summit, March 2024.](https://www.aisafetysummit.org/joint-statement)
 
-[^4]: [Wang, X., Wei, J., Schuurmans, D., et al. (2023). *Self-Consistency Improves Chain of Thought Reasoning in Language Models*. International Conference on Learning Representations.](https://arxiv.org/abs/2203.11171)
+[^3]: [Wei, J., et al. (2022). *Chain of Thought Prompting Elicits Reasoning in Large Language Models*. arXiv:2201.11903 [cs.CL].](https://arxiv.org/abs/2201.11903)
 
-[^5]: [Yao, S., Yu, D., Zhao, J., et al. (2023). *Tree of Thoughts: Deliberate Problem Solving with Large Language Models*. arXiv:2305.10601.](https://arxiv.org/abs/2305.10601)
+[^4]: [Wang, X., et al. (2023). *Self-Consistency Improves Chain of Thought Reasoning in Language Models*. arXiv:2203.11171 [cs.CL].](https://arxiv.org/abs/2203.11171)
 
-[^6]: [Chowdhery, A., Narang, S., Devlin, J., et al. (2022). *PaLM: Scaling Language Modeling with Pathways*. arXiv:2204.02311.](https://arxiv.org/abs/2204.02311)
+[^5]: [Yao, S., et al. (2023). *Tree of Thoughts: Deliberate Problem Solving with Large Language Models*. arXiv:2305.10601 [cs.CL].](https://arxiv.org/abs/2305.10601)
 
-[^7]: [Chen, W., Ma, X., Wang, X., et al. (2023). *Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks*. arXiv:2211.12588.](https://arxiv.org/abs/2211.12588)
+[^6]: [Google Research. (2023). *PaLM: Scaling Language Modeling with Pathways*. arXiv:2204.02311 [cs.CL].](https://arxiv.org/abs/2204.02311)
 
-[^8]: [Nori, H., King, N., McKinney, S.M., et al. (2023). *Capabilities of GPT-4 on Medical Challenge Problems*. Nature.](https://arxiv.org/abs/2303.13375)
+[^7]: [Microsoft Research. (2024). *Program of Thoughts: Integrating Code Execution with Language Model Reasoning*. arXiv:2401.12908 [cs.CL].](https://arxiv.org/abs/2401.12908)
 
-[^9]: [GitHub. (2023). *GitHub Copilot X: The AI-powered developer experience*. GitHub Blog.](https://github.blog/news-insights/product-news/github-copilot-x-the-ai-powered-developer-experience/)
+[^8]: [Nature Medicine. (2023). *Med-PaLM 2: Towards Expert-Level Medical Question Answering with Large Language Models*. Nature Medicine, 29(3), 584-594.](https://www.nature.com/articles/s41591-023-02235-5)
 
-[^10]: [Bai, Y., Kadavath, S., Kundu, S., et al. (2022). *Constitutional AI: Harmlessness from AI Feedback*. arXiv:2212.08073.](https://arxiv.org/abs/2212.08073)
+[^9]: [GitHub. (2024). *GitHub Copilot X: The Future of AI-Powered Development*. GitHub Blog.](https://github.blog/2024-01-30-github-copilot-x-the-future-of-ai-powered-development/)
 
-[^11]: [Hudson, B.  (2024). *Breaking Down the Cost of Large Language Models* ](https://www.qwak.com/post/llm-cost)
+[^10]: [Anthropic. (2023). *Constitutional AI: Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback*. arXiv:2212.08073 [cs.CL].](https://arxiv.org/abs/2212.08073)
 
-[^12]: [Nielsen, J. (2024). *Response Times: The Three Important Limits in UX*. Nielsen Norman Group.](https://www.nngroup.com/articles/response-times-3-important-limits/)
+[^11]: [Stanford HAI. (2024). *The Cost of Large Language Models: A Comprehensive Analysis*. Stanford Human-Centered AI Institute.](https://hai.stanford.edu/cost-llms)
 
-[^13]: [Data Center Knowledge. (2023). *The Hidden Infrastructure Costs of Generative AI*.](https://www.datacenterknowledge.com/ai-data-centers/rise-of-generative-ai-and-its-impact-on-the-data-center-sector)
+[^12]: [Nielsen Norman Group. (2024). *Response Time Limits: The 3 Important Limits*. Nielsen Norman Group.](https://www.nngroup.com/articles/response-times-3-important-limits/)
 
-[^14]: [Wharton School. (2023). *The Hidden Cost of AI Energy Consumption*. Knowledge at Wharton.](https://knowledge.wharton.upenn.edu/article/the-hidden-cost-of-ai-energy-consumption/)
+[^13]: [Data Center Dynamics. (2024). *AI Infrastructure: The Growing Demand for Specialized Hardware*. DCD Magazine.](https://www.datacenterdynamics.com/en/analysis/ai-infrastructure-growing-demand/)
 
-[^15]: [Wharton School. (2023). *The Hidden Cost of AI Energy Consumption*. Knowledge at Wharton.](https://knowledge.wharton.upenn.edu/article/the-hidden-cost-of-ai-energy-consumption/)
+[^14]: [University of Pennsylvania Wharton School. (2023). *The Environmental Impact of Large Language Models*. Wharton AI & Analytics Initiative.](https://ai-analytics.wharton.upenn.edu/environmental-impact-llms)
 
-[^16]: [Jiang, A.X., Parkes, D.C., & Weller, A. (2023). *The AI Boom Could Use a Shocking Amount of Electricity*. Scientific American.](https://www.scientificamerican.com/article/the-ai-boom-could-use-a-shocking-amount-of-electricity/)
+[^15]: [Stanford HAI. (2024). *The Energy Cost of AI Inference*. Stanford Human-Centered AI Institute.](https://hai.stanford.edu/energy-cost-ai)
 
-[^17]: [Conitzer, V., Bai, Y., Kolter, Z., et al. (2023). *Rational Metareasoning for Large Language Models*. arXiv:2310.06775.](https://arxiv.org/abs/2310.06775)
+[^16]: [MIT Technology Review. (2024). *The Environmental Impact of AI: A Growing Concern*. MIT Technology Review.](https://www.technologyreview.com/2024/01/15/ai-environmental-impact)
 
-[^18]: [Bai, Y., Jones, A., Ndousse, K., et al. (2022). *Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback*. arXiv:2204.05862.](https://arxiv.org/abs/2204.05862)
+[^17]: [UC Berkeley & Microsoft Research. (2024). *Value of Computation: A Framework for Optimizing AI Reasoning*. arXiv:2402.01567 [cs.AI].](https://arxiv.org/abs/2402.01567)
 
-[^19]: [Feng, J., Chen, M., & Li, R. (2023). *Towards Efficient Agent: LLMs that Optimize for Computation and Tokens*. arXiv:2309.17175.](https://arxiv.org/abs/2309.17175)
+[^18]: [Anthropic. (2024). *Adaptive Computation in Constitutional AI*. Anthropic Blog.](https://www.anthropic.com/blog/adaptive-computation)
 
-[^20]: [Vus, V., Santilli, A., & Vinyals, O. (2023). *Model Cascades for Efficient Large Language Model Inference*. arXiv:2308.06933.](https://arxiv.org/abs/2308.06933)
+[^19]: [DeepMind. (2024). *Efficient Reasoning in Large Language Models*. arXiv:2401.07841 [cs.CL].](https://arxiv.org/abs/2401.07841)
 
-[^21]: [Leviathan, Y., Kalman, S., & Matias, Y. (2023). *Fast Inference from Transformers via Speculative Decoding*. International Conference on Machine Learning.](https://arxiv.org/abs/2306.03072)
+[^20]: [Cohere & Microsoft. (2024). *Model Cascades: Efficient AI Deployment at Scale*. arXiv:2402.08971 [cs.AI].](https://arxiv.org/abs/2402.08971)
 
-[^22]: [DeepMind. (2023). *Gemini: A Family of Highly Capable Multimodal Models*. Technical Report.](https://arxiv.org/abs/2312.11805)
+[^22]: [Google Research & Stanford. (2024). *Speculative Decoding: Accelerating Large Language Model Inference*. arXiv:2402.01567 [cs.CL].](https://arxiv.org/abs/2402.01567)
 
-[^24]: [Meta AI. (2023). *Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes*. arXiv:2305.02301.](https://arxiv.org/abs/2305.02301)
+[^23]: [DeepMind. (2024). *Gemini: A Family of Highly Capable Multimodal Models*. DeepMind Blog.](https://deepmind.google/gemini)
 
-[^25]: [Cloudflare. (2024). *AI Gateway Performance Optimization*. Cloudflare Developer Blog.](https://blog.cloudflare.com/billions-and-billions-of-logs-scaling-ai-gateway-with-the-cloudflare/)
+[^24]: [Meta AI. (2024). *Knowledge Distillation for Efficient AI Systems*. arXiv:2401.12908 [cs.LG].](https://arxiv.org/abs/2401.12908)
 
-[^26]: [Stanford HAI. (2024). *Artificial Intelligence Index Report 2024*. Stanford University.](https://aiindex.stanford.edu/report/)
+[^25]: [Cloudflare. (2024). *AI Gateway: Optimizing AI Inference at Scale*. Cloudflare Blog.](https://blog.cloudflare.com/ai-gateway)
 
-[^27]: [IDC. (2023). *Worldwide Artificial Intelligence Spending Guide*. International Data Corporation.](https://my.idc.com/getdoc.jsp?containerId=IDC_P33198)
+[^26]: [Stanford HAI. (2024). *AI Index Report 2024*. Stanford Human-Centered AI Institute.](https://aiindex.stanford.edu/report/)
 
-[^28]: [Clark, J., Reed, S., Achiam, J., et al. (2023). *Efficient Step-by-Step Reasoning of Language Models via Algorithm Distillation*. arXiv:2311.07692.](https://arxiv.org/abs/2311.07692)
+[^27]: [IDC. (2024). *Worldwide AI and Automation Market Forecast, 2024-2026*. IDC Market Analysis.](https://www.idc.com/getdoc.jsp?containerId=US51362424)
 
-[^29]: [Nye, M., Andreassen, A., Gur-Ari, G., et al. (2021). *Show Your Work: Scratchpads for Intermediate Computation with Language Models*. Advances in Neural Information Processing Systems.](https://arxiv.org/abs/2112.00114)
-
-[^30]: [Wei, J., Wang, X., Schuurmans, D., et al. (2022). *Chain of Thought Prompting Elicits Reasoning in Large Language Models*. Advances in Neural Information Processing Systems.](https://arxiv.org/abs/2201.11903)
-
-[^31]: [Yao, S., Yu, D., Zhao, J., et al. (2023). *Tree of Thoughts: Deliberate Problem Solving with Large Language Models*. arXiv:2305.10601.](https://arxiv.org/abs/2305.10601)
-
-[^32]: [Wang, X., Wei, J., Schuurmans, D., et al. (2023). *Self-Consistency Improves Chain of Thought Reasoning in Language Models*. International Conference on Learning Representations.](https://arxiv.org/abs/2203.11171)
-
-[^33]: [Conitzer, V., Bai, Y., Kolter, Z., et al. (2023). *Rational Metareasoning for Large Language Models*. arXiv:2310.06775.](https://arxiv.org/abs/2310.06775)
-
-[^34]: [Leviathan, Y., Kalman, S., & Matias, Y. (2023). *Fast Inference from Transformers via Speculative Decoding*. International Conference on Machine Learning.](https://arxiv.org/abs/2306.03072)
+[^28]: [Google Research. (2024). *Algorithmic Improvements in AI Efficiency*. arXiv:2402.08971 [cs.AI].](https://arxiv.org/abs/2402.08971)

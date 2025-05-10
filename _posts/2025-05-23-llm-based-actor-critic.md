@@ -45,6 +45,6 @@ It's an exciting step toward AI that can **learn from language-based feedback** 
 
 ## References
 
-[^1]: Dong, H., Duan, K., & Zhang, C. (2024). *LAC: LLM-Based Actor-Critic with Dual Critics*. [arXiv:2403.03692](https://arxiv.org/abs/2403.03692).
+[^1]: [Dong, H., Duan, K., & Zhang, C. (2024). *LAC: LLM-Based Actor-Critic with Dual Critics*. arXiv:2403.03692 [cs.AI].](https://arxiv.org/abs/2403.03692)
 
-[^2]: Yao, S., et al. (2022). *ReAct: Synergizing Reasoning and Acting in Language Models*. [arXiv:2210.03629](https://arxiv.org/abs/2210.03629).
+[^2]: [Yao, S., et al. (2022). *ReAct: Synergizing Reasoning and Acting in Language Models*. arXiv:2210.03629 [cs.CL].](https://arxiv.org/abs/2210.03629)

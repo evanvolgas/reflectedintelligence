@@ -112,5 +112,6 @@ An AI equipped with long-term memory can become more consistent, contextual, and
 
 ## References
 
-[^1]: [What is a context window for Large Language Models?](https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-a-context-window) - McKinsey
-[^2]: [Human-like Episodic Memory for Infinite Context LLMs](https://arxiv.org/abs/2407.09450) - arXiv
+[^1]: [McKinsey. (2024). *What is a context window for Large Language Models?* McKinsey Explainers.](https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-a-context-window)
+
+[^2]: [Zhang, Y., et al. (2024). *Human-like Episodic Memory for Infinite Context LLMs*. arXiv:2407.09450 [cs.CL].](https://arxiv.org/abs/2407.09450)

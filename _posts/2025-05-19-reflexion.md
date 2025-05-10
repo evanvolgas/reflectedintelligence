@@ -37,12 +37,12 @@ As AI systems become more autonomous, Reflexion offers a pragmatic step toward a
 
 References:
 
-[^1]: Kauvar, I., Doyle, C., Zhou, L., & Haber, N. (2023). *AI Agents that "Self-Reflect" Perform Better in Changing Environments*. [Stanford HAI](https://hai.stanford.edu/news/ai-agents-self-reflect-perform-better-changing-environments).
+[^1]: [Kauvar, I., Doyle, C., Zhou, L., & Haber, N. (2023). *AI Agents that "Self-Reflect" Perform Better in Changing Environments*. Stanford HAI.](https://hai.stanford.edu/news/ai-agents-self-reflect-perform-better-changing-environments)
 
-[^2]: Shinn, N., Cassano, F., Berman, E., Gopinath, A., Narasimhan, K., & Yao, S. (2023). *Reflexion: Language Agents with Verbal Reinforcement Learning*. [arXiv:2303.11366](https://arxiv.org/abs/2303.11366).
+[^2]: [Shinn, N., et al. (2023). *Reflexion: Language Agents with Verbal Reinforcement Learning*. arXiv:2303.11366 [cs.CL].](https://arxiv.org/abs/2303.11366)
 
-[^3]: LangChain (2024). *Reflection Agents* (Blog). [blog.langchain.dev](https://blog.langchain.dev/reflection-agents/).
+[^3]: [LangChain. (2024). *Reflection Agents*. LangChain Blog.](https://blog.langchain.dev/reflection-agents/)
 
-[^4]: LangChain. *Reflexion Agent Implementation*. [GitHub](https://github.com/langchain-ai/langgraph/blob/main/docs/docs/tutorials/reflexion/reflexion.ipynb).
+[^4]: [LangChain. (2024). *Reflexion Agent Implementation*. GitHub.](https://github.com/langchain-ai/langgraph/blob/main/docs/docs/tutorials/reflexion/reflexion.ipynb)
 
-[^5]: Sifaka AI. *Reflexion Critic Implementation*. [GitHub](https://github.com/sifaka-ai/sifaka/blob/main/sifaka/critics/reflexion.py).
+[^5]: [Sifaka AI. (2024). *Reflexion Critic Implementation*. GitHub.](https://github.com/sifaka-ai/sifaka/blob/main/sifaka/critics/reflexion.py)

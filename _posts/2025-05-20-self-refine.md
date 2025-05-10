@@ -60,6 +60,6 @@ They both push AI toward something more thoughtful, less brittle, and better ali
 
 ## References
 
-[^1]: Madaan, A., et al. (2023). *Self-Refine: Iterative Refinement with Self-Feedback*. [arXiv:2303.17651](https://arxiv.org/abs/2303.17651)
+[^1]: [Madaan, A., et al. (2023). *Self-Refine: Iterative Refinement with Self-Feedback*. arXiv:2303.17651 [cs.CL].](https://arxiv.org/abs/2303.17651)
 
-[^2]: Shinn, N., et al. (2023). *Reflexion: Language Agents with Verbal Reinforcement Learning*. [arXiv:2303.11366](https://arxiv.org/abs/2303.11366)
+[^2]: [Shinn, N., et al. (2023). *Reflexion: Language Agents with Verbal Reinforcement Learning*. arXiv:2303.11366 [cs.CL].](https://arxiv.org/abs/2303.11366)

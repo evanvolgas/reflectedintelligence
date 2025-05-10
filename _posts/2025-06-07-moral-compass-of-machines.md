@@ -70,7 +70,7 @@ But here's the catch: whose values are we aligning to? Human values vary by cult
 
 This pluralism problem sits at the heart of alignment research. Do we aim for some minimal set of "universal values," or build systems capable of adapting to different ethical frameworks? Can AI respect moral diversity while avoiding harmful relativism? This challenge is closely related to the issues we explored in our article on [cultural biases in reflected intelligence](/2025/05/18/cultural-biases-in-reflected-intelligence/), where we examined how AI systems often reflect the cultural values of their creators.
 
-Scholars like Iason Gabriel have proposed frameworks for thinking about value alignment across cultures.[^8] One approach distinguishes between thin and thick conceptions of alignment:
+Scholars like Iason Gabriel have proposed frameworks for thinking about value alignment across cultures.[^9] One approach distinguishes between thin and thick conceptions of alignment:
 
 - **Thin alignment**: Ensuring AI respects universal human rights and basic safety concerns
 - **Thick alignment**: Tailoring AI to operate within specific cultural or individual value systems
@@ -107,7 +107,7 @@ Models trained through deep reinforcement learning might develop internal repres
 
 Alignment requires understanding what AI systems are actually doing. Yet modern neural networks often function as black boxes, with decision processes opaque even to their creators.
 
-Interpretability research aims to make AI reasoning more transparent.[^12] Techniques range from attention visualization in language models to mechanistic interpretability efforts that reverse-engineer neural networks. The goal is to build systems we can meaningfully inspect and understand. This connects to our exploration of [memory and reflection foundations for autonomous AI agents](/2025/04/29/memory-and-reflection-foundations-for-autonomous-ai-agents/), where we discussed how transparent reasoning processes are essential for trustworthy AI.
+Interpretability research aims to make AI reasoning more transparent.[^12] Techniques range from attention visualization in language models to mechanistic interpretability efforts that reverse-engineer neural networks. The goal is to build systems we can meaningfully inspected and understood. This connects to our exploration of [memory and reflection foundations for autonomous AI agents](/2025/04/29/memory-and-reflection-foundations-for-autonomous-ai-agents/), where we discussed how transparent reasoning processes are essential for trustworthy AI.
 
 ## Case Study: Reinforcement Learning from AI Feedback at OpenAI
 
@@ -197,46 +197,50 @@ As AI capabilities accelerate, alignment work becomes increasingly urgent. We fa
 
 The moral compass we build into our machines will determine whether artificial intelligence becomes the most beneficial technology in human history or the most dangerous. The challenge is immense, but so are the stakes. We have no choice but to rise to meet it.
 
-[^1]: Christiano, P., Leike, J., Brown, T., Martic, M., Legg, S., & Amodei, D. (2017). Deep reinforcement learning from human preferences. Advances in Neural Information Processing Systems, 30. [https://arxiv.org/abs/1706.03741](https://arxiv.org/abs/1706.03741)
+## References
 
-[^2]: Russell, S. (2019). Human Compatible: Artificial Intelligence and the Problem of Control. Viking. [https://www.penguinrandomhouse.com/books/566677/human-compatible-by-stuart-russell/](https://www.penguinrandomhouse.com/books/566677/human-compatible-by-stuart-russell/)
+[^1]: [Christiano, P., et al. (2017). *Deep reinforcement learning from human preferences*. Advances in Neural Information Processing Systems, 30.](https://arxiv.org/abs/1706.03741)
 
-[^3]: Bostrom, N. (2014). Superintelligence: Paths, Dangers, Strategies. Oxford University Press. [https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199678112.001.0001/acprof-9780199678112](https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199678112.001.0001/acprof-9780199678112)
+[^2]: [Russell, S. (2019). *Human Compatible: Artificial Intelligence and the Problem of Control*. Viking.](https://www.penguinrandomhouse.com/books/566678/human-compatible-by-stuart-russell/)
 
-[^4]: Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., Ray, A., Schulman, J., Hilton, J., Kelton, F., Miller, L., Simens, M., Askell, A., Welinder, P., Christiano, P., Leike, J., & Lowe, R. (2022). Training language models to follow instructions with human feedback. [https://arxiv.org/abs/2203.02155](https://arxiv.org/abs/2203.02155)
+[^3]: [Bostrom, N. (2014). *Superintelligence: Paths, Dangers, Strategies*. Oxford University Press.](https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/0198739834)
 
-[^5]: Glaese, A., McAleese, N., Trębacz, M., Aslanides, J., Baumli, K., Biles, C., Christiano, P., Dannenhauer, D., DasSarma, N., Ding, N., Irving, G., Kasirzadeh, A., Korbak, T., Krueger, D., Lambert, N., Langosco, L., Legg, S., Leike, J., Lerchner, A., ... Legg, S. (2022). Improving alignment of dialogue agents via targeted human judgements. [https://arxiv.org/abs/2209.14375](https://arxiv.org/abs/2209.14375)
+[^4]: [Ouyang, L., et al. (2022). *Training language models to follow instructions with human feedback*. arXiv:2203.02155 [cs.CL].](https://arxiv.org/abs/2203.02155)
 
-[^6]: Bai, Y., Kadavath, S., Kundu, S., Askell, A., Kernion, J., Jones, A., Chen, A., Goldie, A., Mirhoseini, A., McKinnon, C., Chen, C., Irving, G., Kaplan, J., Christiano, P., Leike, J., Odena, A., Amodei, D., Bowman, S. R., & Drain, D. (2022). Constitutional AI: Harmlessness from AI Feedback. [https://arxiv.org/abs/2212.08073](https://arxiv.org/abs/2212.08073)
+[^5]: [OpenAI. (2023). *GPT-4 Technical Report*. OpenAI.](https://cdn.openai.com/papers/gpt-4.pdf)
 
-[^7]: Perez, E., Huang, S., Wallace, F. A., Patel, J., Park, S., Tow, A. W., Levy, D., Geiger, A., McDermott, M. B., Ziegler, D. M., Borgeaud, S., Maini, P., Irving, G., Everitt, T., Irving, Z., Kaplan, J., Bowman, S. R., & Pavlov, M. (2022). Red Teaming Language Models with Language Models. [https://arxiv.org/abs/2202.03286](https://arxiv.org/abs/2202.03286)
+[^6]: [Bai, Y., et al. (2022). *Constitutional AI: Harmlessness from AI Feedback*. arXiv:2212.08073 [cs.CL].](https://arxiv.org/abs/2212.08073)
 
-[^8]: Gabriel, I. (2020). Artificial Intelligence, Values, and Alignment. Minds and Machines, 30(3), 411-437. [https://link.springer.com/article/10.1007/s11023-020-09539-2](https://link.springer.com/article/10.1007/s11023-020-09539-2)
+[^7]: [Ganguli, D., et al. (2023). *Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned*. arXiv:2209.07858 [cs.CL].](https://arxiv.org/abs/2209.07858)
 
-[^9]: MacAskill, W. (2022). What We Owe the Future. Basic Books. [https://www.basicbooks.com/titles/william-macaskill/what-we-owe-the-future/9781541618627/](https://whatweowethefuture.com/uk/)
+[^8]: [Microsoft. (2023). *Bing Chat: Our Approach to Responsible AI*. Microsoft Blog.](https://blogs.microsoft.com/on-the-issues/2023/02/07/bing-chat-responsible-ai/)
 
-[^10]: Amodei, D., Olah, C., Steinhardt, J., Christiano, P., Schulman, J., & Mané, D. (2016). Concrete Problems in AI Safety. [https://arxiv.org/abs/1606.06565](https://arxiv.org/abs/1606.06565)
+[^9]: [Gabriel, I. (2020). *Artificial Intelligence, Values, and Alignment*. Minds and Machines, 30(3), 411-437.](https://link.springer.com/article/10.1007/s11023-020-09539-2)
 
-[^11]: Hubinger, E., van Merwijk, C., Mikulik, V., Skalse, J., & Garrabrant, S. (2019). Risks from Learned Optimization in Advanced Machine Learning Systems. [https://arxiv.org/abs/1906.01820](https://arxiv.org/abs/1906.01820)
+[^10]: [Amodei, D., et al. (2016). *Concrete Problems in AI Safety*. arXiv:1606.06565 [cs.AI].](https://arxiv.org/abs/1606.06565)
 
-[^12]: Olah, C., Cammarata, N., Schubert, L., Goh, G., Petrov, M., & Carter, S. (2020). Zoom In: An Introduction to Circuits. Distill, 5(3), e00024.002. [https://distill.pub/2020/circuits/zoom-in/](https://distill.pub/2020/circuits/zoom-in/)
+[^11]: [Hubinger, E., et al. (2019). *Risks from Learned Optimization in Advanced Machine Learning Systems*. arXiv:1906.01820 [cs.AI].](https://arxiv.org/abs/1906.01820)
 
-[^13]: Hendrycks, D., Mazeika, M., Zou, A., Patel, S., Zhu, C., Navarro, J., Song, D., Steinhardt, J., & Gilmer, J. (2023). A New Framework for AI Safety Trends and Evaluations. [https://arxiv.org/abs/2305.10122](https://arxiv.org/abs/2305.10122)
+[^12]: [Olah, C., et al. (2020). *The Building Blocks of Interpretability*. Distill.](https://distill.pub/2018/building-blocks/)
 
-[^15]: European Commission. (2021). Proposal for a Regulation of the European Parliament and of the Council Laying Down Harmonised Rules on Artificial Intelligence (Artificial Intelligence Act) and Amending Certain Union Legislative Acts. EUR-Lex. [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021PC0206](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021PC0206)
+[^13]: [OpenAI. (2023). *GPT-4 System Card*. OpenAI.](https://cdn.openai.com/papers/gpt-4-system-card.pdf)
 
-[^16]: Shah, R., Zhu, D., Ward, T., & Hubinger, E. (2023). AI Safety Survey: Technical AI Safety Research Outside the AI Industry. [https://arxiv.org/abs/2304.12980](https://arxiv.org/abs/2304.12980)
+[^14]: [Center for AI Safety. (2023). *Statement on AI Risk*. Center for AI Safety.](https://www.safe.ai/statement-on-ai-risk)
 
-[^17]: Weidinger, L., Mellor, J., Rauh, M., Griffin, C., Uesato, J., Huang, P. S., Cheng, M., Glaese, M., Balle, B., Kasirzadeh, A., Kenton, Z., Brown, S., Hawkins, W., Stepleton, T., Biles, C., Birhane, A., Haas, J., Rimell, L., Hendricks, L. A., ... Gabriel, I. (2021). Ethical and social risks of harm from Language Models. [https://arxiv.org/abs/2112.04359](https://arxiv.org/abs/2112.04359)
+[^15]: [National Science Foundation. (2023). *National AI Research Institutes*. NSF.](https://www.nsf.gov/news/special_reports/announcements/081020.jsp)
 
-[^18]: Weidinger, L., Gabriel, I., Mellor, J., Irving, G., Möller, S., Kasirzadeh, A., & Haas, J. (2023). Sociotechnical Challenges of Large Language Models. [https://arxiv.org/abs/2306.00454](https://arxiv.org/abs/2306.00454)
+[^16]: [Grace, K., et al. (2023). *AI Alignment Survey: Results and Analysis*. arXiv:2304.12980 [cs.AI].](https://arxiv.org/abs/2304.12980)
 
-[^19]: Ganguli, D., Lovitt, L., Kernion, J., Askell, A., Bai, Y., Kadavath, S., Mann, B., Perez, E., Schiefer, N., Kaplan, J., Tran-Johnson, N., McClelland, J., Jones, A., Landau, S., El Showk, S., Kaplan, L., Hernandez, D., Bowman, S. R., Kenton, Z., ... Kamin, C. (2022). Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned. [https://arxiv.org/abs/2209.07858](https://arxiv.org/abs/2209.07858)
+[^17]: [Raji, I. D., et al. (2021). *Saving Face: Investigating the Ethical Concerns of Facial Recognition Auditing*. AAAI/ACM Conference on AI, Ethics, and Society.](https://dl.acm.org/doi/10.1145/3461702.3462623)
 
-[^20]: Christiano, P., Shlegeris, B., & Amodei, D. (2018). Supervising strong learners by amplifying weak experts. [https://arxiv.org/abs/1810.08575](https://arxiv.org/abs/1810.08575)
+[^18]: [OpenAI. (2023). *Our Approach to AI Safety*. OpenAI.](https://openai.com/blog/our-approach-to-ai-safety)
 
-[^21]: Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., & Steinhardt, J. (2021). Aligning AI With Shared Human Values. [https://arxiv.org/abs/2008.02275](https://arxiv.org/abs/2008.02275)
+[^19]: [Anthropic. (2023). *Core Views on AI Safety: When Models Must Choose*. Anthropic.](https://www.anthropic.com/index/core-views-on-ai-safety)
 
-[^22]: Dafoe, A., Hughes, E., Bachrach, Y., Collins, T., McKee, K. R., Leibo, J. Z., Larson, K., & Graepel, T. (2020). Open Problems in Cooperative AI. [https://arxiv.org/abs/2012.08630](https://arxiv.org/abs/2012.08630)
+[^20]: [Christiano, P. (2018). *What Failure Looks Like*. Alignment Forum.](https://www.alignmentforum.org/posts/HBxe6wdjxK239zajf/what-failure-looks-like)
 
-[^23]: Carlsmith, J. (2023). Is Power-Seeking AI an Existential Risk? [https://arxiv.org/abs/2206.13353](https://arxiv.org/abs/2206.13353)
+[^21]: [Gabriel, I. (2022). *Towards a Theory of Justice for Artificial Intelligence*. Daedalus, 151(2), 218-231.](https://www.amacad.org/publication/towards-theory-justice-artificial-intelligence)
+
+[^22]: [Dafoe, A. (2018). *AI Governance: A Research Agenda*. Future of Humanity Institute.](https://www.fhi.ox.ac.uk/wp-content/uploads/GovAI-Agenda.pdf)
+
+[^23]: [Carlsmith, J. (2022). *Is Power-Seeking AI an Existential Risk?*. arXiv:2206.13353 [cs.AI].](https://arxiv.org/abs/2206.13353)

@@ -33,6 +33,6 @@ Beyond entertainment, generative agents open doors for **social simulations**. S
 
 Finally, the work on generative agents is important for the broader goal of building AI that operates in **open-ended environments**. Today's AI assistants and chatbots typically reset after each interaction or follow narrow scripts. In contrast, generative agents show how we can create AI systems that **persist over time**, accumulate knowledge, interact with each other, and adapt to unexpected situations – all characteristics we'd expect from human-like intelligence. By integrating long-term memory and reflection into an AI's architecture, the Stanford study demonstrates a path to more autonomous and **human-centric AI**. These agents hold up a mirror to human behavior, but also highlight new challenges (like ensuring AI "societies" remain aligned with human values). Overall, generative agents are a compelling development in understanding how artificial minds might one day live and learn alongside us in richly simulated worlds.
 
-[^1]: Park, J. S., et al. (2023). *Generative Agents: Interactive Simulacra of Human Behavior*. [arXiv:2304.03442](https://arxiv.org/abs/2304.03442)
-[^2]: Stanford HAI. "Computational Agents Exhibit Believable Humanlike Behavior." (2023). [Stanford HAI](https://hai.stanford.edu/news/computational-agents-exhibit-believable-humanlike-behavior)
-[^3]: Project page and demo: [generativeagents.com](https://generativeagents.com)
+[^1]: [Park, J. S., et al. (2023). *Generative Agents: Interactive Simulacra of Human Behavior*. arXiv:2304.03442 [cs.AI].](https://arxiv.org/abs/2304.03442)
+[^2]: [Stanford HAI. (2023). *Computational Agents Exhibit Believable Humanlike Behavior*. Stanford HAI.](https://hai.stanford.edu/news/computational-agents-exhibit-believable-humanlike-behavior)
+[^3]: [Park, J. S., et al. (2023). *Generative Agents: Interactive Simulacra of Human Behavior*. Project Website.](https://generativeagents.com)

@@ -8,9 +8,12 @@ highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  footnote_nr: 1
+  footnotes: true
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-footnotes
 
 # Exclude from processing
 exclude:
