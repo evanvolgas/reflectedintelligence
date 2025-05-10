@@ -7,7 +7,7 @@ categories: [AI, Technology]
 description: "How self-reflective AI systems are transforming from academic curiosities into powerful tools that can examine their own thinking, show their work, and fix mistakes before providing solutions."
 ---
 
-Ever caught yourself mid-sentence thinking "wait, that doesn't sound right"? That's reflection—and now AI can do it too. In just one year, self-reflective AI systems have transformed from academic curiosities into powerful tools reshaping industries. Instead of bulldozing ahead with potentially wrong answers, these systems take a moment to examine their own thinking, show their work, and fix mistakes before serving up solutions. While our [previous article on reflected intelligence](/2025/04/23/reflected-intelligence-when-ai-holds-up-the-mirror/) explored how AI mirrors human intelligence, this piece examines how AI can actively reflect on its own outputs.
+Ever caught yourself mid-sentence thinking "wait, that doesn't sound right"? That's reflection—and lately a lot of progress has been made enabling AI to to do do the same thing. In just one year, self-reflective AI systems have transformed from academic curiosities into powerful tools reshaping industries. Instead of bulldozing ahead with potentially wrong answers, these systems take a moment to examine their own thinking, show their work, and fix mistakes before serving up solutions. While our [previous article on reflected intelligence](/2025/04/23/reflected-intelligence-when-ai-holds-up-the-mirror/) explored how AI mirrors human intelligence, this piece examines how AI can actively reflect on its own outputs.
 
 ## How Self-Reflection Works in AI
 
