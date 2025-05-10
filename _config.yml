@@ -13,7 +13,6 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-footnotes
 
 # Exclude from processing
 exclude:
