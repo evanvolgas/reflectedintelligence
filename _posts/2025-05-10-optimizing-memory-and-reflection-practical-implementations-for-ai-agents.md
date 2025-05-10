@@ -26,7 +26,7 @@ Without robust memory mechanisms, even the most sophisticated AI agents struggle
 
 ### The Rise of Memory-Augmented Models
 
-Recent research has focused on integrating cognitive psychology principles into AI systems, particularly working memory frameworks. Several significant advancements have emerged:
+Recent research has focused on integrating cognitive psychology principles into AI systems, particularly working memory frameworks[^1]. Several significant advancements have emerged:
 
 #### Centralized Memory Hubs
 
@@ -91,7 +91,7 @@ This architecture enables more sophisticated, context-aware reasoning by providi
 
 #### Long-Term Memory for Self-Evolution
 
-Long-term memory (LTM) has emerged as a crucial driver of AI self-evolution. Unlike personalized approaches that rely on limited context windows, LTM enables continuous learning and self-improvement, allowing models to exhibit stronger adaptability in complex environments.
+Long-term memory (LTM) has emerged as a crucial driver of AI self-evolution. Unlike personalized approaches that rely on limited context windows, LTM enables continuous learning and self-improvement, allowing models to exhibit stronger adaptability in complex environments[^2].
 
 **Quantitative benchmark:** A 2025 study by DeepMind showed that memory-augmented agents with LTM capabilities demonstrated a 37% improvement in task completion rates for complex, multi-session problem-solving compared to standard LLMs with the same parameter count. After processing 50,000 interactions, these memory-augmented agents developed emergent capabilities in specialized domains that outperformed fine-tuned models by an average of 22% on domain-specific benchmarks.
 
