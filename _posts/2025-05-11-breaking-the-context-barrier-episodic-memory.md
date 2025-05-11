@@ -6,8 +6,6 @@ categories: [AI, Cognitive Science]
 description: "How human-inspired episodic memory systems are helping AI overcome context window limitations and remember information more effectively."
 ---
 
-# Breaking the Context Barrier: Human-Like Episodic Memory for AI
-
 Modern AI models have an impressive knack for generating text, but they share a vexing limitation – a short memory. No matter how intelligent a large language model (LLM) is, it can only consider a fixed amount of text at once (its context window). Anything beyond that vanishes from its working memory. If you chat with an AI for long enough, it will eventually forget earlier details of the conversation. Even as context windows have expanded from about 2,000 tokens in GPT-3 to 100,000 tokens in models like Anthropic's Claude (roughly 75,000 words), and even up to millions of tokens in cutting-edge systems[^1], the fundamental problem remains: once the window is full, something has to drop out. In other words, today's LLMs exist almost entirely in the "now," with no built-in long-term memory beyond what fits in that window.
 
 This context barrier makes it hard for AIs to maintain coherent understanding over long documents or extended conversations. AI researchers have been scrambling for solutions to this memory problem. One approach is retrieval-augmented generation (RAG), where the AI fetches relevant information from an external database or knowledge base as needed, rather than trying to pack everything into the prompt[^2]. Another approach is simply bigger context windows – recent transformer models like GPT-4 and Google's Gemini have pushed context sizes into the hundreds of thousands or even millions of tokens.
