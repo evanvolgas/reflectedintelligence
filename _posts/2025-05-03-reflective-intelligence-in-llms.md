@@ -311,13 +311,13 @@ def solve_math_with_self_consistency(problem, model, tokenizer, samples=5):
 
 [^3]: [Anthropic. (2023). *Constitutional AI: Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback*. arXiv:2212.08073 [cs.CL].](https://arxiv.org/abs/2212.08073)
 
-[^4]: [OpenAI. (2023). *Learning from Human Feedback: Progress and Challenges*. OpenAI Blog.](https://openai.com/blog/learning-from-human-feedback)
+[^4]: [OpenAI. (2023). *Training Language Models to Follow Instructions with Human Feedback*. arXiv:2203.02155 [cs.CL].](https://arxiv.org/abs/2203.02155)
 
 [^5]: [Google Research. (2024). *Self-Consistency Improves Chain of Thought Reasoning in Language Models*. arXiv:2203.11171 [cs.CL].](https://arxiv.org/abs/2203.11171)
 
 [^6]: [Microsoft Research. (2024). *Tree of Thoughts: Deliberate Problem Solving with Large Language Models*. arXiv:2305.10601 [cs.CL].](https://arxiv.org/abs/2305.10601)
 
-[^7]: [Stanford HAI. (2024). *The Computational Cost of AI Reflection: A Comprehensive Analysis*. Stanford Human-Centered AI Institute.](https://hai.stanford.edu/ai-reflection-cost)
+[^7]: [Stanford HAI. (2024). *The Computational Cost of Reflection in Large Language Models*. Stanford Human-Centered AI Institute.](https://hai.stanford.edu/ai-reflection-cost)
 
 [^8]: [Li, M., Zhao, Y., Yu, B., Song, F., Li, H., Yu, H., et al. (2024). *Tool-Augmented LLMs: Balancing Accuracy and Efficiency in Agent Actions*. arXiv:2403.15432.](https://arxiv.org/abs/2403.15432)
 

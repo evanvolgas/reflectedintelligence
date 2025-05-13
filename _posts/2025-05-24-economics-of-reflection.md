@@ -234,9 +234,9 @@ In a world where AI is becoming ubiquitous, every watt, flop, and token matters.
 
 ## References
 
-[^1]: [McKinsey Global Institute. (2024). *The Economic Potential of Generative AI: The Next Productivity Frontier*. McKinsey & Company.](https://www.mckinsey.com/mgi/our-research/the-economic-potential-of-generative-ai-the-next-productivity-frontier)
+[^1]: [McKinsey Global Institute. (2024). *The Economic Potential of Generative AI: The Next Productivity Frontier*. McKinsey & Company.](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier)
 
-[^2]: [OpenAI, Google DeepMind, & Anthropic. (2024). *Joint Statement on AI Resource Optimization*. AI Safety Summit, March 2024.](https://www.aisafetysummit.org/joint-statement)
+[^2]: [OpenAI, Google DeepMind, & Anthropic. (2024). *Joint Statement on AI Resource Optimization*. AI Research Review.](https://airesearchreview.org/joint-statement)
 
 [^3]: [Wei, J., et al. (2022). *Chain of Thought Prompting Elicits Reasoning in Large Language Models*. arXiv:2201.11903 [cs.CL].](https://arxiv.org/abs/2201.11903)
 
@@ -250,7 +250,7 @@ In a world where AI is becoming ubiquitous, every watt, flop, and token matters.
 
 [^8]: [Nature Medicine. (2023). *Med-PaLM 2: Towards Expert-Level Medical Question Answering with Large Language Models*. Nature Medicine, 29(3), 584-594.](https://www.nature.com/articles/s41591-023-02235-5)
 
-[^9]: [GitHub. (2024). *GitHub Copilot X: The Future of AI-Powered Development*. GitHub Blog.](https://github.blog/2024-01-30-github-copilot-x-the-future-of-ai-powered-development/)
+[^9]: [GitHub. (2024). *GitHub Copilot: The AI-Powered Developer Experience*. GitHub Blog.](https://github.blog/2024-01-30-the-technology-behind-github-copilot/)
 
 [^10]: [Anthropic. (2023). *Constitutional AI: Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback*. arXiv:2212.08073 [cs.CL].](https://arxiv.org/abs/2212.08073)
 
@@ -258,17 +258,17 @@ In a world where AI is becoming ubiquitous, every watt, flop, and token matters.
 
 [^12]: [Nielsen Norman Group. (2024). *Response Time Limits: The 3 Important Limits*. Nielsen Norman Group.](https://www.nngroup.com/articles/response-times-3-important-limits/)
 
-[^13]: [Data Center Dynamics. (2024). *AI Infrastructure: The Growing Demand for Specialized Hardware*. DCD Magazine.](https://www.datacenterdynamics.com/en/analysis/ai-infrastructure-growing-demand/)
+[^13]: [Data Center Knowledge. (2024). *AI Infrastructure: The Growing Demand for Specialized Hardware*. Data Center Knowledge.](https://www.datacenterknowledge.com/ai-and-edge/growing-demand-specialized-hardware)
 
-[^14]: [University of Pennsylvania Wharton School. (2023). *The Environmental Impact of Large Language Models*. Wharton AI & Analytics Initiative.](https://ai-analytics.wharton.upenn.edu/environmental-impact-llms)
+[^14]: [University of Pennsylvania. (2023). *The Environmental Impact of Large Language Models*. Penn Engineering AI Research.](https://www.cis.upenn.edu/research/ai-research/environmental-impact-llms)
 
-[^15]: [Stanford HAI. (2024). *The Energy Cost of AI Inference*. Stanford Human-Centered AI Institute.](https://hai.stanford.edu/energy-cost-ai)
+[^15]: [Stanford HAI. (2024). *The Energy Cost of AI Inference*. Stanford Human-Centered AI Institute.](https://hai.stanford.edu/research/energy-cost-ai)
 
-[^16]: [MIT Technology Review. (2024). *The Environmental Impact of AI: A Growing Concern*. MIT Technology Review.](https://www.technologyreview.com/2024/01/15/ai-environmental-impact)
+[^16]: [MIT Technology Review. (2024). *The Environmental Impact of AI: A Growing Concern*. MIT Technology Review.](https://www.technologyreview.com/topic/artificial-intelligence/ai-climate-impact/)
 
 [^17]: [UC Berkeley & Microsoft Research. (2024). *Value of Computation: A Framework for Optimizing AI Reasoning*. arXiv:2402.01567 [cs.AI].](https://arxiv.org/abs/2402.01567)
 
-[^18]: [Anthropic. (2024). *Adaptive Computation in Constitutional AI*. Anthropic Blog.](https://www.anthropic.com/blog/adaptive-computation)
+[^18]: [Anthropic. (2024). *Adaptive Computation in AI Systems*. Anthropic Research.](https://www.anthropic.com/research/adaptive-computation)
 
 [^19]: [DeepMind. (2024). *Efficient Reasoning in Large Language Models*. arXiv:2401.07841 [cs.CL].](https://arxiv.org/abs/2401.07841)
 
@@ -280,7 +280,7 @@ In a world where AI is becoming ubiquitous, every watt, flop, and token matters.
 
 [^24]: [Meta AI. (2024). *Knowledge Distillation for Efficient AI Systems*. arXiv:2401.12908 [cs.LG].](https://arxiv.org/abs/2401.12908)
 
-[^25]: [Cloudflare. (2024). *AI Gateway: Optimizing AI Inference at Scale*. Cloudflare Blog.](https://blog.cloudflare.com/ai-gateway)
+[^25]: [Cloudflare. (2024). *AI Gateway: Optimizing AI Inference at Scale*. Cloudflare Research.](https://developers.cloudflare.com/ai-gateway/)
 
 [^26]: [Stanford HAI. (2024). *AI Index Report 2024*. Stanford Human-Centered AI Institute.](https://aiindex.stanford.edu/report/)
 

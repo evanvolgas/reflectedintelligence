@@ -29,29 +29,29 @@ This "forgetting" isn't about bad programming. It's mathematics: the model can o
 
 As we move into 2025, the demand for more intelligent and context-aware AI solutions continues to surge. Two prominent approaches have emerged to address the memory limitations: Retrieval-Augmented Generation (RAG) and Extended Context Windows.[^2] (For a deeper exploration of memory architectures in AI agents, see our [earlier comprehensive article on memory and reflection in AI agents](/2025/04/29/memory-and-reflection-foundations-for-autonomous-ai-agents/).)
 
-RAG has become what industry experts now call "a fundamental pillar of enterprise AI architecture." Major companies across sectors rely on it to build AI systems grounded in real-time knowledge. In healthcare, for example, RAG-powered AI transforms patient care by integrating real-time diagnostic data, drug interactions, and the latest clinical research, ensuring medical decisions are based on current information.[^3]
+RAG has become what industry experts now call "a fundamental pillar of enterprise AI architecture." Major companies across sectors rely on it to build AI systems grounded in real-time knowledge. In healthcare, for example, RAG-powered AI transforms patient care by integrating real-time diagnostic data, drug interactions, and the latest clinical research, ensuring medical decisions are based on current information.
 
-Extended Context Windows focus on enabling AI models to process and generate text using larger input sequences. By 2025, advancements in handling significantly larger context windows have redefined natural language processing, improving how AI systems comprehend lengthy documents, summarize key information, and sustain multi-turn conversations without losing context.[^4]
+Extended Context Windows focus on enabling AI models to process and generate text using larger input sequences. By 2025, advancements in handling significantly larger context windows have redefined natural language processing, improving how AI systems comprehend lengthy documents, summarize key information, and sustain multi-turn conversations without losing context.
 
 ## The Rise of GraphRAG and Multimodal RAG
 
-The latest innovation in memory systems is GraphRAG, which enhances traditional RAG by adding a knowledge graph layer that captures the interrelationships between vector embeddings. This approach provides more context based on how pieces of information connect to each other. As one industry expert explains, "It's basically the same architecture as RAG with vectors but with a knowledge graph layered into the picture."[^5] This was inevitable given how ubiquitous knowledge graphs have become in enterprise applications.
+The latest innovation in memory systems is GraphRAG, which enhances traditional RAG by adding a knowledge graph layer that captures the interrelationships between vector embeddings. This approach provides more context based on how pieces of information connect to each other. As one industry expert explains, "It's basically the same architecture as RAG with vectors but with a knowledge graph layered into the picture." This was inevitable given how ubiquitous knowledge graphs have become in enterprise applications.
 
-Meanwhile, Multimodal RAG systems can now search and reference not just text but images, code, and audio – imagine having an AI that can pull context from YouTube videos or technical diagrams to inform its responses.[^6]
+Meanwhile, Multimodal RAG systems can now search and reference not just text but images, code, and audio – imagine having an AI that can pull context from YouTube videos or technical diagrams to inform its responses.
 
 ## AI Reflection: The Self-Improving Intelligence
 
 Memory alone isn't enough for truly capable AI. The most advanced AI systems now implement reflection—the ability to assess and improve their own reasoning. Our [recent article on reflective intelligence in LLMs](/2025/05/03/reflective-intelligence-in-llms/) explored the technical details of how these reflection mechanisms work.
 
-Google recently unveiled its "AI co-scientist" system that uses a coalition of specialized agents—Generation, Reflection, Ranking, Evolution, Proximity and Meta-review—that work together in a self-improving cycle. These agents use automated feedback to iteratively generate, evaluate, and refine hypotheses, resulting in increasingly high-quality outputs.[^7]
+Google recently unveiled its "AI co-scientist" system that uses a coalition of specialized agents—Generation, Reflection, Ranking, Evolution, Proximity and Meta-review—that work together in a self-improving cycle. These agents use automated feedback to iteratively generate, evaluate, and refine hypotheses, resulting in increasingly high-quality outputs.[^3]
 
-The ReFlexion framework demonstrated that a language agent can dramatically improve its success on tasks by iteratively reflecting on mistakes. In a coding challenge (HumanEval benchmark), an agent using reflective feedback achieved 91% success, outperforming even GPT-4 (which scored 80%).[^8]
+The ReFlexion framework demonstrated that a language agent can dramatically improve its success on tasks by iteratively reflecting on mistakes. In a coding challenge (HumanEval benchmark), an agent using reflective feedback achieved 91% success, outperforming even GPT-4 (which scored 80%).[^4]
 
 ## Corporate Investment in Reflection
 
-Major tech companies are investing heavily in reflection capabilities. A new startup called Reflection AI launched in early 2025 with $130 million in funding, focusing on advanced reasoning and iterative self-improvement for AI systems. As the company explains, "The breakthroughs needed to build a fully autonomous coding system — like advanced reasoning and iterative self-improvement — extend naturally to broader categories of computer work."[^9]
+Major tech companies are investing heavily in reflection capabilities. A new startup called Reflection AI launched in early 2025 with $130 million in funding, focusing on advanced reasoning and iterative self-improvement for AI systems. As the company explains, "The breakthroughs needed to build a fully autonomous coding system — like advanced reasoning and iterative self-improvement — extend naturally to broader categories of computer work."
 
-Microsoft reports that in 2025, AI models have advanced significantly in reasoning capabilities. Models can now solve complex problems with logical steps similar to how humans think before responding to difficult questions. These capabilities are particularly valuable in fields like science, coding, math, law and medicine.[^10]
+Microsoft reports that in 2025, AI models have advanced significantly in reasoning capabilities. Models can now solve complex problems with logical steps similar to how humans think before responding to difficult questions. These capabilities are particularly valuable in fields like science, coding, math, law and medicine.
 
 ## Agentic AI: Memory and Reflection Working Together
 
@@ -166,11 +166,11 @@ def reflective_reasoning(llm, question, max_iterations=3):
 
 ## The Future: Neural Thought Languages & Collaborative Memory
 
-Advanced AI agents are beginning to develop internal "languages" of thought different from natural language—nicknamed "neuralese." Instead of reasoning step-by-step in English, an AI performs internal computations in a compressed vector form that's far more information-dense.[^11]
+Advanced AI agents are beginning to develop internal "languages" of thought different from natural language—nicknamed "neuralese." Instead of reasoning step-by-step in English, an AI performs internal computations in a compressed vector form that's far more information-dense.
 
-Early research from 2024/2025 showed that by injecting certain latent vectors corresponding to reasoning steps directly into a model's activation space, researchers could induce complex reasoning without any human-language prompts.[^12]
+Early research from 2024/2025 showed that by injecting certain latent vectors corresponding to reasoning steps directly into a model's activation space, researchers could induce complex reasoning without any human-language prompts.
 
-Another emerging direction is collaborative memory, where multiple agents share and contribute to a common memory space. This shared memory enables agents to learn from each other's experiences, making the network of AI systems more powerful than the sum of its parts.[^13]
+Another emerging direction is collaborative memory, where multiple agents share and contribute to a common memory space. This shared memory enables agents to learn from each other's experiences, making the network of AI systems more powerful than the sum of its parts.
 
 ## Key Takeaways
 
@@ -198,24 +198,6 @@ As we enter this new era, the fundamental truth remains: an AI is only as good a
 
 [^2]: [Modular. (2025). *Retrieval-Augmented Generation (RAG) vs. Extended Context Windows: Which One Works Best?* AI Resources.](https://www.modular.com/ai-resources/retrieval-augmented-generation-rag-vs-extended-context-windows-which-one-works-best)
 
-[^3]: [Healthcare AI Journal. (2024). *RAG in Healthcare: Transforming Patient Care Through Real-Time Knowledge Integration*. Healthcare AI Journal, 3(1), 45-67.](https://healthcareaijournal.org/rag-healthcare)
+[^3]: [Google Research. (2024). *AI Co-Scientist: A Coalition of Specialized Agents for Scientific Discovery*. arXiv:2402.01567 [cs.AI].](https://arxiv.org/abs/2402.01567)
 
-[^4]: [AI Research Review. (2025). *Extended Context Windows: Revolutionizing Natural Language Processing*. AI Research Review, 12(3), 234-256.](https://airesearchreview.org/extended-context)
-
-[^5]: [Knowledge Graph Summit. (2024). *GraphRAG: The Next Evolution in AI Memory Systems*. Proceedings of the Knowledge Graph Summit 2024.](https://kgsummit.org/2024/proceedings)
-
-[^6]: [Multimodal AI Conference. (2024). *Multimodal RAG: Beyond Text in AI Memory Systems*. Proceedings of the Multimodal AI Conference 2024.](https://multimodalai.org/2024/proceedings)
-
-[^7]: [Google Research. (2024). *AI Co-Scientist: A Coalition of Specialized Agents for Scientific Discovery*. arXiv:2402.01567 [cs.AI].](https://arxiv.org/abs/2402.01567)
-
-[^8]: [Reflection AI. (2024). *ReFlexion: Iterative Self-Improvement in Language Models*. arXiv:2401.07841 [cs.CL].](https://arxiv.org/abs/2401.07841)
-
-[^9]: [TechCrunch. (2025). *Reflection AI Raises $130M to Build Advanced Reasoning Systems*. TechCrunch.](https://techcrunch.com/2025/01/15/reflection-ai-funding)
-
-[^10]: [Microsoft Research. (2025). *Advances in AI Reasoning: 2025 State of the Art*. Microsoft Research Blog.](https://www.microsoft.com/research/blog/ai-reasoning-2025)
-
-[^11]: [Neural Computation. (2024). *Neural Thought Languages: Compressed Vector Representations in AI Systems*. Neural Computation, 36(4), 789-812.](https://neuralcomputation.org/neuralese)
-
-[^12]: [ICLR. (2025). *Latent Vector Injection for Efficient AI Reasoning*. International Conference on Learning Representations 2025.](https://iclr.cc/2025/papers)
-
-[^13]: [Distributed AI Systems. (2024). *Collaborative Memory: Shared Knowledge Spaces in Multi-Agent Systems*. Journal of Distributed AI Systems, 5(2), 167-189.](https://distributedai.org/collaborative-memory)
+[^4]: [Reflection AI. (2024). *ReFlexion: Iterative Self-Improvement in Language Models*. arXiv:2401.07841 [cs.CL].](https://arxiv.org/abs/2401.07841)

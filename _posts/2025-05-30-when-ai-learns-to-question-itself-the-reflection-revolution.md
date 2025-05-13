@@ -58,7 +58,7 @@ Reflection trained on synthetic data offers an elegant solution: models that imp
 
 Despite the progress, challenges remain. AI still struggles with subtle errors and implicit biases in its own reasoning[^11]. Synthetic feedback must be carefully curated to avoid reinforcing falsehoods—the AI equivalent of practicing mistakes until they become habits.
 
-The solution may lie beyond computer science. Researchers are increasingly drawing inspiration from cognitive psychology, education theory, and philosophy to design better reflection strategies[^12]. Interestingly, reflection mechanisms also serve as important security guardrails—for more on this critical aspect, see our analysis of [reflection as a security mechanism](/2025/05/13/reflection-as-security-mechanism-how-ai-self-critique-enhances-safety/).
+The solution may lie beyond computer science. Researchers are increasingly drawing inspiration from cognitive psychology, education theory, and philosophy to design better reflection strategies[^12].
 
 ## Key Takeaways
 
@@ -101,7 +101,7 @@ The reflection revolution isn't just about making AI smarter—it's about making
 
 [^9]: [Wang, X., Yu, J., et al. (2023). *Multimodal Chain-of-Thought Reasoning*. arXiv:2302.00923.](https://arxiv.org/abs/2302.00923)
 
-[^10]: [Business Wire. (2025). *Synthetic Data Generation Market Size Projected to Reach USD 3.7 Billion by 2030*.](https://www.businesswire.com/news/home/20250113130135/en/Synthetic-Data-Generation-Business-Research-Report-2024-Global-Market-to-Reach-%243.7-Billion-by-2030-from-%24323-Million-in-2023-Driven-by-Rising-Demand-for-Data-Privacy-and-Anonymization-Solutions---ResearchAndMarkets.com)
+[^10]: [Research and Markets. (2025). *Synthetic Data Generation Market Size Projected to Reach USD 3.7 Billion by 2030*. Research and Markets Report.](https://www.researchandmarkets.com/reports/synthetic-data-generation-market)
 
 [^11]: [Pan, L., Zhang, S., et al. (2023). *Self-Reflection: LLMs Can Improve Their Own Generation*. arXiv:2303.17651.](https://arxiv.org/abs/2303.17651)
 

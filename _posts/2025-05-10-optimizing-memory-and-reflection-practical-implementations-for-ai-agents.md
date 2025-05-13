@@ -15,7 +15,7 @@ As we progress deeper into the era of agentic AI, two critical areas are reshapi
 
 ### The Memory Challenge
 
-Modern AI systems, particularly Large Language Models (LLMs), have demonstrated impressive capabilities in language understanding, reasoning, and planning. However, a fundamental limitation has persisted: their inability to effectively maintain and utilize memories across extended interactions. This limitation becomes particularly apparent in complex multi-step tasks that require consistent reasoning and knowledge retention over time. (For more on how context limitations affect AI systems and the importance of memory, see our [recent article on context and memory in AI](/2025/05/07/context-you-keep/).)
+Modern AI systems, particularly Large Language Models (LLMs), have demonstrated impressive capabilities in language understanding, reasoning, and planning. However, a fundamental limitation has persisted: their inability to effectively maintain and utilize memories across extended interactions. This limitation becomes particularly apparent in complex multi-step tasks that require consistent reasoning and knowledge retention over time. (For more on how context limitations affect AI systems and the importance of memory, see our [recent article on context and memory in AI](/2025/05/07/you-are-the-context-you-keep-the-memory-revolution-in-ai/).)
 
 **Technical limitation:** Traditional LLM architectures are constrained by:
 1. Context window limitations (typically 32K-128K tokens)
@@ -512,3 +512,18 @@ The progress in memory and reflection mechanisms represents a significant step t
 [^1]: [IBM. (2025). *What Is AI Agent Memory?*. IBM Think.](https://ebs.publicnow.com/view/9BDC751AE346DF4B87B35C38AB5FFD845891BB11)
 
 [^2]: [AIModels.fyi. (2025). *Empowering Working Memory for Large Language Model Agents*. arXiv:2312.17259 [cs.AI].](https://arxiv.org/abs/2312.17259)
+
+## Real-World Memory Optimizations
+
+### RAG: Information On-Demand
+
+Retrieval Augmented Generation (RAG) has become the standard approach for providing LLMs with external knowledge. By retrieving relevant information at inference time rather than encoding it within model parameters, RAG systems offer four key advantages:
+
+1. **Factual accuracy**: Grounding responses in verified external sources
+2. **Information freshness**: Accessing up-to-date information not available during training
+3. **Domain specificity**: Tailoring to specialized knowledge areas
+4. **Transparency**: Providing attribution for sources of information
+
+This approach is extensively covered in our recent article on [context and memory in AI](/2025/05/07/you-are-the-context-you-keep-the-memory-revolution-in-ai/).
+
+### Extended Context Windows: More Is Not Always Better

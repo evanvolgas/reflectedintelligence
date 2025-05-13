@@ -39,7 +39,7 @@ Ethical AI requires more than technical fixes—it demands **institutional desig
 
 Some organizations have formed internal **AI ethics boards**, which bring together ethicists, engineers, and domain experts to oversee deployments[^8]. Others are adopting **model cards** and **datasheets**, documenting how an AI system was trained, tested, and validated[^9]. This transparency allows users, researchers, and regulators to hold developers accountable.
 
-Usage policies matter too. OpenAI, for instance, restricts use of its models for disallowed content and embeds moderation tools to automatically flag harmful prompts[^10]. It's part of a broader shift: moving from "build first, fix later" to **"align first, deploy responsibly."** This approach is similar to the process-based oversight we discussed in our article on [blueprint for self-reflective AI](/2025/06/03/blueprint-for-reflective-ai/), where transparency in AI systems enables more robust safety mechanisms.
+Usage policies matter too. OpenAI, for instance, restricts use of its models for disallowed content and embeds moderation tools to automatically flag harmful prompts[^10]. It's part of a broader shift: moving from "build first, fix later" to **"align first, deploy responsibly."** This approach enables more robust safety mechanisms through transparency in AI systems' development and deployment.
 
 ## Mutual Reflection
 
@@ -67,7 +67,7 @@ AI will echo whatever we give it—our prejudice or our principles. If we want s
 
 [^1]: [Crawford, K. (2021). *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence*. Yale University Press.](https://yalebooks.yale.edu/book/9780300264630/atlas-of-ai/)
 
-[^2]: [Dastin, J. (2018). *Amazon scrapped 'sexist AI' recruiting tool*. Reuters.](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G)
+[^2]: [Dastin, J. (2018). *Amazon scrapped 'sexist AI' recruiting tool*. Reuters Technology News.](https://www.reuters.com/technology/amazon-ai-recruiting-tool-showed-bias-against-women-2018-10-10/)
 
 [^3]: [Glantz, A. (2018). *Kept Out*. Reveal from The Center for Investigative Reporting.](https://revealnews.org/article/for-people-of-color-banks-are-shutting-the-door-to-homeownership/)
 
@@ -75,14 +75,14 @@ AI will echo whatever we give it—our prejudice or our principles. If we want s
 
 [^5]: [Hill, K. (2020). *Wrongfully Accused by an Algorithm*. The New York Times.](https://www.nytimes.com/2020/06/24/technology/facial-recognition-arrest.html)
 
-[^6]: [Raji, I. D., & Buolamwini, J. (2019). *Actionable Auditing: Investigating the Impact of Publicly Naming Biased Performance Results of Commercial AI Products*. AAAI/ACM Conference on AI, Ethics, and Society.](https://dl.acm.org/doi/10.1145/3306618.3314244)
+[^6]: [Raji, I. D., & Buolamwini, J. (2019). *Actionable Auditing: Investigating the Impact of Publicly Naming Biased Performance Results of Commercial AI Products*. AAAI/ACM Conference on AI, Ethics, and Society.](https://dl.acm.org/doi/abs/10.1145/3306618.3314244)
 
 [^7]: [Bai, Y., et al. (2022). *Constitutional AI: Harmlessness from AI Feedback*. arXiv:2212.08073 [cs.CL].](https://arxiv.org/abs/2212.08073)
 
 [^8]: [Jobin, A., Ienca, M., & Vayena, E. (2019). *The global landscape of AI ethics guidelines*. Nature Machine Intelligence, 1(9), 389-399.](https://www.nature.com/articles/s42256-019-0088-2)
 
-[^9]: [Mitchell, M., et al. (2019). *Model Cards for Model Reporting*. Conference on Fairness, Accountability, and Transparency (FAT*).](https://dl.acm.org/doi/10.1145/3287560.3287596)
+[^9]: [Mitchell, M., et al. (2019). *Model Cards for Model Reporting*. Conference on Fairness, Accountability, and Transparency (FAT*).](https://dl.acm.org/doi/abs/10.1145/3287560.3287596)
 
-[^10]: [OpenAI. (2024). *Usage Policies*. OpenAI Documentation.](https://openai.com/policies/usage-policies)
+[^10]: [OpenAI. (2024). *Usage Policies*. OpenAI Documentation.](https://openai.com/policies)
 
-[^11]: [World Economic Forum. (2021). *Ethics by Design: An Organizational Approach to Responsible Use of Technology*. World Economic Forum White Paper.](https://www.weforum.org/whitepapers/ethics-by-design-an-organizational-approach-to-responsible-use-of-technology)
+[^11]: [World Economic Forum. (2021). *Ethics by Design: An Organizational Approach to Responsible Use of Technology*. World Economic Forum White Paper.](https://www3.weforum.org/docs/WEF_Ethics_by_Design_2021.pdf)
