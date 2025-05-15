@@ -65,9 +65,9 @@ This approach integrates external knowledge retrieval within the reflection proc
 
 This technique adds retrieval latency but provides significantly improved factual grounding. The integration of external knowledge sources with memory systems is further explored in our article on [memory and reflection foundations for autonomous AI agents](/2025/04/29/memory-and-reflection-foundations-for-autonomous-ai-agents/).
 
-### Architectural Benefits: Using multiple critics with diverse perspectives ensures that various aspects of correctness (factual accuracy, logical consistency, etc.) are evaluated independently. This prevents blind spots where a single critic might miss certain types of errors.
+Architectural Benefits: Using multiple critics with diverse perspectives ensures that various aspects of correctness (factual accuracy, logical consistency, etc.) are evaluated independently. This prevents blind spots where a single critic might miss certain types of errors.
 
-### Implementation Approach: In production systems, this is typically implemented through an ensemble of specialized models that separately evaluate different quality dimensions of an answer. For example, a factual accuracy critic, a logical consistency critic, and a citation verifier might work together.
+Implementation Approach: In production systems, this is typically implemented through an ensemble of specialized models that separately evaluate different quality dimensions of an answer. For example, a factual accuracy critic, a logical consistency critic, and a citation verifier might work together.
 
 This approach builds on the principles we explored in our article on [reflective intelligence when AI learns from itself](/2025/04/25/reflective-intelligence-when-ai-learns-from-itself/), applying those principles specifically to factual verification.
 
