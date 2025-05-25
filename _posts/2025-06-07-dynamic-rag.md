@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DynamicRAG: The AI That Knows When to Stop Reading"
-date: 2025-06-21
+date: 2025-06-07
 categories: [AI, RAG, Research]
 excerpt: "A new retrieval system learns to ask 'how much is enough?' and dramatically outperforms the competition by deciding for itself how many documents to consider."
 ---

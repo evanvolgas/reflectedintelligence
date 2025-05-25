@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Absolute Zero: Teaching AI to Reason Without Human Data"
-date: 2025-06-18
+date: 2025-05-30
 author: Reflected Intelligence
 categories: [AI Research, Reinforcement Learning, Language Models]
 ---
