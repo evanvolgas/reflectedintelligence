@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Constitutional AI: Harmlessness from AI Feedback"
 date: 2025-05-22
 categories: [AI, Alignment]
