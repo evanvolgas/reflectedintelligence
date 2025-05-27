@@ -4,7 +4,7 @@ date: 2025-05-22
 categories: [AI, Alignment]
 ---
 
-> This post is the fourth in a series exploring reflection techniques in AI systems. For the complete series, see our posts on [Reflexion](/2025/05/19/reflexion.html), [Self-Refine](/2025/05/20/self-refine.html), and [Generative Agents](/2025/05/21/generative-agents.html).
+> This post is the fourth in a series exploring reflection techniques in AI systems. For the complete series, see our posts on [Reflexion](/2025/05/19/reflexion/), [Self-Refine](/2025/05/20/self-refine/), and [Generative Agents](/2025/05/21/generative-agents/).
 
 *Imagine training an AI by giving it a rulebook of principles – a kind of AI constitution – and letting it judge its own behavior according to those rules.* This is the idea behind **Constitutional AI**, an approach developed by Anthropic (the company behind the Claude chatbot) to make AI assistants more **helpful, honest, and harmless**. Instead of relying on tens of thousands of human feedback examples to teach an AI what not to do, Constitutional AI builds an explicit set of values into the AI and has the AI *self-supervise* its behavior using those values[^1]. In other words, the AI is trained to follow a *constitution* of guiding principles, which makes the AI's values transparent and easier to adjust, while greatly reducing the need for direct human oversight in judging the AI's outputs[^1].
 
